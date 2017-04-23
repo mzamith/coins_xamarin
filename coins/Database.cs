@@ -42,5 +42,9 @@ namespace coins
 		public void DeleteItem(Currency item){
 			_connection.Delete(item.ID);
 		}
+
+		public void ResetTable(){
+			_connection.DeleteAll<Currency>();
+		}
 	}
 }

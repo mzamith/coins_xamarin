@@ -9,6 +9,10 @@ namespace coins.Model
 		public int ID { get; set; }
 		public string name { get; set; }
 		public float amount { get; set; }
+
+		public string getLongName(){
+			return CoinDictionary.GetName(name);
+		}
 	}
 }
 

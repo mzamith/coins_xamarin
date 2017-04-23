@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using coins.Model;
-
 using Xamarin.Forms;
 
 namespace coins
@@ -29,6 +28,9 @@ namespace coins
 
 		void CheckDatabasePopulated()
 		{
+			//cool for testing. delete later.
+			new Database().ResetTable();
+
 			if (new Database().GetItems().Count < 1)
 			{
 
@@ -40,7 +42,7 @@ namespace coins
 					items.Add(
 						new Currency()
 						{
-							name = "Coin" + i.ToString(),
+							name = CoinDictionary.GetCoinFromIndex(i),
 							amount = i,
 						}
 					);
