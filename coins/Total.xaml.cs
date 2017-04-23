@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using coins.Service;
+using coins.Model;
 
 using Xamarin.Forms;
 
@@ -16,21 +18,32 @@ namespace coins
 		{
 			var text = taskText2.Text;
 
-			if (!string.IsNullOrWhiteSpace(text))
+			if (string.IsNullOrWhiteSpace(text))
 			{
 				//save text to user preferences 
-				ShowAlert("Success!", "Task saved...now DO IT!");
+				await DisplayAlert("Clumsy...!", "Fill out the field", "Dismiss");
+			}
+			else if  (!CoinDictionary.CoinExists(text.Trim().ToUpper())){
+				await DisplayAlert("Sorry dude...!", "This coin does not exist", "Pick another");
 			}
 			else
 			{
+				var convertTo = "EUR";
+				text = text.Trim().ToUpper();
+				var service = new CurrencyService();
+				var response = await service.GetYahooTaxAsync(text, convertTo);
+
+				var display = "The conversion rate from " +
+					CoinDictionary.GetName(text) + " to " + CoinDictionary.GetName(convertTo) + " is: " + response;
+
 				//message to user about empty box
-				ShowAlert("Error", "No task to save...");
+				await DisplayAlert("Here is the current tax rate", display, "Thanks");
 			}
 		}
 
-		void ShowAlert(string title, string message)
+		void ShowAlert(string title, string message, string button)
 		{
-			DisplayAlert(title, message, "OK");
+			DisplayAlert(title, message, button);
 		}
 	}
 }

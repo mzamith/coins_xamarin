@@ -5,9 +5,9 @@
 	</ContentPage.Padding>
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="20">
-			<Label Text="Just Do It!" HorizontalOptions="Center" TextColor="White" />
-			<Entry x:Name="taskText2" Placeholder="Enter task..." />
-			<Button x:Name="saveButton2" Text="Save" FontSize="24" IsEnabled="true" Clicked="OnSaveClicked" TextColor="White" BackgroundColor="Transparent" />
+			<Label Text="Tax Getter" HorizontalOptions="Center" TextColor="Black" />
+			<Entry x:Name="taskText2" Placeholder="Enter coin code..." />
+			<Button x:Name="saveButton2" Text="Save" FontSize="24" IsEnabled="true" Clicked="OnSaveClicked" TextColor="Blue" BackgroundColor="Transparent" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

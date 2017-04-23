@@ -16,15 +16,13 @@ namespace coins.Service
 			client.BaseAddress = new Uri(ApiEndpoint.MAIN_ENDPOINT);
 		}
 
-		public async Task<Currency> GetTaxAsync(Currency from, string to){
+		public async Task<string> GetYahooTaxAsync(string c_from, string c_to){
 
-			var response = await client.GetAsync(ApiEndpoint.GET_RATE);
+			var response = await client.GetAsync(ApiEndpoint.YahooEndpoint(c_from, c_to));
 
-			var jsonResult = response.Content.ReadAsStringAsync().Result;
+			var stringResult = response.Content.ReadAsStringAsync().Result;
 
-			var currencyResult = JsonConvert.DeserializeObject<Currency>(jsonResult);
-
-			return currencyResult;
+			return stringResult.Split(',')[1];
 
 		} 
 	}

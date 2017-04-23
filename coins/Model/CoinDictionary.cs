@@ -69,9 +69,9 @@ namespace coins.Model
 			{"HUF", "Hungary Forint"},
 			{"IDR", "Indonesia Rupiah"},
 			{"ILS", "Israel Shekel"},
-			{"I}MP", "Isle of Man Pound"},
-			{"I}NR", "India Rupee"},
-			{"I}QD", "Iraq Dinar"},
+			{"IMP", "Isle of Man Pound"},
+			{"INR", "India Rupee"},
+			{"IQD", "Iraq Dinar"},
 			{"IRR", "Iran Rial"},
 			{"ISK", "Iceland Krona"},
 			{"JEP", "Jersey Pound"},
@@ -186,6 +186,10 @@ namespace coins.Model
 
 			var list = new List<string>(coins.Keys);
 			return list[i];
+		}
+
+		public static bool CoinExists(string key) {
+			return coins.ContainsKey(key);
 		}
 	}
 }
