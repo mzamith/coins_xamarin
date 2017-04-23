@@ -4,10 +4,17 @@
 		<OnPlatform x:TypeArguments="Thickness" iOS="20,40,20,20" Android="20,20,20,20" WinPhone="20,20,20,20" />
 	</ContentPage.Padding>
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="20">
-			<Label Text="Just Do It!" HorizontalOptions="Center" TextColor="White" />
-			<Entry x:Name="taskText" Placeholder="Enter task..." />
-			<Button x:Name="saveButton" Text="Save" FontSize="24" IsEnabled="true" Clicked="OnSaveClicked" TextColor="White" BackgroundColor="Transparent" />
-		</StackLayout>
+		<ListView x:Name="listView" RowHeight="50">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ViewCell>
+						<StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+							<Label Text="{Binding name}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="Black" />
+							<Label Text="{Binding amount}" YAlign="Center" FontSize="Small" TextColor="Black" />
+						</StackLayout>
+					</ViewCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
 	</ContentPage.Content>
 </ContentPage>

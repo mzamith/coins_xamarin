@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using coins.Model;
 
 using Xamarin.Forms;
 
@@ -10,27 +11,43 @@ namespace coins
 		public CoinList()
 		{
 			InitializeComponent();
+			CheckDatabasePopulated();
 		}
 
-		async void OnSaveClicked(object sender, EventArgs e)
+		protected override void OnAppearing()
 		{
-			var text = taskText.Text;
-
-			if (!string.IsNullOrWhiteSpace(text))
-			{
-				//save text to user preferences 
-				ShowAlert("Success!", "Task saved...now DO IT!");
-			}
-			else
-			{
-				//message to user about empty box
-				ShowAlert("Error", "No task to save...");
-			}
+			base.OnAppearing();
+			listView.ItemsSource = GetToDoList();
 		}
 
-		void ShowAlert(string title, string message)
+
+		List<Currency> GetToDoList()
 		{
-			DisplayAlert(title, message, "OK");
+			var items = new Database().GetItems();
+			return items;
+		}
+
+		void CheckDatabasePopulated()
+		{
+			if (new Database().GetItems().Count < 1)
+			{
+
+				//fill up database with defaults
+				var items = new List<Currency>();
+
+				for (int i = 0; i < 10; i++)
+				{
+					items.Add(
+						new Currency()
+						{
+							name = "Coin" + i.ToString(),
+							amount = i,
+						}
+					);
+				}
+
+				new Database().AddItems(items);
+			}
 		}
 	}
 }
