@@ -10,6 +10,9 @@ namespace coins
 		public MainPage()
 		{
 			InitializeComponent();
+
+            //removed toolbar because it was bugging me
+            NavigationPage.SetHasNavigationBar(this, false);
 		}
 
 	}

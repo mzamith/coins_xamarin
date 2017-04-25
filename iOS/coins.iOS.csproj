@@ -157,6 +157,7 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="SQLite_iOS.cs" />
+    <Compile Include="SaveAndLoad_iOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\ic_monetization_on_2x.png" />

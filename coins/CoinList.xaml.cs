@@ -7,20 +7,47 @@ namespace coins
 {
 	public partial class CoinList : ContentPage
 	{
+        private CoinDictionary currencies;
+
 		public CoinList()
 		{
 			InitializeComponent();
+            currencies = CoinDictionary.Instance;
 			CheckDatabasePopulated();
+
 		}
 
 		protected override void OnAppearing()
 		{
 			base.OnAppearing();
-			listView.ItemsSource = GetToDoList();
+			listView1.ItemsSource = GetToDoList();
 		}
 
 
-		List<Currency> GetToDoList()
+
+		public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+		{
+			if (e.SelectedItem == null)
+				return;
+
+			((ListView)sender).SelectedItem = null;
+		}
+
+		public void OnMore(object sender, EventArgs e)
+		{
+			var mi = ((MenuItem)sender);
+            WalletItem w = (WalletItem)mi.CommandParameter;
+            DisplayAlert("More Context Action", w.name + " more context action", "OK");
+		}
+
+		public void OnDelete(object sender, EventArgs e)
+		{
+			var mi = ((MenuItem)sender);
+			DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
+		}
+
+
+		List<WalletItem> GetToDoList()
 		{
 			var items = new Database().GetItems();
 			return items;
@@ -35,15 +62,17 @@ namespace coins
 			{
 
 				//fill up database with defaults
-				var items = new List<Currency>();
+				var items = new List<WalletItem>();
 
 				for (int i = 0; i < 10; i++)
 				{
-					items.Add(
-						new Currency()
-						{
-							name = CoinDictionary.GetCoinFromIndex(i),
-							amount = i,
+                    Currency c = currencies.GetCoinFromIndex(i);
+                    items.Add(
+                        new WalletItem()
+                        {
+                        
+                            name = c.Code,
+                            amount = c.Symbol,
 						}
 					);
 				}

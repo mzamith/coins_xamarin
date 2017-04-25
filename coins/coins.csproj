@@ -45,6 +45,8 @@
     <Compile Include="Service\ApiEndpoint.cs" />
     <Compile Include="Model\CoinDictionary.cs" />
     <Compile Include="Service\CurrencyService.cs" />
+    <Compile Include="Model\WalletItem.cs" />
+    <Compile Include="ISaveAndLoad.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -100,6 +102,7 @@
     <EmbeddedResource Include="Total.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Model\currencies.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />

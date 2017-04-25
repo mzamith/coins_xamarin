@@ -14,37 +14,37 @@ namespace coins
 		public Database()
 		{
 			_connection = DependencyService.Get<ISQLite>().GetConnection();
-			_connection.CreateTable<Currency>();
+			_connection.CreateTable<WalletItem>();
 		}
 
-		public List<Currency> GetItems()
+		public List<WalletItem> GetItems()
 		{
-			return (from t in _connection.Table<Currency>()
+			return (from t in _connection.Table<WalletItem>()
 					select t).ToList();
 		}
 
-		public void AddItem(Currency item)
+		public void AddItem(WalletItem item)
 		{
 			_connection.Insert(item);
 		}
 
-		public void AddItems(List<Currency> items)
+		public void AddItems(List<WalletItem> items)
 		{
 			foreach (var item in items)
 				_connection.Insert(item);
 		}
 
-		public void EditItem(Currency item)
+		public void EditItem(WalletItem item)
 		{
 			_connection.Update(item);
 		}
 
-		public void DeleteItem(Currency item){
+		public void DeleteItem(WalletItem item){
 			_connection.Delete(item.ID);
 		}
 
 		public void ResetTable(){
-			_connection.DeleteAll<Currency>();
+			_connection.DeleteAll<WalletItem>();
 		}
 	}
 }

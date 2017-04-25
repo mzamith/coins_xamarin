@@ -9,6 +9,8 @@ namespace coins
 {
 	public partial class Total : ContentPage
 	{
+        private CoinDictionary currencies = CoinDictionary.Instance;
+
 		public Total()
 		{
 			InitializeComponent();
@@ -23,7 +25,7 @@ namespace coins
 				//save text to user preferences 
 				await DisplayAlert("Clumsy...!", "Fill out the field", "Dismiss");
 			}
-			else if  (!CoinDictionary.CoinExists(text.Trim().ToUpper())){
+            else if  (!currencies.CoinExists(text.Trim().ToUpper())){
 				await DisplayAlert("Sorry dude...!", "This coin does not exist", "Pick another");
 			}
 			else
@@ -34,7 +36,7 @@ namespace coins
 				var response = await service.GetYahooTaxAsync(text, convertTo);
 
 				var display = "The conversion rate from " +
-					CoinDictionary.GetName(text) + " to " + CoinDictionary.GetName(convertTo) + " is: " + response;
+                    currencies.GetName(text) + " to " + currencies.GetName(convertTo) + " is: " + response;
 
 				//message to user about empty box
 				await DisplayAlert("Here is the current tax rate", display, "Thanks");

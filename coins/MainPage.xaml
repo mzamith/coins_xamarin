@@ -3,8 +3,8 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	xmlns:controls="clr-namespace:coins;assembly=coins" 
 	xmlns:local="clr-namespace:coins"
-	x:Class="coins.MainPage">
-
+	x:Class="coins.MainPage"
+    x:Name="something">
 	<local:CoinList></local:CoinList>
 	<local:Total></local:Total>
 </TabbedPage>
