@@ -27,19 +27,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="coins.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Helpers\Settings.cs" />
     <Compile Include="ISQLite.cs" />
-    <Compile Include="CoinList.xaml.cs">
-      <DependentUpon>CoinList.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Total.xaml.cs">
-      <DependentUpon>Total.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Model\Currency.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="Service\ApiEndpoint.cs" />
@@ -47,6 +37,24 @@
     <Compile Include="Service\CurrencyService.cs" />
     <Compile Include="Model\WalletItem.cs" />
     <Compile Include="ISaveAndLoad.cs" />
+    <Compile Include="View\CoinList.xaml.cs">
+      <DependentUpon>CoinList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BalancePage.cs">
+      <DependentUpon>BalancePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="coins.xaml.cs">
+      <DependentUpon>coins.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WalletItemPage.xaml.cs">
+      <DependentUpon>WalletItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddItemPage.xaml.cs">
+      <DependentUpon>AddItemPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RatesPage.xaml.cs">
+      <DependentUpon>RatesPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -93,20 +101,30 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CoinList.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Total.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Model\currencies.json" />
+    <EmbeddedResource Include="View\CoinList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BalancePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="coins.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WalletItemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AddItemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RatesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="Service\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.4.224\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

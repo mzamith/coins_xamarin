@@ -5,15 +5,15 @@ using coins.Model;
 
 using Xamarin.Forms;
 
-namespace coins
+namespace coins.View
 {
-	public partial class Total : ContentPage
+	public partial class BalancePage : ContentPage
 	{
         private CoinDictionary currencies = CoinDictionary.Instance;
 
-		public Total()
+		public BalancePage()
 		{
-			InitializeComponent();
+            InitializeComponent();
 		}
 
 		async void OnSaveClicked(object sender, EventArgs e)

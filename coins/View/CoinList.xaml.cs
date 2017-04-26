@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using coins.Model;
 using Xamarin.Forms;
 
-namespace coins
+namespace coins.View
 {
 	public partial class CoinList : ContentPage
 	{
@@ -23,27 +23,29 @@ namespace coins
 			listView1.ItemsSource = GetToDoList();
 		}
 
+        async void AddItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddItemPage());
+        }
 
-
-		public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+		async public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
 			if (e.SelectedItem == null)
 				return;
 
+            await Navigation.PushAsync(new WalletItemPage());
+
 			((ListView)sender).SelectedItem = null;
 		}
-
-		public void OnMore(object sender, EventArgs e)
-		{
-			var mi = ((MenuItem)sender);
-            WalletItem w = (WalletItem)mi.CommandParameter;
-            DisplayAlert("More Context Action", w.name + " more context action", "OK");
-		}
+       
 
 		public void OnDelete(object sender, EventArgs e)
 		{
 			var mi = ((MenuItem)sender);
-			DisplayAlert("Delete Context Action", mi.CommandParameter + " delete context action", "OK");
+            var wi = (WalletItem)mi.CommandParameter;
+
+            new Database().DeleteItem(wi);
+            listView1.ItemsSource = GetToDoList();
 		}
 
 

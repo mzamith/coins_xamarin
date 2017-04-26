@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="coins.CoinList" Title="Page 1" Icon="ic_format_list_bulleted.png">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="coins.View.CoinList" Title="Wallet">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness" iOS="20,40,20,20" Android="20,20,20,20" WinPhone="20,20,20,20" />
     </ContentPage.Padding>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView x:Name="listView1" RowHeight="50" ItemSelected="OnItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <ViewCell.ContextActions>
-                            <MenuItem Clicked="OnMore" CommandParameter="{Binding .}" Text="More" />
                             <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
                         </ViewCell.ContextActions>
                         <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">

@@ -40,7 +40,7 @@ namespace coins
 		}
 
 		public void DeleteItem(WalletItem item){
-			_connection.Delete(item.ID);
+			_connection.Delete(item);
 		}
 
 		public void ResetTable(){
