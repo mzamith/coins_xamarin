@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="coins.View.SettingsPage" Title="Settings" BackgroundColor="Silver">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="20,40,20,20" Android="20,20,20,20" WinPhone="20,20,20,20" />
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand" Orientation="Horizontal" Spacing="20" BackgroundColor="White">
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapped" />
+            </StackLayout.GestureRecognizers>
+            <Label Text="My Currency" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" TextColor="Black" FontSize="20" />
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                    <Label x:Name="Code" HorizontalOptions="StartAndExpand" TextColor="Black" FontSize="30" />
+                    <Label x:Name="Symbol" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" TextColor="Black" FontSize="20" />
+                </StackLayout>
+                <Label x:Name="Name" HorizontalOptions="EndAndExpand" TextColor="Black" FontSize="15" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

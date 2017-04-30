@@ -8,7 +8,9 @@ namespace coins
 	{
 		public App()
 		{
+            if (Helpers.Settings.GeneralSettings.Length == 0) Helpers.Settings.GeneralSettings = "EUR";
             GoToMainPage();
+
 		}
 
 		protected override void OnStart()
@@ -30,6 +32,7 @@ namespace coins
         {
             Current.MainPage = new TabbedPage
             {
+                
                 Children = {
                     new NavigationPage(new View.CoinList())
                     {
@@ -45,6 +48,11 @@ namespace coins
 					{
 						Title = "Rates",
 						Icon = Device.OnPlatform("ic_monetization_on.png", null, null)
+					},
+                    new NavigationPage(new View.SettingsPage())
+					{
+						Title = "Settings",
+						Icon = Device.OnPlatform("ic_settings.png", null, null)
 					},
                 }
             };

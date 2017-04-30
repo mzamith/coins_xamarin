@@ -47,5 +47,11 @@ namespace coins.View
 		{
 			DisplayAlert(title, message, button);
 		}
+
+		async void Settings_Clicked()
+		{
+                await Navigation.PushAsync(new SettingsPage());
+		}
+
 	}
 }

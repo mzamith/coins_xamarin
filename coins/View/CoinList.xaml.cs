@@ -20,7 +20,7 @@ namespace coins.View
 		protected override void OnAppearing()
 		{
 			base.OnAppearing();
-			listView1.ItemsSource = GetToDoList();
+            listView1.ItemsSource = GetItems();
 		}
 
         async void AddItem_Clicked(object sender, EventArgs e)
@@ -45,11 +45,11 @@ namespace coins.View
             var wi = (WalletItem)mi.CommandParameter;
 
             new Database().DeleteItem(wi);
-            listView1.ItemsSource = GetToDoList();
+            listView1.ItemsSource = GetItems();
 		}
 
 
-		List<WalletItem> GetToDoList()
+		List<WalletItem> GetItems()
 		{
 			var items = new Database().GetItems();
 			return items;

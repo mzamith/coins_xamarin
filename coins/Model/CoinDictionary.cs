@@ -9,64 +9,90 @@ using Xamarin.Forms;
 
 namespace coins.Model
 {
-	public class CoinDictionary
-	{
+    public class CoinDictionary
+    {
 
         private static CoinDictionary instance;
 
-		private List<Currency> currencies;
+        private List<Currency> currencies;
 
-		private CoinDictionary(){
+        private CoinDictionary()
+        {
             LoadJson();
         }
 
-        public static CoinDictionary Instance {
-            get {
-                if (instance == null){
+        public static CoinDictionary Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
                     instance = new CoinDictionary();
                 }
                 return instance;
             }
         }
 
-        private void LoadJson(){
+        public List<Currency> Currencies { get => currencies; set => currencies = value; }
 
-			var assembly = typeof(CoinDictionary).GetTypeInfo().Assembly;
-			Stream stream = assembly.GetManifestResourceStream("coins.Model.currencies.json");
+        private void LoadJson()
+        {
 
-			string text = "";
-			using (var reader = new System.IO.StreamReader(stream))
-			{
-				text = reader.ReadToEnd();
-                currencies = JsonConvert.DeserializeObject<List<Currency>>(text);
-                currencies.Sort();
-			}
-		}
+            var assembly = typeof(CoinDictionary).GetTypeInfo().Assembly;
+            Stream stream = assembly.GetManifestResourceStream("coins.Model.currencies.json");
 
-		public string GetName(string coin){
-			
-            return currencies.Find((item) => item.Code == coin).Name;
-		}
+            string text = "";
+            using (var reader = new System.IO.StreamReader(stream))
+            {
+                text = reader.ReadToEnd();
+                Currencies = JsonConvert.DeserializeObject<List<Currency>>(text);
+                Currencies.Sort();
+            }
+        }
 
-        public List<string> GetCodes(){
+        public string GetName(string coin)
+        {
+
+            return Currencies.Find((item) => item.Code == coin).Name;
+        }
+
+        public List<string> GetCodes()
+        {
 
             List<string> codes = new List<string>();
 
-            foreach (Currency element in currencies){
+            foreach (Currency element in Currencies)
+            {
                 codes.Add(element.Code);
             }
 
             return codes;
 
-		}
+        }
 
-		public Currency GetCoinFromIndex(int i){
+        public Currency GetCoinFromIndex(int i)
+        {
 
-            return currencies[i];
-		}
+            return Currencies[i];
+        }
 
-		public bool CoinExists(string key) {
-            return ((currencies.FindIndex((item) => item.Code.Equals(key))) >= 0);
-		}
-	}
+        public Currency GetCoinFromCode(string code)
+        {
+
+            return Currencies.Find(item => item.Code == code);
+        }
+
+        public bool CoinExists(string key)
+        {
+            return ((Currencies.FindIndex((item) => item.Code.Equals(key))) >= 0);
+        }
+
+        public List<Currency> FilterCoins(string criteria)
+        {
+            criteria = (criteria == null) ? "" : criteria.ToUpper();
+            List < Currency > a = Currencies.Where((item) => (item.Code.ToUpper().Contains(criteria) || item.Name.ToUpper().Contains(criteria) || item.Name_plural.ToUpper().Contains(criteria))).ToList();
+
+            return a;
+        }
+    }
 }
