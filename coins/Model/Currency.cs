@@ -12,6 +12,7 @@ namespace coins.Model
         private string symbol_native;
         private int decimal_digits;
         private double rounding;
+        private string flag = "european-union.png";
 
         public string Code { get => code; set => code = value; }
         public string Symbol { get => symbol; set => symbol = value; }
@@ -20,6 +21,7 @@ namespace coins.Model
         public double Rounding { get => rounding; set => rounding = value; }
         public string Name_plural { get => name_plural; set => name_plural = value; }
         public string Name { get => name; set => name = value; }
+        public string Flag { get => flag; set => flag = value; }
 
         public int CompareTo(object obj)
         {

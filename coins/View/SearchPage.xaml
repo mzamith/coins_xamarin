@@ -8,6 +8,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                <Image Source="{Binding Flag}" WidthRequest="30"></Image>
                                 <Label Text="{Binding Code}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="Black" />
                                 <Label Text="{Binding Symbol}" YAlign="Center" FontSize="Small" TextColor="Black" />
                             </StackLayout>

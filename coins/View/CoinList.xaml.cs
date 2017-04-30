@@ -75,6 +75,7 @@ namespace coins.View
                         
                             name = c.Code,
                             amount = c.Symbol,
+                            flag = c.Flag,
 						}
 					);
 				}

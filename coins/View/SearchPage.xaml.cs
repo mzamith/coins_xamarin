@@ -28,5 +28,11 @@ namespace coins.View
 		{
             listViewSearch.ItemsSource = CoinDictionary.Instance.FilterCoins(sbSearch.Text);
 		}
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            Navigation.PopAsync();
+        }
     }
 }

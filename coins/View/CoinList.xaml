@@ -15,6 +15,7 @@
                             <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
                         </ViewCell.ContextActions>
                         <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                            <Image Source="{Binding flag}" WidthRequest="30"></Image>
                             <Label Text="{Binding name}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="Black" />
                             <Label Text="{Binding amount}" YAlign="Center" FontSize="Small" TextColor="Black" />
                         </StackLayout>

@@ -9,6 +9,7 @@ namespace coins.Model
 		public int ID { get; set; }
 		public string name { get; set; }
 		public string amount { get; set; }
+        public string flag { get; set; }
 
     }
 }
