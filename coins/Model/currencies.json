@@ -7,7 +7,7 @@
     "rounding": 0,
     "code": "USD",
     "name_plural": "US dollars",
-    "flag": "united-states-of-america.png"
+    "flag": "united_states_of_america.png"
   },
   {
     "symbol": "CA$",
@@ -27,7 +27,7 @@
     "rounding": 0,
     "code": "EUR",
     "name_plural": "euros",
-    "flag": "european-union.png"
+    "flag": "european_union.png"
   },
   {
     "symbol": "AED",
@@ -37,7 +37,7 @@
     "rounding": 0,
     "code": "AED",
     "name_plural": "UAE dirhams",
-    "flag": "united-arab-emirates.png"
+    "flag": "united_arab_emirates.png"
   },
   {
     "symbol": "Af",
@@ -101,13 +101,13 @@
   },
   {
     "symbol": "KM",
-    "name": "Bosnia-Herzegovina Convertible Mark",
+    "name": "Bosnia_Herzegovina Convertible Mark",
     "symbol_native": "KM",
     "decimal_digits": 2,
     "rounding": 0,
     "code": "BAM",
-    "name_plural": "Bosnia-Herzegovina convertible marks",
-    "flag": "bosnia-and-herzegovina.png"
+    "name_plural": "Bosnia_Herzegovina convertible marks",
+    "flag": "bosnia_and_herzegovina.png"
   },
   {
     "symbol": "Tk",
@@ -217,7 +217,7 @@
     "rounding": 0,
     "code": "CDF",
     "name_plural": "Congolese francs",
-    "flag": "democratic-republic-of-congo.png"
+    "flag": "democratic_republic_of_congo.png"
   },
   {
     "symbol": "CHF",
@@ -266,7 +266,7 @@
     "rounding": 0,
     "code": "CRC",
     "name_plural": "Costa Rican colóns",
-    "flag": "costa-rica.png"
+    "flag": "costa_rica.png"
   },
   {
     "symbol": "CV$",
@@ -276,7 +276,7 @@
     "rounding": 0,
     "code": "CVE",
     "name_plural": "Cape Verdean escudos",
-    "flag": "cape-verde.png"
+    "flag": "cape_verde.png"
   },
   {
     "symbol": "Kč",
@@ -286,7 +286,7 @@
     "rounding": 0,
     "code": "CZK",
     "name_plural": "Czech Republic korunas",
-    "flag": "czech-republic.png"
+    "flag": "czech_republic.png"
   },
   {
     "symbol": "Fdj",
@@ -316,7 +316,7 @@
     "rounding": 0,
     "code": "DOP",
     "name_plural": "Dominican pesos",
-    "flag": "dominican-republic.png"
+    "flag": "dominican_republic.png"
   },
   {
     "symbol": "DA",
@@ -376,7 +376,7 @@
     "rounding": 0,
     "code": "GBP",
     "name_plural": "British pounds sterling",
-    "flag": "united-kingdom.png"
+    "flag": "united_kingdom.png"
   },
   {
     "symbol": "GEL",
@@ -426,7 +426,7 @@
     "rounding": 0,
     "code": "HKD",
     "name_plural": "Hong Kong dollars",
-    "flag": "hong-kong.png"
+    "flag": "hong_kong.png"
   },
   {
     "symbol": "HNL",
@@ -586,7 +586,7 @@
     "rounding": 0,
     "code": "KRW",
     "name_plural": "South Korean won",
-    "flag": "south-korea.png"
+    "flag": "south_korea.png"
   },
   {
     "symbol": "KD",
@@ -626,7 +626,7 @@
     "rounding": 0,
     "code": "LKR",
     "name_plural": "Sri Lankan rupees",
-    "flag": "sri-lanka.png"
+    "flag": "sri_lanka.png"
   },
   {
     "symbol": "Lt",
@@ -696,7 +696,7 @@
     "rounding": 0,
     "code": "MKD",
     "name_plural": "Macedonian denari",
-    "flag": "republic-of-macedonia.png"
+    "flag": "republic_of_macedonia.png"
   },
   {
     "symbol": "MMK",
@@ -816,7 +816,7 @@
     "rounding": 0,
     "code": "NZD",
     "name_plural": "New Zealand dollars",
-    "flag": "new-zealand.png"
+    "flag": "new_zealand.png"
   },
   {
     "symbol": "OMR",
@@ -946,7 +946,7 @@
     "rounding": 0,
     "code": "SAR",
     "name_plural": "Saudi riyals",
-    "flag": "saudi-arabia.png"
+    "flag": "saudi_arabia.png"
   },
   {
     "symbol": "SDG",
@@ -1046,7 +1046,7 @@
     "rounding": 0,
     "code": "TTD",
     "name_plural": "Trinidad and Tobago dollars",
-    "flag": "trinidad-and-tobago.png"
+    "flag": "trinidad_and_tobago.png"
   },
   {
     "symbol": "NT$",
@@ -1136,7 +1136,7 @@
     "rounding": 0,
     "code": "XAF",
     "name_plural": "CFA francs BEAC",
-    "flag": "central-african-republic.png"
+    "flag": "central_african_republic.png"
   },
   {
     "symbol": "CFA",
@@ -1166,7 +1166,7 @@
     "rounding": 0,
     "code": "ZAR",
     "name_plural": "South African rand",
-    "flag": "south-africa.png"
+    "flag": "south_africa.png"
   },
   {
     "symbol": "ZK",

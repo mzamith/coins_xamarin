@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using coins.Model;
 using Xamarin.Forms;
 
-namespace coins.View
+namespace coins
 {
 	public partial class CoinList : ContentPage
 	{
@@ -70,13 +70,7 @@ namespace coins.View
 				{
                     Currency c = currencies.GetCoinFromIndex(i);
                     items.Add(
-                        new WalletItem()
-                        {
-                        
-                            name = c.Code,
-                            amount = c.Symbol,
-                            flag = c.Flag,
-						}
+                        new WalletItem(c.Code, i){}
 					);
 				}
 

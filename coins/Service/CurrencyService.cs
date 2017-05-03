@@ -24,6 +24,18 @@ namespace coins.Service
 
 			return stringResult.Split(',')[1];
 
-		} 
+		}
+
+        public async Task<Rate> GetRateAsync(string c_from, string c_to)
+		{
+
+            var response = await client.GetAsync(ApiEndpoint.RateEndpoint(c_from, c_to));
+
+			var jsonResult = response.Content.ReadAsStringAsync().Result;
+            Rate rate = JsonConvert.DeserializeObject<Rate>(jsonResult);
+
+            return rate;
+
+		}
 	}
 }

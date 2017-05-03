@@ -43,9 +43,6 @@
     <Compile Include="View\BalancePage.xaml.cs">
       <DependentUpon>BalancePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="coins.xaml.cs">
-      <DependentUpon>coins.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View\WalletItemPage.xaml.cs">
       <DependentUpon>WalletItemPage.xaml</DependentUpon>
     </Compile>
@@ -61,6 +58,9 @@
     <Compile Include="View\SearchPage.xaml.cs">
       <DependentUpon>SearchPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="coins.cs" />
+    <Compile Include="Model\Rate.cs" />
+    <Compile Include="Model\WalletItemDTO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -112,9 +112,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="View\BalancePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="coins.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="View\WalletItemPage.xaml">

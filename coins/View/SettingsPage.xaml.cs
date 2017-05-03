@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using coins.Model;
 using Xamarin.Forms;
 
-namespace coins.View
+namespace coins
 {
     public partial class SettingsPage : ContentPage
     {
