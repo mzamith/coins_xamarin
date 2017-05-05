@@ -47,6 +47,7 @@
       "minimum-system-version": "7.0",
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "640x960.png",
       "size": "320x480",
       "scale": "2x",
       "idiom": "iphone"
@@ -55,6 +56,7 @@
       "minimum-system-version": "7.0",
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "640x1136.png",
       "size": "320x568",
       "subtype": "retina4",
       "scale": "2x",
@@ -64,7 +66,7 @@
       "minimum-system-version": "7.0",
       "orientation": "portrait",
       "extent": "full-screen",
-      "filename": "Steve-Jobs-Wallpaper-Tribute-768x1024-iPad.png",
+      "filename": "768x1024.png",
       "size": "768x1024",
       "scale": "1x",
       "idiom": "ipad"
@@ -73,6 +75,7 @@
       "minimum-system-version": "7.0",
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "1528x2048.png",
       "size": "768x1024",
       "scale": "2x",
       "idiom": "ipad"
@@ -81,6 +84,7 @@
       "minimum-system-version": "7.0",
       "orientation": "landscape",
       "extent": "full-screen",
+      "filename": "1024x768.png",
       "size": "1024x768",
       "scale": "1x",
       "idiom": "ipad"
@@ -89,6 +93,7 @@
       "minimum-system-version": "7.0",
       "orientation": "landscape",
       "extent": "full-screen",
+      "filename": "2048x1536.png",
       "size": "1024x768",
       "scale": "2x",
       "idiom": "ipad"
@@ -96,6 +101,7 @@
     {
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "320x480.png",
       "size": "320x480",
       "scale": "1x",
       "idiom": "iphone"
@@ -103,6 +109,7 @@
     {
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "640x9602.png",
       "size": "320x480",
       "scale": "2x",
       "idiom": "iphone"
@@ -110,6 +117,7 @@
     {
       "orientation": "portrait",
       "extent": "full-screen",
+      "filename": "640x11362.png",
       "size": "320x568",
       "subtype": "retina4",
       "scale": "2x",

@@ -2437,8 +2437,8 @@ namespace coins.Droid
 			// aapt resource value: 0x7f0200ef
 			public const int norway = 2130837743;
 			
-			// aapt resource value: 0x7f02011b
-			public const int notification_template_icon_bg = 2130837787;
+			// aapt resource value: 0x7f02011c
+			public const int notification_template_icon_bg = 2130837788;
 			
 			// aapt resource value: 0x7f0200f0
 			public const int oman = 2130837744;
@@ -2498,76 +2498,79 @@ namespace coins.Droid
 			public const int south_korea = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int sri_lanka = 2130837763;
+			public const int splash = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int sudan = 2130837764;
+			public const int sri_lanka = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int sweden = 2130837765;
+			public const int sudan = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int switzerland = 2130837766;
+			public const int sweden = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int syria = 2130837767;
+			public const int switzerland = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int taiwan = 2130837768;
+			public const int syria = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int tanzania = 2130837769;
+			public const int taiwan = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int thailand = 2130837770;
+			public const int tanzania = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int tonga = 2130837771;
+			public const int thailand = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int trinidad_and_tobago = 2130837772;
+			public const int tonga = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int tunisia = 2130837773;
+			public const int trinidad_and_tobago = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int turkey = 2130837774;
+			public const int tunisia = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int uganda = 2130837775;
+			public const int turkey = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int ukraine = 2130837776;
+			public const int uganda = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int united_arab_emirates = 2130837777;
+			public const int ukraine = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int united_kingdom = 2130837778;
+			public const int united_arab_emirates = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int united_states_of_america = 2130837779;
+			public const int united_kingdom = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int uruguay = 2130837780;
+			public const int united_states_of_america = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int uzbekistn = 2130837781;
+			public const int uruguay = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int venezuela = 2130837782;
+			public const int uzbekistn = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int vietnam = 2130837783;
+			public const int venezuela = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int xamagon = 2130837784;
+			public const int vietnam = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int yemen = 2130837785;
+			public const int xamagon = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int zambia = 2130837786;
+			public const int yemen = 2130837786;
+			
+			// aapt resource value: 0x7f02011b
+			public const int zambia = 2130837787;
 			
 			static Drawable()
 			{
@@ -4236,6 +4239,9 @@ namespace coins.Droid
 			
 			// aapt resource value: 0x7f0a0003
 			public const int Theme_MediaRouter_LightControlPanel = 2131361795;
+			
+			// aapt resource value: 0x7f0a0175
+			public const int Theme_Splash = 2131362165;
 			
 			// aapt resource value: 0x7f0a010e
 			public const int ThemeOverlay_AppCompat = 2131362062;
