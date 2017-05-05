@@ -1,27 +1,159 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
-	<dependencies>
-		<deployment identifier="iOS" />
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="EHf-IW-A2E">
-			<objects>
-				<viewController id="01J-lp-oVM" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="Llm-lL-Icb" />
-						<viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder" />
-			</objects>
-			<point key="canvasLocation" x="53" y="375" />
-		</scene>
-	</scenes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_monetization_on_2x.png" width="48" height="48"/>
+        <image name="ic_monetization_on_3x.png" width="72" height="72"/>
+        <image name="ic_monetization_on.png" width="24" height="24"/>
+        <image name="ic_format_list_bulleted_2x.png" width="48" height="48"/>
+        <image name="ic_format_list_bulleted_3x.png" width="72" height="72"/>
+        <image name="ic_format_list_bulleted.png" width="24" height="24"/>
+        <image name="ic_account_balance_wallet_2x.png" width="48" height="48"/>
+        <image name="ic_account_balance_wallet_3x.png" width="72" height="72"/>
+        <image name="ic_account_balance_wallet.png" width="24" height="24"/>
+        <image name="ic_settings_2x.png" width="48" height="48"/>
+        <image name="ic_settings_3x.png" width="72" height="72"/>
+        <image name="ic_settings.png" width="24" height="24"/>
+        <image name="xamagon.png" width="609" height="609"/>
+        <image name="afghanistan.png" width="512" height="512"/>
+        <image name="albania.png" width="512" height="512"/>
+        <image name="algeria.png" width="512" height="512"/>
+        <image name="argentina.png" width="512" height="512"/>
+        <image name="armenia.png" width="512" height="512"/>
+        <image name="australia.png" width="512" height="512"/>
+        <image name="azerbaijan.png" width="512" height="512"/>
+        <image name="bahrain.png" width="512" height="512"/>
+        <image name="belarus.png" width="512" height="512"/>
+        <image name="belize.png" width="512" height="512"/>
+        <image name="bolivia.png" width="512" height="512"/>
+        <image name="bosnia_and_herzegovina.png" width="512" height="512"/>
+        <image name="botswana.png" width="512" height="512"/>
+        <image name="brazil.png" width="512" height="512"/>
+        <image name="brunei.png" width="512" height="512"/>
+        <image name="bulgaria.png" width="512" height="512"/>
+        <image name="burundi.png" width="512" height="512"/>
+        <image name="cambodia.png" width="512" height="512"/>
+        <image name="canada.png" width="512" height="512"/>
+        <image name="cape_verde.png" width="512" height="512"/>
+        <image name="central_african_republic.png" width="512" height="512"/>
+        <image name="chile.png" width="512" height="512"/>
+        <image name="china.png" width="512" height="512"/>
+        <image name="colombia.png" width="512" height="512"/>
+        <image name="comoros.png" width="512" height="512"/>
+        <image name="costa_rica.png" width="512" height="512"/>
+        <image name="croatia.png" width="512" height="512"/>
+        <image name="czech_republic.png" width="512" height="512"/>
+        <image name="democratic_republic_of_congo.png" width="512" height="512"/>
+        <image name="denmark.png" width="512" height="512"/>
+        <image name="djibouti.png" width="512" height="512"/>
+        <image name="dominican_republic.png" width="512" height="512"/>
+        <image name="egypt.png" width="512" height="512"/>
+        <image name="eritrea.png" width="512" height="512"/>
+        <image name="estonia.png" width="512" height="512"/>
+        <image name="ethiopia.png" width="512" height="512"/>
+        <image name="european_union.png" width="512" height="512"/>
+        <image name="georgia.png" width="512" height="512"/>
+        <image name="ghana.png" width="512" height="512"/>
+        <image name="guatemala.png" width="512" height="512"/>
+        <image name="guinea.png" width="512" height="512"/>
+        <image name="honduras.png" width="512" height="512"/>
+        <image name="hong_kong.png" width="512" height="512"/>
+        <image name="hungary.png" width="512" height="512"/>
+        <image name="iceland.png" width="512" height="512"/>
+        <image name="india.png" width="512" height="512"/>
+        <image name="indonesia.png" width="512" height="512"/>
+        <image name="iran.png" width="512" height="512"/>
+        <image name="iraq.png" width="512" height="512"/>
+        <image name="israel.png" width="512" height="512"/>
+        <image name="jamaica.png" width="512" height="512"/>
+        <image name="japan.png" width="512" height="512"/>
+        <image name="jordan.png" width="512" height="512"/>
+        <image name="kazakhstan.png" width="512" height="512"/>
+        <image name="kenya.png" width="512" height="512"/>
+        <image name="kuwait.png" width="512" height="512"/>
+        <image name="latvia.png" width="512" height="512"/>
+        <image name="lebanon.png" width="512" height="512"/>
+        <image name="libya.png" width="512" height="512"/>
+        <image name="lithuania.png" width="512" height="512"/>
+        <image name="macao.png" width="512" height="512"/>
+        <image name="madagascar.png" width="512" height="512"/>
+        <image name="malaysia.png" width="512" height="512"/>
+        <image name="mauritius.png" width="512" height="512"/>
+        <image name="mexico.png" width="512" height="512"/>
+        <image name="moldova.png" width="512" height="512"/>
+        <image name="morocco.png" width="512" height="512"/>
+        <image name="mozambique.png" width="512" height="512"/>
+        <image name="myanmar.png" width="512" height="512"/>
+        <image name="namibia.png" width="512" height="512"/>
+        <image name="nepal.png" width="512" height="512"/>
+        <image name="new_zealand.png" width="512" height="512"/>
+        <image name="nicaragua.png" width="512" height="512"/>
+        <image name="nigeria.png" width="512" height="512"/>
+        <image name="norway.png" width="512" height="512"/>
+        <image name="oman.png" width="512" height="512"/>
+        <image name="pakistan.png" width="512" height="512"/>
+        <image name="panama.png" width="512" height="512"/>
+        <image name="paraguay.png" width="512" height="512"/>
+        <image name="peru.png" width="512" height="512"/>
+        <image name="philippines.png" width="512" height="512"/>
+        <image name="poland.png" width="512" height="512"/>
+        <image name="qatar.png" width="512" height="512"/>
+        <image name="republic_of_macedonia.png" width="512" height="512"/>
+        <image name="romania.png" width="512" height="512"/>
+        <image name="russia.png" width="512" height="512"/>
+        <image name="rwanda.png" width="512" height="512"/>
+        <image name="saudi_arabia.png" width="512" height="512"/>
+        <image name="senegal.png" width="512" height="512"/>
+        <image name="serbia.png" width="512" height="512"/>
+        <image name="singapore.png" width="512" height="512"/>
+        <image name="somalia.png" width="512" height="512"/>
+        <image name="south_africa.png" width="512" height="512"/>
+        <image name="south_korea.png" width="512" height="512"/>
+        <image name="sri_lanka.png" width="512" height="512"/>
+        <image name="sudan.png" width="512" height="512"/>
+        <image name="sweden.png" width="512" height="512"/>
+        <image name="switzerland.png" width="512" height="512"/>
+        <image name="syria.png" width="512" height="512"/>
+        <image name="taiwan.png" width="512" height="512"/>
+        <image name="tanzania.png" width="512" height="512"/>
+        <image name="thailand.png" width="512" height="512"/>
+        <image name="tonga.png" width="512" height="512"/>
+        <image name="trinidad_and_tobago.png" width="512" height="512"/>
+        <image name="tunisia.png" width="512" height="512"/>
+        <image name="turkey.png" width="512" height="512"/>
+        <image name="uganda.png" width="512" height="512"/>
+        <image name="ukraine.png" width="512" height="512"/>
+        <image name="united_arab_emirates.png" width="512" height="512"/>
+        <image name="united_kingdom.png" width="512" height="512"/>
+        <image name="united_states_of_america.png" width="512" height="512"/>
+        <image name="uruguay.png" width="512" height="512"/>
+        <image name="uzbekistn.png" width="512" height="512"/>
+        <image name="venezuela.png" width="512" height="512"/>
+        <image name="vietnam.png" width="512" height="512"/>
+        <image name="yemen.png" width="512" height="512"/>
+        <image name="zambia.png" width="512" height="512"/>
+    </resources>
 </document>

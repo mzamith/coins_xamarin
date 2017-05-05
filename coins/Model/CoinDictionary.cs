@@ -90,7 +90,9 @@ namespace coins.Model
         public List<Currency> FilterCoins(string criteria)
         {
             criteria = (criteria == null) ? "" : criteria.ToUpper();
-            List < Currency > a = Currencies.Where((item) => (item.Code.ToUpper().Contains(criteria) || item.Name.ToUpper().Contains(criteria) || item.Name_plural.ToUpper().Contains(criteria))).ToList();
+            List < Currency > a = Currencies.Where((item) => (item.Code.ToUpper().Contains(criteria) || 
+                                                              item.Name.ToUpper().Contains(criteria) || 
+                                                              item.Name_plural.ToUpper().Contains(criteria))).ToList();
 
             return a;
         }

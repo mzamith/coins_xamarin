@@ -8,6 +8,7 @@ namespace coins
 	{
 		public App()
 		{
+            InitializeComponent();
 			if (Helpers.Settings.GeneralSettings.Length == 0) Helpers.Settings.GeneralSettings = "EUR";
 			GoToMainPage();
 
