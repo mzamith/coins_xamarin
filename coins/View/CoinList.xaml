@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="coins.CoinList" Title="Wallet">  
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="coins.CoinList" Title="Wallet">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness" iOS="20,40,20,20" Android="20,20,20,20" WinPhone="20,20,20,20" />
     </ContentPage.Padding>
@@ -12,12 +12,21 @@
                 <DataTemplate>
                     <ViewCell>
                         <ViewCell.ContextActions>
-                            <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                            <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Clear" IsDestructive="True" />
                         </ViewCell.ContextActions>
-                        <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
-                            <Image Source="{Binding flag}" WidthRequest="30"></Image>
-                            <Label Text="{Binding code}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="Black" />
-                            <Label Text="{Binding amount}" YAlign="Center" FontSize="Small" TextColor="Black" />
+                        <StackLayout Padding="1,1,1,1" Orientation="Horizontal">
+                            <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                <Image Source="{Binding flag}" WidthRequest="30">
+                                </Image>
+                                <Label Text="{Binding code}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="Black" />
+                            </StackLayout>
+                            <StackLayout Padding="1,1,1,1" HorizontalOptions="EndAndExpand" Orientation="Vertical">
+                                <StackLayout Padding="1,1,1,1" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                    <Label Text="{Binding amount}" XAlign="End" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Medium" TextColor="Black" />
+                                    <Label Text="{Binding symbol}" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Small" TextColor="Black" />
+                                </StackLayout>
+                                <Label Text="{Binding name}" XAlign="End" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Micro" TextColor="Gray" />
+                            </StackLayout>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

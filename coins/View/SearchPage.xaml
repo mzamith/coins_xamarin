@@ -3,19 +3,22 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <SearchBar x:Name="sbSearch" Placeholder="Search" TextChanged="FilterList" />
-            <ListView x:Name="listViewSearch" RowHeight="50">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
-                                <Image Source="{Binding Flag}" WidthRequest="30"></Image>
-                                <Label Text="{Binding Code}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="Black" />
-                                <Label Text="{Binding Symbol}" YAlign="Center" FontSize="Small" TextColor="Black" />
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <StackLayout Padding="20,20,20,20">
+                <ListView x:Name="listViewSearch" RowHeight="50" ItemSelected="OnItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                    <Image Source="{Binding Flag}" WidthRequest="30">
+                                    </Image>
+                                    <Label Text="{Binding Code}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="Black" />
+                                    <Label Text="{Binding Symbol}" YAlign="Center" FontSize="Small" TextColor="Black" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

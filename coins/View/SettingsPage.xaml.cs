@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using coins.Model;
+using coins.Enum;
 using Xamarin.Forms;
 
 namespace coins
@@ -14,16 +15,23 @@ namespace coins
         {
             InitializeComponent();
 
-            currency = CoinDictionary.Instance.GetCoinFromCode(Helpers.Settings.GeneralSettings);
-            Code.Text = currency.Code;
-            Name.Text = currency.Name_plural;
-            Symbol.Text = currency.Symbol;
+        }
 
+        protected override void OnAppearing(){
+            base.OnAppearing();
+            InitScreen();
         }
 
         async void OnTapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SearchPage());
+            await Navigation.PushAsync(new SearchPage(Intent.SETTING));
+        }
+
+        private void InitScreen(){
+			currency = CoinDictionary.Instance.GetCoinFromCode(Helpers.Settings.GeneralSettings);
+			Code.Text = currency.Code;
+			Name.Text = currency.Name_plural;
+			Symbol.Text = currency.Symbol;
         }
     }
 }

@@ -5,7 +5,7 @@
             <Color x:Key="backgroundColor">#33302E</Color>
             <Color x:Key="textColor">White</Color>
             <Style TargetType="NavigationPage">
-                <Setter Property="BarBackgroundColor" Value="#ff5300" />
+                <Setter Property="BarBackgroundColor" Value="#4A4A4A" />
                 <Setter Property="BarTextColor" Value="White" />
             </Style>
             <Style x:Key="labelStyle" TargetType="Label">

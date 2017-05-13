@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using coins.Model;
+using coins.Enum;
 using Xamarin.Forms;
 
 namespace coins
@@ -25,7 +26,7 @@ namespace coins
 
         async void AddItem_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AddItemPage());
+            await Navigation.PushAsync(new SearchPage(Intent.ADD));
         }
 
 		async public void OnItemSelected(object sender, SelectedItemChangedEventArgs e)

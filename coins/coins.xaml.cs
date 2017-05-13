@@ -31,8 +31,10 @@ namespace coins
 
 		public static void GoToMainPage()
 		{
-			Current.MainPage = new TabbedPage
-			{
+            Current.MainPage = new TabbedPage
+            {
+
+                BarBackgroundColor = Device.OnPlatform<Color>(Color.Transparent, Color.FromHex("#4A4A4A"), Color.FromHex("#4A4A4A")),
 
 				Children = {
 					new NavigationPage(new CoinList())
