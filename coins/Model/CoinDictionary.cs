@@ -90,11 +90,44 @@ namespace coins.Model
         public List<Currency> FilterCoins(string criteria)
         {
             criteria = (criteria == null) ? "" : criteria.ToUpper();
-            List < Currency > a = Currencies.Where((item) => (item.Code.ToUpper().Contains(criteria) || 
+            List <Currency> a = Currencies.Where((item) => (item.Code.ToUpper().Contains(criteria) || 
                                                               item.Name.ToUpper().Contains(criteria) || 
                                                               item.Name_plural.ToUpper().Contains(criteria))).ToList();
 
             return a;
+        }
+
+
+        public List<Currency> FilterCoins(List<WalletItem> wi)
+		{
+            List<Currency> a = Currencies.Where((item) => (!IsInList(item, wi))).ToList();
+
+			return a;
+		}
+
+        public List<Currency> FilterCoins(List<Currency> currencies, List<WalletItem> wi)
+		{
+            List<Currency> a = currencies.Where((item) => (!IsInList(item, wi))).ToList();
+
+			return a;
+		}
+
+		public List<Currency> FilterCoins(List<Currency> currencies, string criteria)
+		{
+			criteria = (criteria == null) ? "" : criteria.ToUpper();
+            List<Currency> a = currencies.Where((item) => (item.Code.ToUpper().Contains(criteria) ||
+															 item.Name.ToUpper().Contains(criteria) ||
+															 item.Name_plural.ToUpper().Contains(criteria))).ToList();
+
+			return a;
+		}
+
+        private bool IsInList(Currency currency, List<WalletItem> wi){
+
+            foreach (var item in wi){
+                if (currency.Code.Equals(item.code)) return true;
+            }
+            return false;
         }
     }
 }

@@ -31,7 +31,6 @@ namespace coins
 			currency = CoinDictionary.Instance.GetCoinFromCode(Helpers.Settings.GeneralSettings);
 			Code.Text = currency.Code;
 			Name.Text = currency.Name_plural;
-			Symbol.Text = currency.Symbol;
         }
     }
 }

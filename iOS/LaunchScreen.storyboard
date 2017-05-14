@@ -155,5 +155,6 @@
         <image name="vietnam.png" width="512" height="512"/>
         <image name="yemen.png" width="512" height="512"/>
         <image name="zambia.png" width="512" height="512"/>
+        <image name="ic_keyboard_arrow_right.png" width="24" height="24"/>
     </resources>
 </document>

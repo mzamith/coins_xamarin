@@ -34,7 +34,7 @@ namespace coins
 			if (e.SelectedItem == null)
 				return;
 
-            await Navigation.PushAsync(new WalletItemPage());
+            await Navigation.PushAsync(new AddItemPage((WalletItem)((ListView)sender).SelectedItem, Intent.EDIT));
 
 			((ListView)sender).SelectedItem = null;
 		}

@@ -63,7 +63,7 @@
     <Compile Include="coins.xaml.cs">
       <DependentUpon>coins.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Enum\Action.cs" />
+    <Compile Include="Enum\Intent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
