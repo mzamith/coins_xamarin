@@ -9,6 +9,7 @@ namespace coins
     public partial class SettingsPage : ContentPage
     {
 
+        private const string DEFAULT_CURRENCY = "EUR";
         private Currency currency;
 
         public SettingsPage()
@@ -28,7 +29,10 @@ namespace coins
         }
 
         private void InitScreen(){
-			currency = CoinDictionary.Instance.GetCoinFromCode(Helpers.Settings.GeneralSettings);
+
+            var code = (string.IsNullOrWhiteSpace(Helpers.Settings.GeneralSettings)) ? DEFAULT_CURRENCY : Helpers.Settings.GeneralSettings;
+
+			currency = CoinDictionary.Instance.GetCoinFromCode(code);
 			Code.Text = currency.Code;
 			Name.Text = currency.Name_plural;
         }

@@ -16,6 +16,7 @@ namespace coins.Model
 		public double rounding { get; set; }
 		public string flag { get; set; }
         public double amount { get; set; }
+        public string formatted_amount { get; set; }
 
         public WalletItem(){}
 
@@ -31,6 +32,7 @@ namespace coins.Model
             this.rounding = coin.Rounding;
             this.flag = coin.Flag;
             this.amount = amount;
+            this.formatted_amount = string.Format("{0:0.00}", amount);
         }
 
         public WalletItem(WalletItemDTO dto) : this(dto.Code, dto.Amount){

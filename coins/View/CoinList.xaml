@@ -22,7 +22,7 @@
                             </StackLayout>
                             <StackLayout Padding="1,1,1,1" HorizontalOptions="EndAndExpand" Orientation="Vertical">
                                 <StackLayout Padding="1,1,1,1" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                    <Label Text="{Binding amount}" XAlign="End" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Medium" TextColor="Black" />
+                                    <Label Text="{Binding formatted_amount}" XAlign="End" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Medium" TextColor="Black" />
                                     <Label Text="{Binding symbol}" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Small" TextColor="Black" />
                                 </StackLayout>
                                 <Label Text="{Binding name}" XAlign="End" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Micro" TextColor="Gray" />
