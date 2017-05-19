@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using System.Collections.Generic;
 using System.Linq;
 using coins.Model;
+using System.Collections.ObjectModel;
 
 namespace coins
 {
@@ -17,10 +18,10 @@ namespace coins
 			_connection.CreateTable<WalletItem>();
 		}
 
-		public List<WalletItem> GetItems()
+		public ObservableCollection<WalletItem> GetItems()
 		{
-			return (from t in _connection.Table<WalletItem>()
-					select t).ToList();
+            return new ObservableCollection<WalletItem>((from t in _connection.Table<WalletItem>()
+                                             select t).ToList());
 		}
 
 		public void AddItem(WalletItem item)

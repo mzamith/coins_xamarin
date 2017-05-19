@@ -31,7 +31,7 @@ namespace coins
             switch (intent)
             {
                 case (Intent.ADD):
-                    return CoinDictionary.Instance.FilterCoins(new Database().GetItems());
+                    return CoinDictionary.Instance.FilterCoins(new List<WalletItem>(new Database().GetItems()));
                 case (Intent.SETTING):
                     return CoinDictionary.Instance.Currencies;
                 default:

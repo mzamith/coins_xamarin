@@ -3,25 +3,31 @@ using System.Collections.Generic;
 using coins.Model;
 using coins.Enum;
 using Xamarin.Forms;
+using System.Collections.ObjectModel;
 
 namespace coins
 {
 	public partial class CoinList : ContentPage
 	{
         private CoinDictionary currencies;
+        private ObservableCollection<WalletItem> items = new ObservableCollection<WalletItem>();
 
 		public CoinList()
 		{
 			InitializeComponent();
             currencies = CoinDictionary.Instance;
-			CheckDatabasePopulated();
+		//	CheckDatabasePopulated();
 
 		}
 
 		protected override void OnAppearing()
 		{
 			base.OnAppearing();
-            listView1.ItemsSource = GetItems();
+
+            items.Clear();
+            GetItems();
+
+            listView1.ItemsSource = items;
 		}
 
         async void AddItem_Clicked(object sender, EventArgs e)
@@ -46,14 +52,17 @@ namespace coins
             var wi = (WalletItem)mi.CommandParameter;
 
             new Database().DeleteItem(wi);
-            listView1.ItemsSource = GetItems();
+
+            items.Clear();
+            GetItems();
+
+            listView1.ItemsSource = items;
 		}
 
 
-		List<WalletItem> GetItems()
+		void GetItems()
 		{
-			var items = new Database().GetItems();
-			return items;
+			items = new Database().GetItems();
 		}
 
 		void CheckDatabasePopulated()
@@ -61,22 +70,22 @@ namespace coins
 			//cool for testing. delete later.
 			new Database().ResetTable();
 
-			if (new Database().GetItems().Count < 1)
-			{
+			//if (new Database().GetItems().Count < 1)
+			//{
 
-				//fill up database with defaults
-				var items = new List<WalletItem>();
+			//	//fill up database with defaults
+			//	var items = new List<WalletItem>();
 
-				for (int i = 0; i < 10; i++)
-				{
-                    Currency c = currencies.GetCoinFromIndex(i);
-                    items.Add(
-                        new WalletItem(c.Code, i){}
-					);
-				}
+			//	for (int i = 0; i < 10; i++)
+			//	{
+   //                 Currency c = currencies.GetCoinFromIndex(i);
+   //                 items.Add(
+   //                     new WalletItem(c.Code, i){}
+			//		);
+			//	}
 
-				new Database().AddItems(items);
-			}
+			//	new Database().AddItems(items);
+			//}
 		}
 	}
 }

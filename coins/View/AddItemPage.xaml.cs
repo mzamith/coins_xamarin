@@ -37,7 +37,7 @@ namespace coins
 			currencyName.Text = item.name;
 			currencyFlag.Source = item.flag;
 			currencySymbol.Text = item.symbol;
-            currencyAmount.Text = item.amount.ToString();
+            currencyAmount.Text = item.formatted_amount;
 
             if(intent.Equals(Intent.EDIT)) saveButton2.Text = "Update";
 		}
@@ -67,6 +67,7 @@ namespace coins
             }else {
 
                 item.amount = num;
+                item.formatted_amount = string.Format("{0:0.00}", num);
                 new Database().EditItem(this.item);
 
 				await Navigation.PopAsync();
