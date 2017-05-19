@@ -23,7 +23,11 @@ namespace coins
             currencyFlag.Source = currency.Flag;
             currencySymbol.Text = currency.Symbol;
 
-            if (intent.Equals(Intent.EDIT)) saveButton2.Text = "Update";
+            if (intent.Equals(Intent.ADD)){
+
+                spendButton.IsVisible = false;
+                //saveButton2.Text = "Update";
+            } 
 
         }
 
@@ -39,10 +43,10 @@ namespace coins
 			currencySymbol.Text = item.symbol;
             currencyAmount.Text = item.formatted_amount;
 
-            if(intent.Equals(Intent.EDIT)) saveButton2.Text = "Update";
+            //if(intent.Equals(Intent.EDIT)) saveButton2.Text = "Update";
 		}
 
-		async void OnSaveClicked(object sender, EventArgs e)
+		async void OnSaveClickedAdd(object sender, EventArgs e)
 		{
 			var text = Amount.Text;
             double num;
@@ -66,12 +70,37 @@ namespace coins
                 await Navigation.PopAsync();
             }else {
 
-                item.amount = num;
-                item.formatted_amount = string.Format("{0:0.00}", num);
+                item.amount += num;
+                item.formatted_amount = string.Format("{0:0.00}", item.amount);
                 new Database().EditItem(this.item);
 
 				await Navigation.PopAsync();
             }
+		}
+
+		async void OnSaveClickedSpend(object sender, EventArgs e)
+		{
+			var text = Amount.Text;
+			//double num;
+			bool isNum = double.TryParse(text, out double num);
+
+			if (string.IsNullOrWhiteSpace(text))
+			{
+				await DisplayAlert("Clumsy...!", "Fill out the field", "Dismiss");
+			}
+			else if (!isNum)
+			{
+				await DisplayAlert("Oops", "Please enter a valid number", "Dismiss");
+			}
+			else
+			{
+
+				item.amount -= num;
+				item.formatted_amount = string.Format("{0:0.00}", item.amount);
+				new Database().EditItem(this.item);
+
+				await Navigation.PopAsync();
+			}
 		}
     }
 }

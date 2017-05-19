@@ -23,7 +23,10 @@
                     <Label x:Name="currencyName" XAlign="End" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Micro" TextColor="Gray" />
                 </StackLayout>
             </StackLayout>
-            <Button x:Name="saveButton2" Text="Add" FontSize="24" IsEnabled="true" Clicked="OnSaveClicked" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Button x:Name="spendButton" HorizontalOptions="CenterAndExpand" Text="Spend" FontSize="24" IsEnabled="true" Clicked="OnSaveClickedSpend" />
+                <Button x:Name="addButton" HorizontalOptions="CenterAndExpand" Text="Add" FontSize="24" IsEnabled="true" Clicked="OnSaveClickedAdd" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
