@@ -30,7 +30,7 @@ namespace coins
 			}
 			else
 			{
-				var convertTo = "EUR";
+                var convertTo = Helpers.Settings.GeneralSettings;
 				text = text.Trim().ToUpper();
 				var service = new CurrencyService();
 				var response = await service.GetYahooTaxAsync(text, convertTo);

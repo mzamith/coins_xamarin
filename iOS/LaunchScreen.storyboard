@@ -157,5 +157,6 @@
         <image name="zambia.png" width="512" height="512"/>
         <image name="ic_keyboard_arrow_right.png" width="24" height="24"/>
         <image name="bangladesh.png" width="512" height="512"/>
+        <image name="angola.png" width="512" height="512"/>
     </resources>
 </document>

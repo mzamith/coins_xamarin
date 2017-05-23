@@ -70,6 +70,16 @@
     "flag": "armenia.png"
   },
   {
+    "symbol": "Kz",
+    "name": "Angolan Kwanza",
+    "symbol_native": "Kz",
+    "decimal_digits": 2,
+    "rounding": 0,
+    "code": "AOA",
+    "name_plural": "Angolan Kwanza",
+    "flag": "angola.png"
+  },
+  {
     "symbol": "AR$",
     "name": "Argentine Peso",
     "symbol_native": "$",
@@ -256,7 +266,8 @@
     "decimal_digits": 0,
     "rounding": 0,
     "code": "COP",
-    "name_plural": "Colombian pesos"
+    "name_plural": "Colombian pesos",
+    "flag": "colombia.png"
   },
   {
     "symbol": "₡",
@@ -1076,7 +1087,7 @@
     "rounding": 0,
     "code": "UAH",
     "name_plural": "Ukrainian hryvnias",
-    "flag": "ukrain.png"
+    "flag": "ukraine.png"
   },
   {
     "symbol": "USh",
