@@ -11,6 +11,7 @@ namespace coins
     using OxyPlot.Series;
     using OxyPlot.Xamarin.Forms;
     using System.Collections.ObjectModel;
+    using System.Linq;
 
     public partial class BalancePage : ContentPage
     {
@@ -38,6 +39,18 @@ namespace coins
 
             List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
 
+            List<string> rates = new List<string>();
+
+            foreach (var item in walletItems)
+            {
+                if (item.Amount > 0)
+                {
+                    rates.Add(item.Code);
+                }
+            }
+
+            var responseRates = new CurrencyService().GetAllRates(Helpers.Settings.GeneralSettings, rates).Result;
+
             model = new PlotModel
             {
                 Title = "Balance"
@@ -51,12 +64,13 @@ namespace coins
                 StartAngle = 0
             };
 
-            foreach (var item in items)
+            foreach (var item in responseRates.Rates)
             {
-                if (item.amount > 0)
+                if (walletItems.Any(t => t.Code.ToLower().Equals(item.Currency.To)))
                 {
+                    var temp = walletItems.Find(t => t.Code.ToLower().Equals(item.Currency.To));
                     series.Slices.Add(
-                        new PieSlice(item.code, item.amount)
+                        new PieSlice(item.Currency.To, (temp.Amount / item.Amount))
                         {
                             IsExploded = false
                         });
@@ -71,9 +85,9 @@ namespace coins
 
             List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
 
-            foreach(var item in items)
+            foreach (var item in items)
             {
-                if(item.amount > 0)
+                if (item.amount > 0)
                 {
                     walletItems.Add(
                         new WalletItemDTO()
