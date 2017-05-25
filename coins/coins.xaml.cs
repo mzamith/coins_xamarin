@@ -53,7 +53,7 @@ namespace coins
 						Icon = Device.OnPlatform("ic_account_balance_wallet.png", null, null)
 #pragma warning restore CS0618 // 'Device.OnPlatform<T>(T, T, T)' is obsolete: 'Use switch(RuntimePlatform) instead.'
 					},
-					new NavigationPage(new RatesPage())
+					new NavigationPage(new RatePage())
 					{
 						Title = "Rates",
 #pragma warning disable CS0618 // 'Device.OnPlatform<T>(T, T, T)' is obsolete: 'Use switch(RuntimePlatform) instead.'
