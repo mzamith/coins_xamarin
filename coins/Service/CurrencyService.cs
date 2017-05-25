@@ -26,13 +26,13 @@ namespace coins.Service
 
 		}
 
-        public async Task<Rate> GetRateAsync(string c_from, string c_to)
+        public async Task<RateDTO> GetRateAsync(string c_from, string c_to)
 		{
 
             var response = await client.GetAsync(ApiEndpoint.RateEndpoint(c_from, c_to));
 
 			var jsonResult = response.Content.ReadAsStringAsync().Result;
-            Rate rate = JsonConvert.DeserializeObject<Rate>(jsonResult);
+            RateDTO rate = JsonConvert.DeserializeObject<RateDTO>(jsonResult);
 
             return rate;
 

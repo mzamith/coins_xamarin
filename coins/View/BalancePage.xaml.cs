@@ -37,7 +37,7 @@ namespace coins
                 DateTime localTime = TimeZoneInfo.ConvertTime(response.Date, TimeZoneInfo.Local);
 
                 var display = "The conversion rate from " +
-                    currencies.GetName(text) + " to " + currencies.GetName(convertTo) + " is: " + response.Conversion + 
+                    currencies.GetName(text) + " to " + currencies.GetName(convertTo) + " is: " + response.Rate + 
                     " and was last updated at " + localTime;
 
 				//message to user about empty box
