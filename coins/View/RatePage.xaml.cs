@@ -27,6 +27,9 @@ namespace coins
             else if  (!currencies.CoinExists(text.Trim().ToUpper())){
 				await DisplayAlert("Sorry dude...!", "This coin does not exist", "Pick another");
 			}
+            else if (text.Equals(Helpers.Settings.GeneralSettings)){
+                await DisplayAlert("Same currency", "You inserted the same coin as your default currency, so the conversion is 1.", "Thanks");
+            }
 			else
 			{
                 var convertTo = Helpers.Settings.GeneralSettings;

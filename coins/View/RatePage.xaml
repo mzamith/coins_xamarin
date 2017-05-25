@@ -7,7 +7,7 @@
 		<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="20">
 			<Label Text="Tax Getter" HorizontalOptions="Center" TextColor="Black" />
 			<Entry x:Name="taskText2" Placeholder="Enter coin code..." />
-			<Button x:Name="saveButton2" Text="Save" FontSize="24" IsEnabled="true" Clicked="OnSaveClicked" TextColor="Blue" BackgroundColor="Transparent" />
+			<Button x:Name="saveButton2" Text="Find Rate!" FontSize="24" IsEnabled="true" Clicked="OnSaveClicked" TextColor="Blue" BackgroundColor="Transparent" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
