@@ -7,10 +7,10 @@ namespace coins.Model
         {
         }
 
-        private string code;
-        private double amount;
+        private string coin;
+        private double value;
 
-        public string Code { get => code; set => code = value; }
-        public double Amount { get => amount; set => amount = value; }
+        public string Coin { get => coin; set => coin = value; }
+        public double Value { get => value; set => this.value = value; }
     }
 }

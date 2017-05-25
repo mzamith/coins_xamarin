@@ -35,7 +35,7 @@ namespace coins.Model
             this.formatted_amount = string.Format("{0:0.00}", amount);
         }
 
-        public WalletItem(WalletItemDTO dto) : this(dto.Code, dto.Amount){
+        public WalletItem(WalletItemDTO dto) : this(dto.Coin, dto.Value){
             
         }
     }

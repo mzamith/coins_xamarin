@@ -7,7 +7,7 @@
 
     <ContentPage.Content>
         <oxy:PlotView Model="{Binding Model}" VerticalOptions="Center" HorizontalOptions="Center" />
-        <StackLayout x:Name="total1" Padding="1,1,1,1" Orientation="Horizontal">
+        <!--<StackLayout x:Name="total1" Padding="1,1,1,1" Orientation="Horizontal">
             <StackLayout Padding="1,1,1,1" HorizontalOptions="StartAndExpand" Orientation="Horizontal">
                 <Image Source="{Binding flag}" WidthRequest="30">
                 </Image>
@@ -20,6 +20,6 @@
                 </StackLayout>
                 <Label Text="{Binding name}" XAlign="End" YAlign="Center" HorizontalOptions="EndAndExpand" FontSize="Micro" TextColor="Gray" />
             </StackLayout>
-        </StackLayout>
+        </StackLayout>-->
     </ContentPage.Content>
 </ContentPage>

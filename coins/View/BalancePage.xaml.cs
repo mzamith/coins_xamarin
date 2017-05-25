@@ -43,9 +43,9 @@ namespace coins
 
             foreach (var item in walletItems)
             {
-                if (item.Amount > 0)
+                if (item.Value > 0)
                 {
-                    rates.Add(item.Code);
+                    rates.Add(item.Coin);
                 }
             }
 
@@ -66,11 +66,11 @@ namespace coins
 
             foreach (var item in responseRates.Rates)
             {
-                if (walletItems.Any(t => t.Code.ToLower().Equals(item.Currency.To)))
+                if (walletItems.Any(t => t.Coin.ToLower().Equals(item.Currency.To)))
                 {
-                    var temp = walletItems.Find(t => t.Code.ToLower().Equals(item.Currency.To));
+                    var temp = walletItems.Find(t => t.Coin.ToLower().Equals(item.Currency.To));
                     series.Slices.Add(
-                        new PieSlice(item.Currency.To, (temp.Amount / item.Amount))
+                        new PieSlice(item.Currency.To, (temp.Value / item.Amount))
                         {
                             IsExploded = false
                         });
@@ -92,16 +92,16 @@ namespace coins
                     walletItems.Add(
                         new WalletItemDTO()
                         {
-                            Code = item.code,
-                            Amount = item.amount
+                            Coin = item.code,
+                            Value = item.amount
                         });
                 }
             }
 
             WalletItemDTO temp = new CurrencyService().GetTotalValue(walletItems, Helpers.Settings.GeneralSettings).Result;
 
-            total = GetItemByCode(temp.Code);
-            total.amount = temp.Amount;
+            total = GetItemByCode(temp.Coin);
+            total.amount = temp.Value;
         }
         void GetItems()
         {
