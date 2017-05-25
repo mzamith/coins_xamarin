@@ -1,59 +1,103 @@
 ﻿using System;
-using coins.Service;
-using coins.Model;
+using System.Collections.Generic;
 
 using Xamarin.Forms;
+using OxyPlot;
 
 namespace coins
 {
+    using coins.Model;
+    using coins.Service;
+    using OxyPlot.Series;
+    using OxyPlot.Xamarin.Forms;
+    using System.Collections.ObjectModel;
+
     public partial class BalancePage : ContentPage
-	{
-        private CoinDictionary currencies = CoinDictionary.Instance;
+    {
 
-		public BalancePage()
-		{
+        private PlotModel model;
+        private ObservableCollection<WalletItem> items = new ObservableCollection<WalletItem>();
+        private WalletItem total;
+
+        public PlotModel Model { get => model; }
+
+        public BalancePage()
+        {
             InitializeComponent();
-		}
 
-		async void OnSaveClicked(object sender, EventArgs e)
-		{
-			var text = taskText2.Text;
+            items.Clear();
+            GetItems();
 
-			if (string.IsNullOrWhiteSpace(text))
-			{
-				//save text to user preferences 
-				await DisplayAlert("Clumsy...!", "Fill out the field", "Dismiss");
-			}
-            else if  (!currencies.CoinExists(text.Trim().ToUpper())){
-				await DisplayAlert("Sorry dude...!", "This coin does not exist", "Pick another");
-			}
-			else
-			{
-                var convertTo = Helpers.Settings.GeneralSettings;
-				text = text.Trim().ToUpper();
-				var service = new CurrencyService();
-				var response = await service.GetRateAsync(text, convertTo);
+            initTotal();
 
-                DateTime localTime = TimeZoneInfo.ConvertTime(response.Date, TimeZoneInfo.Local);
+            initModel();
+        }
 
-                var display = "The conversion rate from " +
-                    currencies.GetName(text) + " to " + currencies.GetName(convertTo) + " is: " + response.Rate + 
-                    " and was last updated at " + localTime;
+        private void initModel()
+        {
 
-				//message to user about empty box
-				await DisplayAlert("Here is the current tax rate", display, "Thanks");
-			}
-		}
+            List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
 
-		void ShowAlert(string title, string message, string button)
-		{
-			DisplayAlert(title, message, button);
-		}
+            model = new PlotModel
+            {
+                Title = "Balance"
+            };
 
-		async void Settings_Clicked()
-		{
-                await Navigation.PushAsync(new SettingsPage());
-		}
+            dynamic series = new PieSeries
+            {
+                StrokeThickness = 2.0,
+                InsideLabelPosition = 0.8,
+                AngleSpan = 360,
+                StartAngle = 0
+            };
 
-	}
+            foreach (var item in items)
+            {
+                if (item.amount > 0)
+                {
+                    series.Slices.Add(
+                        new PieSlice(item.code, item.amount)
+                        {
+                            IsExploded = false
+                        });
+                }
+            }
+
+            model.Series.Add(series);
+        }
+
+        private void initTotal()
+        {
+
+            List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
+
+            foreach(var item in items)
+            {
+                if(item.amount > 0)
+                {
+                    walletItems.Add(
+                        new WalletItemDTO()
+                        {
+                            Code = item.code,
+                            Amount = item.amount
+                        });
+                }
+            }
+
+            WalletItemDTO temp = new CurrencyService().GetTotalValue(walletItems, Helpers.Settings.GeneralSettings).Result;
+
+            total = GetItemByCode(temp.Code);
+            total.amount = temp.Amount;
+        }
+        void GetItems()
+        {
+            items = new Database().GetItems();
+        }
+
+        WalletItem GetItemByCode(string code)
+        {
+            return new Database().GetItemByCode(code);
+        }
+
+    }
 }

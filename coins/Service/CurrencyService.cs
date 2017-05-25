@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Net;
+using System.Collections;
 using System.Threading.Tasks;
 using coins.Model;
 using Newtonsoft.Json;
+using System.Net.Http;
+using System.Text;
+using System.Collections.Generic;
 
 namespace coins.Service
 {
@@ -26,16 +30,36 @@ namespace coins.Service
 
 		}
 
-        public async Task<RateDTO> GetRateAsync(string c_from, string c_to)
+        public async Task<YahooResponse> GetRateAsync(string c_from, string c_to)
 		{
 
             var response = await client.GetAsync(ApiEndpoint.RateEndpoint(c_from, c_to));
 
 			var jsonResult = response.Content.ReadAsStringAsync().Result;
-            RateDTO rate = JsonConvert.DeserializeObject<RateDTO>(jsonResult);
+            YahooResponse rate = JsonConvert.DeserializeObject<YahooResponse>(jsonResult);
 
             return rate;
 
 		}
+
+        /*public async Task<ResponseRates> GetAllRates(string c_from, List<string> c_to)
+        {
+
+        }*/
+
+        public async Task<WalletItemDTO> GetTotalValue(List<WalletItemDTO> from, string c_to)
+        {
+            string data = JsonConvert.SerializeObject(from);
+
+            var content = new StringContent(data, Encoding.UTF8, "application/json");
+
+            var response = await client.PostAsync(ApiEndpoint.TotalEndpoint(c_to), content);
+
+            var jsonResult = response.Content.ReadAsStringAsync().Result;
+            WalletItemDTO item = JsonConvert.DeserializeObject<WalletItemDTO>(jsonResult);
+
+            return item;
+        }
+
 	}
 }

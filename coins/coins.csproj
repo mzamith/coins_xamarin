@@ -42,8 +42,8 @@
     <Compile Include="View\CoinList.xaml.cs">
       <DependentUpon>CoinList.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\BalancePage.xaml.cs">
-      <DependentUpon>BalancePage.xaml</DependentUpon>
+    <Compile Include="View\RatePage.xaml.cs">
+      <DependentUpon>RatePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\WalletItemPage.xaml.cs">
       <DependentUpon>WalletItemPage.xaml</DependentUpon>
@@ -51,8 +51,8 @@
     <Compile Include="View\AddItemPage.xaml.cs">
       <DependentUpon>AddItemPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\RatesPage.xaml.cs">
-      <DependentUpon>RatesPage.xaml</DependentUpon>
+    <Compile Include="View\BalancePage.xaml.cs">
+      <DependentUpon>BalancePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
@@ -122,7 +122,7 @@
     <EmbeddedResource Include="View\CoinList.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\BalancePage.xaml">
+    <EmbeddedResource Include="View\RatePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="View\WalletItemPage.xaml">
@@ -131,7 +131,7 @@
     <EmbeddedResource Include="View\AddItemPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\RatesPage.xaml">
+    <EmbeddedResource Include="View\BalancePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="View\SettingsPage.xaml">
