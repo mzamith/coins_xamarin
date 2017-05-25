@@ -11,7 +11,7 @@ namespace coins.Model
         private double conversion;
         private DateTime date;
 
-        public double Coversion { get => conversion; set => conversion = value; }
+        public double Conversion { get => conversion; set => conversion = value; }
         public DateTime Date { get => date; set => date = value; }
     }
 }

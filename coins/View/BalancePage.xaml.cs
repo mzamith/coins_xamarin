@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using coins.Service;
 using coins.Model;
 
@@ -7,7 +6,7 @@ using Xamarin.Forms;
 
 namespace coins
 {
-	public partial class BalancePage : ContentPage
+    public partial class BalancePage : ContentPage
 	{
         private CoinDictionary currencies = CoinDictionary.Instance;
 
@@ -33,10 +32,13 @@ namespace coins
                 var convertTo = Helpers.Settings.GeneralSettings;
 				text = text.Trim().ToUpper();
 				var service = new CurrencyService();
-				var response = await service.GetYahooTaxAsync(text, convertTo);
+				var response = await service.GetRateAsync(text, convertTo);
 
-				var display = "The conversion rate from " +
-                    currencies.GetName(text) + " to " + currencies.GetName(convertTo) + " is: " + response;
+                DateTime localTime = TimeZoneInfo.ConvertTime(response.Date, TimeZoneInfo.Local);
+
+                var display = "The conversion rate from " +
+                    currencies.GetName(text) + " to " + currencies.GetName(convertTo) + " is: " + response.Conversion + 
+                    " and was last updated at " + localTime;
 
 				//message to user about empty box
 				await DisplayAlert("Here is the current tax rate", display, "Thanks");
