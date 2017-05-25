@@ -42,10 +42,15 @@ namespace coins.Service
 
 		}
 
-        /*public async Task<ResponseRates> GetAllRates(string c_from, List<string> c_to)
+        public async Task<ResponseRates> GetAllRates(string c_from, List<string> c_to)
         {
+            var response = await client.GetAsync(ApiEndpoint.GET_TOTAL_RATES);
 
-        }*/
+            var jsonResult = response.Content.ReadAsStringAsync().Result;
+            ResponseRates rates = JsonConvert.DeserializeObject<ResponseRates>(jsonResult);
+
+            return rates;
+        }
 
         public async Task<WalletItemDTO> GetTotalValue(List<WalletItemDTO> from, string c_to)
         {

@@ -30,6 +30,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Model\CurrencyDTO.cs" />
+    <Compile Include="Model\RateDTO.cs" />
+    <Compile Include="Model\ResponseRates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ISQLite.cs" />
     <Compile Include="Model\Currency.cs" />
@@ -60,7 +63,7 @@
     <Compile Include="View\SearchPage.xaml.cs">
       <DependentUpon>SearchPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Rate.cs" />
+    <Compile Include="Model\YahooResponse.cs" />
     <Compile Include="Model\WalletItemDTO.cs" />
     <Compile Include="coins.xaml.cs">
       <DependentUpon>coins.xaml</DependentUpon>
