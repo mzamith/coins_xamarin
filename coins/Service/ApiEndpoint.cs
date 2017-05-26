@@ -1,10 +1,10 @@
-﻿using System;
+﻿﻿using System;
 using System.Text;
 
 namespace coins.Service{
 	public class ApiEndpoint
 	{
-		public static string MAIN_ENDPOINT = "http://192.168.1.67:8144/wallet";
+		public static string MAIN_ENDPOINT = "http://192.168.43.167:8144/wallet";
 		public static string YAHOO_ENDPOINT = "http://download.finance.yahoo.com/d/quotes?f=sl1d1t1&s=";
         public static string GET_ALL_RATES = MAIN_ENDPOINT + "/rate";
 		public static string GET_RATE = MAIN_ENDPOINT + "/tax";

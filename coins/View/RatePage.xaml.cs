@@ -33,7 +33,7 @@ namespace coins
 			else
 			{
                 var convertTo = Helpers.Settings.GeneralSettings;
-				text = text.Trim().ToUpper();
+				text = text.Trim().ToUpper(); 
 				var service = new CurrencyService();
 				var response = await service.GetRateAsync(text, convertTo);
 
@@ -41,7 +41,7 @@ namespace coins
 
                 var display = "The conversion rate from " +
                     currencies.GetName(text) + " to " + currencies.GetName(convertTo) + " is: " + response.Rate + 
-                    " and was last updated at " + localTime;
+                    " and was last updated at " + localTime + " local time.";
 
 				//message to user about empty box
 				await DisplayAlert("Here is the current tax rate", display, "Thanks");

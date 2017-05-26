@@ -16,8 +16,8 @@ namespace coins.Model
 
         private CurrencyDTO currency;
         public double amount;
-        public CurrencyDTO Currency { get => currency; set => currency = value; }
-        public double Amount { get => amount; set => amount= value; }
+        public CurrencyDTO Conversion { get => currency; set => currency = value; }
+        public double Value { get => amount; set => amount= value; }
 
     }
 }

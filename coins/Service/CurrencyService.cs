@@ -37,7 +37,7 @@ namespace coins.Service
 
             var url = ApiEndpoint.RateEndpoint(c_from, c_to);
 
-            var response = await client.GetAsync(url);
+            var response = await client.GetAsync(url).ConfigureAwait(false);
 
 			var jsonResult = response.Content.ReadAsStringAsync().Result;
             YahooResponse rate = JsonConvert.DeserializeObject<YahooResponse>(jsonResult);
@@ -50,7 +50,7 @@ namespace coins.Service
         {
             var url = ApiEndpoint.AllRates(c_from, c_to.ToArray());
 
-            var response = await client.GetAsync(url);
+            var response = await client.GetAsync(url).ConfigureAwait(false);
 
             var jsonResult = response.Content.ReadAsStringAsync().Result;
             ResponseRates rates = JsonConvert.DeserializeObject<ResponseRates>(jsonResult);

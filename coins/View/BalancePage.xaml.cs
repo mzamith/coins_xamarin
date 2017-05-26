@@ -14,7 +14,8 @@ namespace coins
     {
         private ObservableCollection<WalletItem> items = new ObservableCollection<WalletItem>();
         private Currency currency;
-        private double totalValue;
+        private double totalValue = 0;
+        private List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
 
         public BalancePage()
         {
@@ -25,9 +26,10 @@ namespace coins
             items.Clear();
             GetItems();
 
-            //initTotal();
 
             initModel();
+            initChart();
+
         }
 
         protected override void OnAppearing()
@@ -37,9 +39,8 @@ namespace coins
             items.Clear();
             GetItems();
 
-            //initTotal();
-
             initModel();
+
         }
 
         private void initModel()
@@ -56,77 +57,69 @@ namespace coins
             }
 
             ResponseRates responseRates;
-            List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
+
+            walletItems.Clear();
+            //List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
 
             if (rates.Count > 0)
             {
                 responseRates = new CurrencyService().GetAllRates(Helpers.Settings.GeneralSettings, rates).Result;
                 foreach (var item in responseRates.Rates)
                 {
-                    if (items.Any(t => t.code.ToLower().Equals(item.Currency.To)))
+                    if (items.Any(t => t.code.Equals(item.Conversion.To)))
                     {
-                        var temp = items.Where(t => t.code.ToLower().Equals(item.Currency.To)).First();
+                        var temp = items.Where(t => t.code.ToLower().Equals(item.Conversion.To.ToLower())).First();
+
+                        var v = item.Value;
+                        var e = temp.amount;
+
+                        double result = e / v;
+
+                        totalValue += result;
+
                         walletItems.Add(new WalletItemDTO()
                         {
-                            Coin = temp.code,
-                            Value = temp.amount / item.Amount
+                            Coin = item.Conversion.To,
+                            Value =  temp.amount / item.Value
                         });
                     }
                 }
             }
 
-            //walletItems.Add(new WalletItemDTO()
-            //{
-            //    Coin = "EUR",
-            //    Value = 243.98
-            //});
-            //walletItems.Add(new WalletItemDTO()
-            //{
-            //    Coin = "USD",
-            //    Value = 122.98
-            //});
-            //walletItems.Add(new WalletItemDTO()
-            //{
-            //    Coin = "CAD",
-            //    Value = 22.98
-            //});
 
+
+            // pieChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.Bottom;
+            //pieChart.Legend.Orientation = Xuni.Forms.ChartCore.ChartLegendOrientation.Vertical;
+            //pieChart.HeaderText = "";
+            //pieChart.HeaderFontSize = 20;
+            //   pieChart.Refresh();
+
+            //pieChart.SelectedItemOffset = 0.2;
+            //pieChart.Refresh(false);
             pieChart.ItemsSource = walletItems;
-
-            pieChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.Bottom;
-            pieChart.Legend.Orientation = Xuni.Forms.ChartCore.ChartLegendOrientation.Vertical;
-            pieChart.HeaderText = "Balance";
-            pieChart.HeaderFontSize = 20;
-
-            pieChart.SelectedItemOffset = 0.2;
+            string value_string = string.Format("{0:0.00}", totalValue);
+            totalAmount.Text = "Total Value in " + Helpers.Settings.GeneralSettings + ": " + value_string;
         }
 
-        private void initTotal()
-        {
+        void initChart(){
 
-            List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
+			pieChart.ItemsSource = walletItems;
 
-            foreach (var item in items)
-            {
-                if (item.amount > 0)
-                {
-                    walletItems.Add(
-                        new WalletItemDTO()
-                        {
-                            Coin = item.code,
-                            Value = item.amount
-                        });
-                }
-            }
+			pieChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.Bottom;
+			pieChart.Legend.Orientation = Xuni.Forms.ChartCore.ChartLegendOrientation.Vertical;
+			pieChart.HeaderText = "";
+			pieChart.HeaderFontSize = 20;
+			//   pieChart.Refresh();
 
-            WalletItemDTO temp = new CurrencyService().GetTotalValue(walletItems, Helpers.Settings.GeneralSettings).Result;
-
-            currency = CoinDictionary.Instance.GetCoinFromCode(temp.Coin);
-            totalValue = temp.Value;
+			pieChart.SelectedItemOffset = 0.2;
+            
         }
+
         void GetItems()
         {
-            items = new Database().GetItems();
+            foreach (var i in new Database().GetItems()){
+                items.Add(i);
+            }
         }
 
         WalletItem GetItemByCode(string code)
