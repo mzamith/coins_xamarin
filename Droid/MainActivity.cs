@@ -17,8 +17,6 @@ namespace coins.Droid
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
-            OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.Init();
-
 			LoadApplication(new App());
 		}
 	}

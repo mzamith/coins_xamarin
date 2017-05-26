@@ -14,7 +14,7 @@ namespace coins.iOS
 		{
 			global::Xamarin.Forms.Forms.Init();
 
-            OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.Init();
+            Xuni.Forms.FlexPie.Platform.iOS.Forms.Init();
 
             LoadApplication(new App());
 

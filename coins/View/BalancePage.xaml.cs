@@ -2,34 +2,42 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
-using OxyPlot;
 
 namespace coins
 {
     using coins.Model;
     using coins.Service;
-    using OxyPlot.Series;
-    using OxyPlot.Xamarin.Forms;
     using System.Collections.ObjectModel;
     using System.Linq;
 
     public partial class BalancePage : ContentPage
     {
-
-        private PlotModel model;
         private ObservableCollection<WalletItem> items = new ObservableCollection<WalletItem>();
-        private WalletItem total;
-
-        public PlotModel Model { get => model; }
+        private Currency currency;
+        private double totalValue;
 
         public BalancePage()
         {
             InitializeComponent();
 
+            Xuni.Forms.Core.LicenseManager.Key = License.Key;
+
             items.Clear();
             GetItems();
 
-            initTotal();
+            //initTotal();
+
+            initModel();
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            items.Clear();
+            GetItems();
+
+            //initTotal();
 
             initModel();
         }
@@ -37,47 +45,60 @@ namespace coins
         private void initModel()
         {
 
-            List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
-
             List<string> rates = new List<string>();
 
-            foreach (var item in walletItems)
+            foreach (var item in items)
             {
-                if (item.Value > 0)
+                if (item.amount > 0)
                 {
-                    rates.Add(item.Coin);
+                    rates.Add(item.code);
                 }
             }
 
-            var responseRates = new CurrencyService().GetAllRates(Helpers.Settings.GeneralSettings, rates).Result;
+            ResponseRates responseRates;
+            List<WalletItemDTO> walletItems = new List<WalletItemDTO>();
 
-            model = new PlotModel
+            if (rates.Count > 0)
             {
-                Title = "Balance"
-            };
-
-            dynamic series = new PieSeries
-            {
-                StrokeThickness = 2.0,
-                InsideLabelPosition = 0.8,
-                AngleSpan = 360,
-                StartAngle = 0
-            };
-
-            foreach (var item in responseRates.Rates)
-            {
-                if (walletItems.Any(t => t.Coin.ToLower().Equals(item.Currency.To)))
+                responseRates = new CurrencyService().GetAllRates(Helpers.Settings.GeneralSettings, rates).Result;
+                foreach (var item in responseRates.Rates)
                 {
-                    var temp = walletItems.Find(t => t.Coin.ToLower().Equals(item.Currency.To));
-                    series.Slices.Add(
-                        new PieSlice(item.Currency.To, (temp.Value / item.Amount))
+                    if (items.Any(t => t.code.ToLower().Equals(item.Currency.To)))
+                    {
+                        var temp = items.Where(t => t.code.ToLower().Equals(item.Currency.To)).First();
+                        walletItems.Add(new WalletItemDTO()
                         {
-                            IsExploded = false
+                            Coin = temp.code,
+                            Value = temp.amount / item.Amount
                         });
+                    }
                 }
             }
 
-            model.Series.Add(series);
+            //walletItems.Add(new WalletItemDTO()
+            //{
+            //    Coin = "EUR",
+            //    Value = 243.98
+            //});
+            //walletItems.Add(new WalletItemDTO()
+            //{
+            //    Coin = "USD",
+            //    Value = 122.98
+            //});
+            //walletItems.Add(new WalletItemDTO()
+            //{
+            //    Coin = "CAD",
+            //    Value = 22.98
+            //});
+
+            pieChart.ItemsSource = walletItems;
+
+            pieChart.Legend.Position = Xuni.Forms.ChartCore.ChartPositionType.Bottom;
+            pieChart.Legend.Orientation = Xuni.Forms.ChartCore.ChartLegendOrientation.Vertical;
+            pieChart.HeaderText = "Balance";
+            pieChart.HeaderFontSize = 20;
+
+            pieChart.SelectedItemOffset = 0.2;
         }
 
         private void initTotal()
@@ -100,8 +121,8 @@ namespace coins
 
             WalletItemDTO temp = new CurrencyService().GetTotalValue(walletItems, Helpers.Settings.GeneralSettings).Result;
 
-            total = GetItemByCode(temp.Coin);
-            total.amount = temp.Value;
+            currency = CoinDictionary.Instance.GetCoinFromCode(temp.Coin);
+            totalValue = temp.Value;
         }
         void GetItems()
         {

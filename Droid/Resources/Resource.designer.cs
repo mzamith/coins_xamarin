@@ -27,6 +27,5501 @@ namespace coins.Droid
 		public static void UpdateIdValues()
 		{
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::coins.Droid.Resource.Attribute.actionBarSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_fade_in = global::coins.Droid.Resource.Animation.abc_fade_in;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_fade_out = global::coins.Droid.Resource.Animation.abc_fade_out;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::coins.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_popup_enter = global::coins.Droid.Resource.Animation.abc_popup_enter;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_popup_exit = global::coins.Droid.Resource.Animation.abc_popup_exit;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::coins.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_slide_in_bottom = global::coins.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_slide_in_top = global::coins.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_slide_out_bottom = global::coins.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.abc_slide_out_top = global::coins.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::coins.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::coins.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.design_fab_in = global::coins.Droid.Resource.Animation.design_fab_in;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.design_fab_out = global::coins.Droid.Resource.Animation.design_fab_out;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.design_snackbar_in = global::coins.Droid.Resource.Animation.design_snackbar_in;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Animation.design_snackbar_out = global::coins.Droid.Resource.Animation.design_snackbar_out;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.MediaRouteControllerWindowBackground = global::coins.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarDivider = global::coins.Droid.Resource.Attribute.actionBarDivider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarItemBackground = global::coins.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarPopupTheme = global::coins.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarSize = global::coins.Droid.Resource.Attribute.actionBarSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarSplitStyle = global::coins.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarStyle = global::coins.Droid.Resource.Attribute.actionBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarTabBarStyle = global::coins.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarTabStyle = global::coins.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarTabTextStyle = global::coins.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarTheme = global::coins.Droid.Resource.Attribute.actionBarTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionBarWidgetTheme = global::coins.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionButtonStyle = global::coins.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionDropDownStyle = global::coins.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionLayout = global::coins.Droid.Resource.Attribute.actionLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionMenuTextAppearance = global::coins.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionMenuTextColor = global::coins.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeBackground = global::coins.Droid.Resource.Attribute.actionModeBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeCloseButtonStyle = global::coins.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeCloseDrawable = global::coins.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeCopyDrawable = global::coins.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeCutDrawable = global::coins.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeFindDrawable = global::coins.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModePasteDrawable = global::coins.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModePopupWindowStyle = global::coins.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeSelectAllDrawable = global::coins.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeShareDrawable = global::coins.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeSplitBackground = global::coins.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeStyle = global::coins.Droid.Resource.Attribute.actionModeStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionModeWebSearchDrawable = global::coins.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::coins.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::coins.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionProviderClass = global::coins.Droid.Resource.Attribute.actionProviderClass;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.actionViewClass = global::coins.Droid.Resource.Attribute.actionViewClass;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::coins.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::coins.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.alertDialogCenterButtons = global::coins.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.alertDialogStyle = global::coins.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.alertDialogTheme = global::coins.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.allowStacking = global::coins.Droid.Resource.Attribute.allowStacking;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.arrowHeadLength = global::coins.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.arrowShaftLength = global::coins.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::coins.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.background = global::coins.Droid.Resource.Attribute.background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.backgroundSplit = global::coins.Droid.Resource.Attribute.backgroundSplit;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.backgroundStacked = global::coins.Droid.Resource.Attribute.backgroundStacked;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.backgroundTint = global::coins.Droid.Resource.Attribute.backgroundTint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.backgroundTintMode = global::coins.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.barLength = global::coins.Droid.Resource.Attribute.barLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.behavior_hideable = global::coins.Droid.Resource.Attribute.behavior_hideable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.behavior_overlapTop = global::coins.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.behavior_peekHeight = global::coins.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.borderWidth = global::coins.Droid.Resource.Attribute.borderWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::coins.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.bottomSheetDialogTheme = global::coins.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.bottomSheetStyle = global::coins.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonBarStyle = global::coins.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::coins.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonStyle = global::coins.Droid.Resource.Attribute.buttonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonStyleSmall = global::coins.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonTint = global::coins.Droid.Resource.Attribute.buttonTint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.buttonTintMode = global::coins.Droid.Resource.Attribute.buttonTintMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.cardBackgroundColor = global::coins.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.cardCornerRadius = global::coins.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.cardElevation = global::coins.Droid.Resource.Attribute.cardElevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.cardMaxElevation = global::coins.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::coins.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::coins.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.checkboxStyle = global::coins.Droid.Resource.Attribute.checkboxStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::coins.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.closeIcon = global::coins.Droid.Resource.Attribute.closeIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.closeItemLayout = global::coins.Droid.Resource.Attribute.closeItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.collapseContentDescription = global::coins.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.collapseIcon = global::coins.Droid.Resource.Attribute.collapseIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::coins.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::coins.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.color = global::coins.Droid.Resource.Attribute.color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorAccent = global::coins.Droid.Resource.Attribute.colorAccent;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorButtonNormal = global::coins.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorControlActivated = global::coins.Droid.Resource.Attribute.colorControlActivated;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorControlHighlight = global::coins.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorControlNormal = global::coins.Droid.Resource.Attribute.colorControlNormal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorPrimary = global::coins.Droid.Resource.Attribute.colorPrimary;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorPrimaryDark = global::coins.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::coins.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.commitIcon = global::coins.Droid.Resource.Attribute.commitIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentInsetEnd = global::coins.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentInsetLeft = global::coins.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentInsetRight = global::coins.Droid.Resource.Attribute.contentInsetRight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentInsetStart = global::coins.Droid.Resource.Attribute.contentInsetStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentPadding = global::coins.Droid.Resource.Attribute.contentPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentPaddingBottom = global::coins.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentPaddingLeft = global::coins.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentPaddingRight = global::coins.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentPaddingTop = global::coins.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.contentScrim = global::coins.Droid.Resource.Attribute.contentScrim;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.controlBackground = global::coins.Droid.Resource.Attribute.controlBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.counterEnabled = global::coins.Droid.Resource.Attribute.counterEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.counterMaxLength = global::coins.Droid.Resource.Attribute.counterMaxLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::coins.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.counterTextAppearance = global::coins.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.customNavigationLayout = global::coins.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.defaultQueryHint = global::coins.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::coins.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.dialogTheme = global::coins.Droid.Resource.Attribute.dialogTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.displayOptions = global::coins.Droid.Resource.Attribute.displayOptions;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.divider = global::coins.Droid.Resource.Attribute.divider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.dividerHorizontal = global::coins.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.dividerPadding = global::coins.Droid.Resource.Attribute.dividerPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.dividerVertical = global::coins.Droid.Resource.Attribute.dividerVertical;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.drawableSize = global::coins.Droid.Resource.Attribute.drawableSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.drawerArrowStyle = global::coins.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::coins.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::coins.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.editTextBackground = global::coins.Droid.Resource.Attribute.editTextBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.editTextColor = global::coins.Droid.Resource.Attribute.editTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.editTextStyle = global::coins.Droid.Resource.Attribute.editTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.elevation = global::coins.Droid.Resource.Attribute.elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.errorEnabled = global::coins.Droid.Resource.Attribute.errorEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.errorTextAppearance = global::coins.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::coins.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expanded = global::coins.Droid.Resource.Attribute.expanded;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandedTitleGravity = global::coins.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandedTitleMargin = global::coins.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandedTitleMarginBottom = global::coins.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandedTitleMarginEnd = global::coins.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::coins.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::coins.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::coins.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.externalRouteEnabledDrawable = global::coins.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.fabSize = global::coins.Droid.Resource.Attribute.fabSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::coins.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.gapBetweenBars = global::coins.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.goIcon = global::coins.Droid.Resource.Attribute.goIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.headerLayout = global::coins.Droid.Resource.Attribute.headerLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.height = global::coins.Droid.Resource.Attribute.height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.hideOnContentScroll = global::coins.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::coins.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.hintEnabled = global::coins.Droid.Resource.Attribute.hintEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.hintTextAppearance = global::coins.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::coins.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.homeLayout = global::coins.Droid.Resource.Attribute.homeLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.icon = global::coins.Droid.Resource.Attribute.icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.iconifiedByDefault = global::coins.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.imageButtonStyle = global::coins.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.indeterminateProgressStyle = global::coins.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.initialActivityCount = global::coins.Droid.Resource.Attribute.initialActivityCount;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.insetForeground = global::coins.Droid.Resource.Attribute.insetForeground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.isLightTheme = global::coins.Droid.Resource.Attribute.isLightTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.itemBackground = global::coins.Droid.Resource.Attribute.itemBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.itemIconTint = global::coins.Droid.Resource.Attribute.itemIconTint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.itemPadding = global::coins.Droid.Resource.Attribute.itemPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.itemTextAppearance = global::coins.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.itemTextColor = global::coins.Droid.Resource.Attribute.itemTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.keylines = global::coins.Droid.Resource.Attribute.keylines;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout = global::coins.Droid.Resource.Attribute.layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layoutManager = global::coins.Droid.Resource.Attribute.layoutManager;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_anchor = global::coins.Droid.Resource.Attribute.layout_anchor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_anchorGravity = global::coins.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_behavior = global::coins.Droid.Resource.Attribute.layout_behavior;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_collapseMode = global::coins.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::coins.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_keyline = global::coins.Droid.Resource.Attribute.layout_keyline;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_scrollFlags = global::coins.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::coins.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::coins.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::coins.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listItemLayout = global::coins.Droid.Resource.Attribute.listItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listLayout = global::coins.Droid.Resource.Attribute.listLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listPopupWindowStyle = global::coins.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::coins.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::coins.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::coins.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::coins.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::coins.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.logo = global::coins.Droid.Resource.Attribute.logo;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.logoDescription = global::coins.Droid.Resource.Attribute.logoDescription;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::coins.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.maxButtonHeight = global::coins.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.measureWithLargestChild = global::coins.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::coins.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteButtonStyle = global::coins.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteCastDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteCloseDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteConnectingDrawable = global::coins.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteExpandGroupDrawable = global::coins.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteOffDrawable = global::coins.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteOnDrawable = global::coins.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRoutePauseDrawable = global::coins.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRoutePlayDrawable = global::coins.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.menu = global::coins.Droid.Resource.Attribute.menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::coins.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.navigationContentDescription = global::coins.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.navigationIcon = global::coins.Droid.Resource.Attribute.navigationIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.navigationMode = global::coins.Droid.Resource.Attribute.navigationMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.overlapAnchor = global::coins.Droid.Resource.Attribute.overlapAnchor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.paddingEnd = global::coins.Droid.Resource.Attribute.paddingEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.paddingStart = global::coins.Droid.Resource.Attribute.paddingStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.panelBackground = global::coins.Droid.Resource.Attribute.panelBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.panelMenuListTheme = global::coins.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.panelMenuListWidth = global::coins.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.popupMenuStyle = global::coins.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.popupTheme = global::coins.Droid.Resource.Attribute.popupTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.popupWindowStyle = global::coins.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.preserveIconSpacing = global::coins.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.pressedTranslationZ = global::coins.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.progressBarPadding = global::coins.Droid.Resource.Attribute.progressBarPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.progressBarStyle = global::coins.Droid.Resource.Attribute.progressBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.queryBackground = global::coins.Droid.Resource.Attribute.queryBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.queryHint = global::coins.Droid.Resource.Attribute.queryHint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.radioButtonStyle = global::coins.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.ratingBarStyle = global::coins.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::coins.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::coins.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.reverseLayout = global::coins.Droid.Resource.Attribute.reverseLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.rippleColor = global::coins.Droid.Resource.Attribute.rippleColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.searchHintIcon = global::coins.Droid.Resource.Attribute.searchHintIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.searchIcon = global::coins.Droid.Resource.Attribute.searchIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.searchViewStyle = global::coins.Droid.Resource.Attribute.searchViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.seekBarStyle = global::coins.Droid.Resource.Attribute.seekBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.selectableItemBackground = global::coins.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::coins.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.showAsAction = global::coins.Droid.Resource.Attribute.showAsAction;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.showDividers = global::coins.Droid.Resource.Attribute.showDividers;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.showText = global::coins.Droid.Resource.Attribute.showText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::coins.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.spanCount = global::coins.Droid.Resource.Attribute.spanCount;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.spinBars = global::coins.Droid.Resource.Attribute.spinBars;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::coins.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.spinnerStyle = global::coins.Droid.Resource.Attribute.spinnerStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.splitTrack = global::coins.Droid.Resource.Attribute.splitTrack;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.srcCompat = global::coins.Droid.Resource.Attribute.srcCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.stackFromEnd = global::coins.Droid.Resource.Attribute.stackFromEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.state_above_anchor = global::coins.Droid.Resource.Attribute.state_above_anchor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.statusBarBackground = global::coins.Droid.Resource.Attribute.statusBarBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.statusBarScrim = global::coins.Droid.Resource.Attribute.statusBarScrim;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.submitBackground = global::coins.Droid.Resource.Attribute.submitBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.subtitle = global::coins.Droid.Resource.Attribute.subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::coins.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.subtitleTextColor = global::coins.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.subtitleTextStyle = global::coins.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.suggestionRowLayout = global::coins.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.switchMinWidth = global::coins.Droid.Resource.Attribute.switchMinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.switchPadding = global::coins.Droid.Resource.Attribute.switchPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.switchStyle = global::coins.Droid.Resource.Attribute.switchStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.switchTextAppearance = global::coins.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabBackground = global::coins.Droid.Resource.Attribute.tabBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabContentStart = global::coins.Droid.Resource.Attribute.tabContentStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabGravity = global::coins.Droid.Resource.Attribute.tabGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabIndicatorColor = global::coins.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabIndicatorHeight = global::coins.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabMaxWidth = global::coins.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabMinWidth = global::coins.Droid.Resource.Attribute.tabMinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabMode = global::coins.Droid.Resource.Attribute.tabMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabPadding = global::coins.Droid.Resource.Attribute.tabPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabPaddingBottom = global::coins.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabPaddingEnd = global::coins.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabPaddingStart = global::coins.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabPaddingTop = global::coins.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabSelectedTextColor = global::coins.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabTextAppearance = global::coins.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.tabTextColor = global::coins.Droid.Resource.Attribute.tabTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textAllCaps = global::coins.Droid.Resource.Attribute.textAllCaps;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::coins.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textAppearanceListItem = global::coins.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::coins.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::coins.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::coins.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::coins.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::coins.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textColorError = global::coins.Droid.Resource.Attribute.textColorError;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.textColorSearchUrl = global::coins.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.theme = global::coins.Droid.Resource.Attribute.theme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.thickness = global::coins.Droid.Resource.Attribute.thickness;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.thumbTextPadding = global::coins.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.title = global::coins.Droid.Resource.Attribute.title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleEnabled = global::coins.Droid.Resource.Attribute.titleEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleMarginBottom = global::coins.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleMarginEnd = global::coins.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleMarginStart = global::coins.Droid.Resource.Attribute.titleMarginStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleMarginTop = global::coins.Droid.Resource.Attribute.titleMarginTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleMargins = global::coins.Droid.Resource.Attribute.titleMargins;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleTextAppearance = global::coins.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleTextColor = global::coins.Droid.Resource.Attribute.titleTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.titleTextStyle = global::coins.Droid.Resource.Attribute.titleTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.toolbarId = global::coins.Droid.Resource.Attribute.toolbarId;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::coins.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.toolbarStyle = global::coins.Droid.Resource.Attribute.toolbarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.track = global::coins.Droid.Resource.Attribute.track;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.useCompatPadding = global::coins.Droid.Resource.Attribute.useCompatPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.voiceIcon = global::coins.Droid.Resource.Attribute.voiceIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowActionBar = global::coins.Droid.Resource.Attribute.windowActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowActionBarOverlay = global::coins.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowActionModeOverlay = global::coins.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowFixedHeightMajor = global::coins.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowFixedHeightMinor = global::coins.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowFixedWidthMajor = global::coins.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowFixedWidthMinor = global::coins.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::coins.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::coins.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Attribute.windowNoTitle = global::coins.Droid.Resource.Attribute.windowNoTitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::coins.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::coins.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::coins.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::coins.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::coins.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::coins.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::coins.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::coins.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::coins.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::coins.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_input_method_navigation_guard = global::coins.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::coins.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::coins.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_primary_text_material_dark = global::coins.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_primary_text_material_light = global::coins.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_search_url_text = global::coins.Droid.Resource.Color.abc_search_url_text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_search_url_text_normal = global::coins.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_search_url_text_pressed = global::coins.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_search_url_text_selected = global::coins.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_secondary_text_material_dark = global::coins.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.abc_secondary_text_material_light = global::coins.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.accent_material_dark = global::coins.Droid.Resource.Color.accent_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.accent_material_light = global::coins.Droid.Resource.Color.accent_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.background_floating_material_dark = global::coins.Droid.Resource.Color.background_floating_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.background_floating_material_light = global::coins.Droid.Resource.Color.background_floating_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.background_material_dark = global::coins.Droid.Resource.Color.background_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.background_material_light = global::coins.Droid.Resource.Color.background_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.bright_foreground_disabled_material_dark = global::coins.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.bright_foreground_disabled_material_light = global::coins.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.bright_foreground_inverse_material_dark = global::coins.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.bright_foreground_inverse_material_light = global::coins.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.bright_foreground_material_dark = global::coins.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.bright_foreground_material_light = global::coins.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.button_material_dark = global::coins.Droid.Resource.Color.button_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.button_material_light = global::coins.Droid.Resource.Color.button_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.cardview_dark_background = global::coins.Droid.Resource.Color.cardview_dark_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.cardview_light_background = global::coins.Droid.Resource.Color.cardview_light_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.cardview_shadow_end_color = global::coins.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.cardview_shadow_start_color = global::coins.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::coins.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::coins.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_fab_shadow_start_color = global::coins.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_fab_stroke_end_inner_color = global::coins.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::coins.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::coins.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::coins.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_snackbar_background_color = global::coins.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_textinput_error_color_dark = global::coins.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.design_textinput_error_color_light = global::coins.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::coins.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::coins.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.dim_foreground_material_dark = global::coins.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.dim_foreground_material_light = global::coins.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.foreground_material_dark = global::coins.Droid.Resource.Color.foreground_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.foreground_material_light = global::coins.Droid.Resource.Color.foreground_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.highlighted_text_material_dark = global::coins.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.highlighted_text_material_light = global::coins.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.hint_foreground_material_dark = global::coins.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.hint_foreground_material_light = global::coins.Droid.Resource.Color.hint_foreground_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_blue_grey_800 = global::coins.Droid.Resource.Color.material_blue_grey_800;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_blue_grey_900 = global::coins.Droid.Resource.Color.material_blue_grey_900;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_blue_grey_950 = global::coins.Droid.Resource.Color.material_blue_grey_950;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_deep_teal_200 = global::coins.Droid.Resource.Color.material_deep_teal_200;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_deep_teal_500 = global::coins.Droid.Resource.Color.material_deep_teal_500;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_grey_100 = global::coins.Droid.Resource.Color.material_grey_100;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_grey_300 = global::coins.Droid.Resource.Color.material_grey_300;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_grey_50 = global::coins.Droid.Resource.Color.material_grey_50;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_grey_600 = global::coins.Droid.Resource.Color.material_grey_600;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_grey_800 = global::coins.Droid.Resource.Color.material_grey_800;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_grey_850 = global::coins.Droid.Resource.Color.material_grey_850;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.material_grey_900 = global::coins.Droid.Resource.Color.material_grey_900;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_dark_material_dark = global::coins.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_dark_material_light = global::coins.Droid.Resource.Color.primary_dark_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_material_dark = global::coins.Droid.Resource.Color.primary_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_material_light = global::coins.Droid.Resource.Color.primary_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_text_default_material_dark = global::coins.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_text_default_material_light = global::coins.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::coins.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::coins.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.ripple_material_dark = global::coins.Droid.Resource.Color.ripple_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.ripple_material_light = global::coins.Droid.Resource.Color.ripple_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::coins.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.secondary_text_default_material_light = global::coins.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.secondary_text_disabled_material_dark = global::coins.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.secondary_text_disabled_material_light = global::coins.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.switch_thumb_disabled_material_dark = global::coins.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.switch_thumb_disabled_material_light = global::coins.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.switch_thumb_material_dark = global::coins.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.switch_thumb_material_light = global::coins.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::coins.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::coins.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::coins.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_default_height_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::coins.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::coins.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::coins.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::coins.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::coins.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::coins.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::coins.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::coins.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_button_min_height_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_button_min_width_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::coins.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::coins.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_button_inset_vertical_material = global::coins.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::coins.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_button_padding_vertical_material = global::coins.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_config_prefDialogWidth = global::coins.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_control_corner_material = global::coins.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_control_inset_material = global::coins.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_control_padding_material = global::coins.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::coins.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_min_width_major = global::coins.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_min_width_minor = global::coins.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_padding_material = global::coins.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dialog_padding_top_material = global::coins.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::coins.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::coins.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::coins.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::coins.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::coins.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_floating_window_z = global::coins.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::coins.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::coins.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_search_view_preferred_width = global::coins.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_search_view_text_min_width = global::coins.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::coins.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::coins.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::coins.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_switch_padding = global::coins.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_body_1_material = global::coins.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_body_2_material = global::coins.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_button_material = global::coins.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_caption_material = global::coins.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_display_1_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_display_2_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_display_3_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_display_4_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_headline_material = global::coins.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_large_material = global::coins.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_medium_material = global::coins.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_menu_material = global::coins.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_small_material = global::coins.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_subhead_material = global::coins.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::coins.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::coins.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::coins.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::coins.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.cardview_default_elevation = global::coins.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.cardview_default_radius = global::coins.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_appbar_elevation = global::coins.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::coins.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::coins.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_fab_border_width = global::coins.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_fab_elevation = global::coins.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_fab_image_size = global::coins.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_fab_size_mini = global::coins.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_fab_size_normal = global::coins.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_fab_translation_z_pressed = global::coins.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_navigation_elevation = global::coins.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_navigation_icon_padding = global::coins.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_navigation_icon_size = global::coins.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_navigation_max_width = global::coins.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::coins.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::coins.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::coins.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::coins.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::coins.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::coins.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_max_width = global::coins.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_min_width = global::coins.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::coins.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical = global::coins.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::coins.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_snackbar_text_size = global::coins.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_tab_max_width = global::coins.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_tab_scrollable_min_width = global::coins.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_tab_text_size = global::coins.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.design_tab_text_size_2line = global::coins.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.disabled_alpha_material_dark = global::coins.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.disabled_alpha_material_light = global::coins.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.highlight_alpha_material_colored = global::coins.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.highlight_alpha_material_dark = global::coins.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.highlight_alpha_material_light = global::coins.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::coins.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::coins.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::coins.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::coins.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::coins.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.notification_large_icon_height = global::coins.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.notification_large_icon_width = global::coins.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Dimension.notification_subtext_size = global::coins.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::coins.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::coins.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_check_material = global::coins.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::coins.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::coins.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::coins.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::coins.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::coins.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::coins.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::coins.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_cab_background_internal_bg = global::coins.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_cab_background_top_material = global::coins.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_dialog_material_background_dark = global::coins.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_dialog_material_background_light = global::coins.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_edit_text_material = global::coins.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_star_black_16dp = global::coins.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_star_black_36dp = global::coins.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::coins.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::coins.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_item_background_holo_dark = global::coins.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_item_background_holo_light = global::coins.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_focused_holo = global::coins.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_longpressed_holo = global::coins.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_pressed_holo_light = global::coins.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_selector_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_list_selector_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::coins.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::coins.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ratingbar_full_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_ratingbar_small_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::coins.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_seekbar_thumb_material = global::coins.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_seekbar_track_material = global::coins.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::coins.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_switch_thumb_material = global::coins.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_tab_indicator_material = global::coins.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_text_cursor_material = global::coins.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.abc_textfield_search_material = global::coins.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.dct = global::coins.Droid.Resource.Drawable.dct;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.design_fab_background = global::coins.Droid.Resource.Drawable.design_fab_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.design_snackbar_background = global::coins.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_audiotrack = global::coins.Droid.Resource.Drawable.ic_audiotrack;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_audiotrack_light = global::coins.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_bluetooth_grey = global::coins.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_bluetooth_white = global::coins.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_dark = global::coins.Droid.Resource.Drawable.ic_cast_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_disabled_light = global::coins.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_grey = global::coins.Droid.Resource.Drawable.ic_cast_grey;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_light = global::coins.Droid.Resource.Drawable.ic_cast_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_off_light = global::coins.Droid.Resource.Drawable.ic_cast_off_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_on_0_light = global::coins.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_on_1_light = global::coins.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_on_2_light = global::coins.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_on_light = global::coins.Droid.Resource.Drawable.ic_cast_on_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_cast_white = global::coins.Droid.Resource.Drawable.ic_cast_white;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_close_dark = global::coins.Droid.Resource.Drawable.ic_close_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_close_light = global::coins.Droid.Resource.Drawable.ic_close_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse = global::coins.Droid.Resource.Drawable.ic_collapse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00000 = global::coins.Droid.Resource.Drawable.ic_collapse_00000;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00001 = global::coins.Droid.Resource.Drawable.ic_collapse_00001;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00002 = global::coins.Droid.Resource.Drawable.ic_collapse_00002;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00003 = global::coins.Droid.Resource.Drawable.ic_collapse_00003;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00004 = global::coins.Droid.Resource.Drawable.ic_collapse_00004;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00005 = global::coins.Droid.Resource.Drawable.ic_collapse_00005;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00006 = global::coins.Droid.Resource.Drawable.ic_collapse_00006;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00007 = global::coins.Droid.Resource.Drawable.ic_collapse_00007;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00008 = global::coins.Droid.Resource.Drawable.ic_collapse_00008;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00009 = global::coins.Droid.Resource.Drawable.ic_collapse_00009;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00010 = global::coins.Droid.Resource.Drawable.ic_collapse_00010;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00011 = global::coins.Droid.Resource.Drawable.ic_collapse_00011;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00012 = global::coins.Droid.Resource.Drawable.ic_collapse_00012;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00013 = global::coins.Droid.Resource.Drawable.ic_collapse_00013;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00014 = global::coins.Droid.Resource.Drawable.ic_collapse_00014;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_collapse_00015 = global::coins.Droid.Resource.Drawable.ic_collapse_00015;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand = global::coins.Droid.Resource.Drawable.ic_expand;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00000 = global::coins.Droid.Resource.Drawable.ic_expand_00000;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00001 = global::coins.Droid.Resource.Drawable.ic_expand_00001;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00002 = global::coins.Droid.Resource.Drawable.ic_expand_00002;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00003 = global::coins.Droid.Resource.Drawable.ic_expand_00003;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00004 = global::coins.Droid.Resource.Drawable.ic_expand_00004;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00005 = global::coins.Droid.Resource.Drawable.ic_expand_00005;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00006 = global::coins.Droid.Resource.Drawable.ic_expand_00006;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00007 = global::coins.Droid.Resource.Drawable.ic_expand_00007;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00008 = global::coins.Droid.Resource.Drawable.ic_expand_00008;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00009 = global::coins.Droid.Resource.Drawable.ic_expand_00009;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00010 = global::coins.Droid.Resource.Drawable.ic_expand_00010;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00011 = global::coins.Droid.Resource.Drawable.ic_expand_00011;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00012 = global::coins.Droid.Resource.Drawable.ic_expand_00012;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00013 = global::coins.Droid.Resource.Drawable.ic_expand_00013;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00014 = global::coins.Droid.Resource.Drawable.ic_expand_00014;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_expand_00015 = global::coins.Droid.Resource.Drawable.ic_expand_00015;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_pause = global::coins.Droid.Resource.Drawable.ic_media_pause;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_play = global::coins.Droid.Resource.Drawable.ic_media_play;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_route_disabled_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_route_off_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_route_on_0_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_route_on_1_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_route_on_2_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_media_route_on_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_pause_dark = global::coins.Droid.Resource.Drawable.ic_pause_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_pause_light = global::coins.Droid.Resource.Drawable.ic_pause_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_play_dark = global::coins.Droid.Resource.Drawable.ic_play_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_play_light = global::coins.Droid.Resource.Drawable.ic_play_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_speaker_dark = global::coins.Droid.Resource.Drawable.ic_speaker_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_speaker_group_dark = global::coins.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_speaker_group_light = global::coins.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_speaker_light = global::coins.Droid.Resource.Drawable.ic_speaker_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_tv_dark = global::coins.Droid.Resource.Drawable.ic_tv_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.ic_tv_light = global::coins.Droid.Resource.Drawable.ic_tv_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_dialog_material_background_dark = global::coins.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_dialog_material_background_light = global::coins.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_audiotrack_light = global::coins.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_cast_dark = global::coins.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_cast_light = global::coins.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_close_dark = global::coins.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_close_light = global::coins.Droid.Resource.Drawable.mr_ic_close_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::coins.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::coins.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_media_route_mono_dark = global::coins.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_media_route_mono_light = global::coins.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_pause_dark = global::coins.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_pause_light = global::coins.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_play_dark = global::coins.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.mr_ic_play_light = global::coins.Droid.Resource.Drawable.mr_ic_play_light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Drawable.notification_template_icon_bg = global::coins.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action0 = global::coins.Droid.Resource.Id.action0;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_bar = global::coins.Droid.Resource.Id.action_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_bar_activity_content = global::coins.Droid.Resource.Id.action_bar_activity_content;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_bar_container = global::coins.Droid.Resource.Id.action_bar_container;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_bar_root = global::coins.Droid.Resource.Id.action_bar_root;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_bar_spinner = global::coins.Droid.Resource.Id.action_bar_spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_bar_subtitle = global::coins.Droid.Resource.Id.action_bar_subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_bar_title = global::coins.Droid.Resource.Id.action_bar_title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_context_bar = global::coins.Droid.Resource.Id.action_context_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_divider = global::coins.Droid.Resource.Id.action_divider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_menu_divider = global::coins.Droid.Resource.Id.action_menu_divider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_menu_presenter = global::coins.Droid.Resource.Id.action_menu_presenter;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_mode_bar = global::coins.Droid.Resource.Id.action_mode_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_mode_bar_stub = global::coins.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.action_mode_close_button = global::coins.Droid.Resource.Id.action_mode_close_button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.activity_chooser_view_content = global::coins.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.alertTitle = global::coins.Droid.Resource.Id.alertTitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.always = global::coins.Droid.Resource.Id.always;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.beginning = global::coins.Droid.Resource.Id.beginning;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.bottom = global::coins.Droid.Resource.Id.bottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.buttonPanel = global::coins.Droid.Resource.Id.buttonPanel;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.cancel_action = global::coins.Droid.Resource.Id.cancel_action;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.center = global::coins.Droid.Resource.Id.center;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.center_horizontal = global::coins.Droid.Resource.Id.center_horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.center_vertical = global::coins.Droid.Resource.Id.center_vertical;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.checkbox = global::coins.Droid.Resource.Id.checkbox;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.chronometer = global::coins.Droid.Resource.Id.chronometer;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.clip_horizontal = global::coins.Droid.Resource.Id.clip_horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.clip_vertical = global::coins.Droid.Resource.Id.clip_vertical;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.collapseActionView = global::coins.Droid.Resource.Id.collapseActionView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.contentPanel = global::coins.Droid.Resource.Id.contentPanel;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.custom = global::coins.Droid.Resource.Id.custom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.customPanel = global::coins.Droid.Resource.Id.customPanel;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.decor_content_parent = global::coins.Droid.Resource.Id.decor_content_parent;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.default_activity_button = global::coins.Droid.Resource.Id.default_activity_button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.design_bottom_sheet = global::coins.Droid.Resource.Id.design_bottom_sheet;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.design_menu_item_action_area = global::coins.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::coins.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.design_menu_item_text = global::coins.Droid.Resource.Id.design_menu_item_text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.design_navigation_view = global::coins.Droid.Resource.Id.design_navigation_view;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.disableHome = global::coins.Droid.Resource.Id.disableHome;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.edit_query = global::coins.Droid.Resource.Id.edit_query;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.end = global::coins.Droid.Resource.Id.end;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.end_padder = global::coins.Droid.Resource.Id.end_padder;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.enterAlways = global::coins.Droid.Resource.Id.enterAlways;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.enterAlwaysCollapsed = global::coins.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.exitUntilCollapsed = global::coins.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.expand_activities_button = global::coins.Droid.Resource.Id.expand_activities_button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.expanded_menu = global::coins.Droid.Resource.Id.expanded_menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.fill = global::coins.Droid.Resource.Id.fill;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.fill_horizontal = global::coins.Droid.Resource.Id.fill_horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.fill_vertical = global::coins.Droid.Resource.Id.fill_vertical;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.@fixed = global::coins.Droid.Resource.Id.@fixed;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.home = global::coins.Droid.Resource.Id.home;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.homeAsUp = global::coins.Droid.Resource.Id.homeAsUp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.icon = global::coins.Droid.Resource.Id.icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.ifRoom = global::coins.Droid.Resource.Id.ifRoom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.image = global::coins.Droid.Resource.Id.image;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.info = global::coins.Droid.Resource.Id.info;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.item_touch_helper_previous_elevation = global::coins.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.left = global::coins.Droid.Resource.Id.left;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.line1 = global::coins.Droid.Resource.Id.line1;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.line3 = global::coins.Droid.Resource.Id.line3;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.listMode = global::coins.Droid.Resource.Id.listMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.list_item = global::coins.Droid.Resource.Id.list_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.media_actions = global::coins.Droid.Resource.Id.media_actions;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.middle = global::coins.Droid.Resource.Id.middle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mini = global::coins.Droid.Resource.Id.mini;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_art = global::coins.Droid.Resource.Id.mr_art;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_chooser_list = global::coins.Droid.Resource.Id.mr_chooser_list;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_chooser_route_desc = global::coins.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_chooser_route_icon = global::coins.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_chooser_route_name = global::coins.Droid.Resource.Id.mr_chooser_route_name;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_close = global::coins.Droid.Resource.Id.mr_close;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_control_divider = global::coins.Droid.Resource.Id.mr_control_divider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_control_play_pause = global::coins.Droid.Resource.Id.mr_control_play_pause;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_control_subtitle = global::coins.Droid.Resource.Id.mr_control_subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_control_title = global::coins.Droid.Resource.Id.mr_control_title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_control_title_container = global::coins.Droid.Resource.Id.mr_control_title_container;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_custom_control = global::coins.Droid.Resource.Id.mr_custom_control;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_default_control = global::coins.Droid.Resource.Id.mr_default_control;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_dialog_area = global::coins.Droid.Resource.Id.mr_dialog_area;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_expandable_area = global::coins.Droid.Resource.Id.mr_expandable_area;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_group_expand_collapse = global::coins.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_media_main_control = global::coins.Droid.Resource.Id.mr_media_main_control;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_name = global::coins.Droid.Resource.Id.mr_name;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_playback_control = global::coins.Droid.Resource.Id.mr_playback_control;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_title_bar = global::coins.Droid.Resource.Id.mr_title_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_volume_control = global::coins.Droid.Resource.Id.mr_volume_control;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_volume_group_list = global::coins.Droid.Resource.Id.mr_volume_group_list;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_volume_item_icon = global::coins.Droid.Resource.Id.mr_volume_item_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.mr_volume_slider = global::coins.Droid.Resource.Id.mr_volume_slider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.multiply = global::coins.Droid.Resource.Id.multiply;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.navigation_header_container = global::coins.Droid.Resource.Id.navigation_header_container;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.never = global::coins.Droid.Resource.Id.never;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.none = global::coins.Droid.Resource.Id.none;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.normal = global::coins.Droid.Resource.Id.normal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.parallax = global::coins.Droid.Resource.Id.parallax;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.parentPanel = global::coins.Droid.Resource.Id.parentPanel;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.pin = global::coins.Droid.Resource.Id.pin;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.progress_circular = global::coins.Droid.Resource.Id.progress_circular;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.progress_horizontal = global::coins.Droid.Resource.Id.progress_horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.radio = global::coins.Droid.Resource.Id.radio;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.right = global::coins.Droid.Resource.Id.right;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.screen = global::coins.Droid.Resource.Id.screen;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.scroll = global::coins.Droid.Resource.Id.scroll;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.scrollIndicatorDown = global::coins.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.scrollIndicatorUp = global::coins.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.scrollView = global::coins.Droid.Resource.Id.scrollView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.scrollable = global::coins.Droid.Resource.Id.scrollable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_badge = global::coins.Droid.Resource.Id.search_badge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_bar = global::coins.Droid.Resource.Id.search_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_button = global::coins.Droid.Resource.Id.search_button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_close_btn = global::coins.Droid.Resource.Id.search_close_btn;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_edit_frame = global::coins.Droid.Resource.Id.search_edit_frame;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_go_btn = global::coins.Droid.Resource.Id.search_go_btn;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_mag_icon = global::coins.Droid.Resource.Id.search_mag_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_plate = global::coins.Droid.Resource.Id.search_plate;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_src_text = global::coins.Droid.Resource.Id.search_src_text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.search_voice_btn = global::coins.Droid.Resource.Id.search_voice_btn;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.select_dialog_listview = global::coins.Droid.Resource.Id.select_dialog_listview;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.shortcut = global::coins.Droid.Resource.Id.shortcut;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.showCustom = global::coins.Droid.Resource.Id.showCustom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.showHome = global::coins.Droid.Resource.Id.showHome;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.showTitle = global::coins.Droid.Resource.Id.showTitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.snackbar_action = global::coins.Droid.Resource.Id.snackbar_action;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.snackbar_text = global::coins.Droid.Resource.Id.snackbar_text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.snap = global::coins.Droid.Resource.Id.snap;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.spacer = global::coins.Droid.Resource.Id.spacer;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.split_action_bar = global::coins.Droid.Resource.Id.split_action_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.src_atop = global::coins.Droid.Resource.Id.src_atop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.src_in = global::coins.Droid.Resource.Id.src_in;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.src_over = global::coins.Droid.Resource.Id.src_over;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.start = global::coins.Droid.Resource.Id.start;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.status_bar_latest_event_content = global::coins.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.submit_area = global::coins.Droid.Resource.Id.submit_area;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.tabMode = global::coins.Droid.Resource.Id.tabMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.text = global::coins.Droid.Resource.Id.text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.text2 = global::coins.Droid.Resource.Id.text2;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.textSpacerNoButtons = global::coins.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.time = global::coins.Droid.Resource.Id.time;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.title = global::coins.Droid.Resource.Id.title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.title_template = global::coins.Droid.Resource.Id.title_template;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.tooltipContent = global::coins.Droid.Resource.Id.tooltipContent;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.tooltipTitle = global::coins.Droid.Resource.Id.tooltipTitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.top = global::coins.Droid.Resource.Id.top;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.topPanel = global::coins.Droid.Resource.Id.topPanel;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.touch_outside = global::coins.Droid.Resource.Id.touch_outside;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.up = global::coins.Droid.Resource.Id.up;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.useLogo = global::coins.Droid.Resource.Id.useLogo;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.view_offset_helper = global::coins.Droid.Resource.Id.view_offset_helper;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.volume_item_container = global::coins.Droid.Resource.Id.volume_item_container;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.withText = global::coins.Droid.Resource.Id.withText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Id.wrap_content = global::coins.Droid.Resource.Id.wrap_content;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::coins.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::coins.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.abc_max_action_buttons = global::coins.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::coins.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.cancel_button_image_alpha = global::coins.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::coins.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::coins.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Interpolator.mr_fast_out_slow_in = global::coins.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Interpolator.mr_linear_out_slow_in = global::coins.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_action_bar_title_item = global::coins.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_action_bar_up_container = global::coins.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::coins.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_action_menu_item_layout = global::coins.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_action_menu_layout = global::coins.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_action_mode_bar = global::coins.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_action_mode_close_item_material = global::coins.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_activity_chooser_view = global::coins.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::coins.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::coins.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_alert_dialog_material = global::coins.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_dialog_title_material = global::coins.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_expanded_menu_layout = global::coins.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_list_menu_item_checkbox = global::coins.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_list_menu_item_icon = global::coins.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_list_menu_item_layout = global::coins.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_list_menu_item_radio = global::coins.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_popup_menu_item_layout = global::coins.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_screen_content_include = global::coins.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_screen_simple = global::coins.Droid.Resource.Layout.abc_screen_simple;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::coins.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_screen_toolbar = global::coins.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::coins.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_search_view = global::coins.Droid.Resource.Layout.abc_search_view;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.abc_select_dialog_material = global::coins.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::coins.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_layout_snackbar = global::coins.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_layout_snackbar_include = global::coins.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_layout_tab_icon = global::coins.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_layout_tab_text = global::coins.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_menu_item_action_area = global::coins.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_navigation_item = global::coins.Droid.Resource.Layout.design_navigation_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_navigation_item_header = global::coins.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_navigation_item_separator = global::coins.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::coins.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_navigation_menu = global::coins.Droid.Resource.Layout.design_navigation_menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.design_navigation_menu_item = global::coins.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.mr_chooser_dialog = global::coins.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.mr_chooser_list_item = global::coins.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.mr_controller_material_dialog_b = global::coins.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.mr_controller_volume_item = global::coins.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.mr_playback_control = global::coins.Droid.Resource.Layout.mr_playback_control;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.mr_volume_control = global::coins.Droid.Resource.Layout.mr_volume_control;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_media_action = global::coins.Droid.Resource.Layout.notification_media_action;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_media_cancel_action = global::coins.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_template_big_media = global::coins.Droid.Resource.Layout.notification_template_big_media;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_template_big_media_narrow = global::coins.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_template_lines = global::coins.Droid.Resource.Layout.notification_template_lines;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_template_media = global::coins.Droid.Resource.Layout.notification_template_media;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::coins.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.notification_template_part_time = global::coins.Droid.Resource.Layout.notification_template_part_time;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.select_dialog_item_material = global::coins.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::coins.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::coins.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::coins.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Layout.tooltip = global::coins.Droid.Resource.Layout.tooltip;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.ApplicationName = global::coins.Droid.Resource.String.ApplicationName;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.Hello = global::coins.Droid.Resource.String.Hello;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_action_bar_home_description = global::coins.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_action_bar_home_description_format = global::coins.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::coins.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_action_bar_up_description = global::coins.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::coins.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_action_mode_done = global::coins.Droid.Resource.String.abc_action_mode_done;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_activity_chooser_view_see_all = global::coins.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_activitychooserview_choose_application = global::coins.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_capital_off = global::coins.Droid.Resource.String.abc_capital_off;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_capital_on = global::coins.Droid.Resource.String.abc_capital_on;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_search_hint = global::coins.Droid.Resource.String.abc_search_hint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_searchview_description_clear = global::coins.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_searchview_description_query = global::coins.Droid.Resource.String.abc_searchview_description_query;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_searchview_description_search = global::coins.Droid.Resource.String.abc_searchview_description_search;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_searchview_description_submit = global::coins.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_searchview_description_voice = global::coins.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::coins.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::coins.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::coins.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::coins.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.bottom_sheet_behavior = global::coins.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.character_counter_pattern = global::coins.Droid.Resource.String.character_counter_pattern;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_button_content_description = global::coins.Droid.Resource.String.mr_button_content_description;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_chooser_searching = global::coins.Droid.Resource.String.mr_chooser_searching;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_chooser_title = global::coins.Droid.Resource.String.mr_chooser_title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_casting_screen = global::coins.Droid.Resource.String.mr_controller_casting_screen;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_close_description = global::coins.Droid.Resource.String.mr_controller_close_description;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_collapse_group = global::coins.Droid.Resource.String.mr_controller_collapse_group;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_disconnect = global::coins.Droid.Resource.String.mr_controller_disconnect;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_expand_group = global::coins.Droid.Resource.String.mr_controller_expand_group;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_no_info_available = global::coins.Droid.Resource.String.mr_controller_no_info_available;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_no_media_selected = global::coins.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_pause = global::coins.Droid.Resource.String.mr_controller_pause;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_play = global::coins.Droid.Resource.String.mr_controller_play;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_controller_stop = global::coins.Droid.Resource.String.mr_controller_stop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_system_route_name = global::coins.Droid.Resource.String.mr_system_route_name;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.mr_user_route_category_name = global::coins.Droid.Resource.String.mr_user_route_category_name;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::coins.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::coins.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::coins.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::coins.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::coins.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::coins.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::coins.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::coins.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::coins.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_CardView = global::coins.Droid.Resource.Style.Base_CardView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::coins.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::coins.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::coins.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.CardView = global::coins.Droid.Resource.Style.CardView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.CardView_Dark = global::coins.Droid.Resource.Style.CardView_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.CardView_Light = global::coins.Droid.Resource.Style.CardView_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_AppCompat = global::coins.Droid.Resource.Style.Platform_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_V11_AppCompat = global::coins.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_V11_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_V14_AppCompat = global::coins.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_V14_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::coins.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::coins.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Button = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::coins.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Design_Counter = global::coins.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::coins.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::coins.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::coins.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::coins.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::coins.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat = global::coins.Droid.Resource.Style.Theme_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::coins.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_Design = global::coins.Droid.Resource.Style.Theme_Design;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::coins.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_Design_Light = global::coins.Droid.Resource.Style.Theme_Design_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::coins.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::coins.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_Design_NoActionBar = global::coins.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_MediaRouter = global::coins.Droid.Resource.Style.Theme_MediaRouter;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_MediaRouter_Light = global::coins.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::coins.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::coins.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActionMode = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::coins.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Button = global::coins.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Button_Small = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::coins.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ImageButton = global::coins.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ListView = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::coins.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_SearchView = global::coins.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar = global::coins.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::coins.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::coins.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_AppBarLayout = global::coins.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::coins.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::coins.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::coins.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_FloatingActionButton = global::coins.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_NavigationView = global::coins.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::coins.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::coins.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::coins.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::coins.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::coins.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::coins.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar = global::coins.Droid.Resource.Styleable.ActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_background = global::coins.Droid.Resource.Styleable.ActionBar_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::coins.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_backgroundStacked = global::coins.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_contentInsetRight = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_contentInsetStart = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::coins.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_displayOptions = global::coins.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_divider = global::coins.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_elevation = global::coins.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_height = global::coins.Droid.Resource.Styleable.ActionBar_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::coins.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::coins.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_homeLayout = global::coins.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_icon = global::coins.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::coins.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_itemPadding = global::coins.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_logo = global::coins.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_navigationMode = global::coins.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_popupTheme = global::coins.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_progressBarPadding = global::coins.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_progressBarStyle = global::coins.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_subtitle = global::coins.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::coins.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_title = global::coins.Droid.Resource.Styleable.ActionBar_title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBar_titleTextStyle = global::coins.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBarLayout = global::coins.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::coins.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMenuItemView = global::coins.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::coins.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMenuView = global::coins.Droid.Resource.Styleable.ActionMenuView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMode = global::coins.Droid.Resource.Styleable.ActionMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMode_background = global::coins.Droid.Resource.Styleable.ActionMode_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMode_backgroundSplit = global::coins.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMode_closeItemLayout = global::coins.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMode_height = global::coins.Droid.Resource.Styleable.ActionMode_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::coins.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActionMode_titleTextStyle = global::coins.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActivityChooserView = global::coins.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::coins.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::coins.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AlertDialog = global::coins.Droid.Resource.Styleable.AlertDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AlertDialog_android_layout = global::coins.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::coins.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AlertDialog_listItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AlertDialog_listLayout = global::coins.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppBarLayout = global::coins.Droid.Resource.Styleable.AppBarLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppBarLayout_android_background = global::coins.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppBarLayout_elevation = global::coins.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppBarLayout_expanded = global::coins.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatImageView = global::coins.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::coins.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::coins.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTextView = global::coins.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::coins.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::coins.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::coins.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::coins.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::coins.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::coins.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::coins.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::coins.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::coins.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::coins.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::coins.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ButtonBarLayout = global::coins.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::coins.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView = global::coins.Droid.Resource.Styleable.CardView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_android_minHeight = global::coins.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_android_minWidth = global::coins.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_cardBackgroundColor = global::coins.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_cardCornerRadius = global::coins.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_cardElevation = global::coins.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_cardMaxElevation = global::coins.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::coins.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::coins.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_contentPadding = global::coins.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_contentPaddingBottom = global::coins.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_contentPaddingLeft = global::coins.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_contentPaddingRight = global::coins.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CardView_contentPaddingTop = global::coins.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CompoundButton = global::coins.Droid.Resource.Styleable.CompoundButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::coins.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::coins.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::coins.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout = global::coins.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_keylines = global::coins.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::coins.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DesignTheme = global::coins.Droid.Resource.Styleable.DesignTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::coins.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::coins.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DesignTheme_textColorError = global::coins.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle = global::coins.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_color = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton = global::coins.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::coins.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::coins.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::coins.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::coins.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::coins.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::coins.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::coins.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::coins.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ForegroundLinearLayout = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::coins.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_divider = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ListPopupWindow = global::coins.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::coins.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::coins.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MediaRouteButton = global::coins.Droid.Resource.Styleable.MediaRouteButton;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::coins.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::coins.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::coins.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuGroup = global::coins.Droid.Resource.Styleable.MenuGroup;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::coins.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::coins.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuGroup_android_id = global::coins.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::coins.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::coins.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuGroup_android_visible = global::coins.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem = global::coins.Droid.Resource.Styleable.MenuItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_actionLayout = global::coins.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_actionProviderClass = global::coins.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_actionViewClass = global::coins.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::coins.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_checkable = global::coins.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_checked = global::coins.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_enabled = global::coins.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_icon = global::coins.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_id = global::coins.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_menuCategory = global::coins.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::coins.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_onClick = global::coins.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::coins.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_title = global::coins.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::coins.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_android_visible = global::coins.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuItem_showAsAction = global::coins.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView = global::coins.Droid.Resource.Styleable.MenuView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_android_headerBackground = global::coins.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::coins.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_android_itemBackground = global::coins.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::coins.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::coins.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_android_verticalDivider = global::coins.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::coins.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::coins.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView = global::coins.Droid.Resource.Styleable.NavigationView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_android_background = global::coins.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::coins.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_android_maxWidth = global::coins.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_elevation = global::coins.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_headerLayout = global::coins.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::coins.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::coins.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::coins.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::coins.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.NavigationView_menu = global::coins.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.PopupWindow = global::coins.Droid.Resource.Styleable.PopupWindow;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::coins.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::coins.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.PopupWindowBackgroundState = global::coins.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::coins.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.RecyclerView = global::coins.Droid.Resource.Styleable.RecyclerView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::coins.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.RecyclerView_layoutManager = global::coins.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.RecyclerView_reverseLayout = global::coins.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.RecyclerView_spanCount = global::coins.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::coins.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::coins.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::coins.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Params = global::coins.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::coins.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView = global::coins.Droid.Resource.Styleable.SearchView;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::coins.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::coins.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_android_inputType = global::coins.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_android_maxWidth = global::coins.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_closeIcon = global::coins.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_commitIcon = global::coins.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_defaultQueryHint = global::coins.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_goIcon = global::coins.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::coins.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_layout = global::coins.Droid.Resource.Styleable.SearchView_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_queryBackground = global::coins.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_queryHint = global::coins.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_searchHintIcon = global::coins.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_searchIcon = global::coins.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::coins.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::coins.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::coins.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SnackbarLayout = global::coins.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::coins.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::coins.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::coins.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Spinner = global::coins.Droid.Resource.Styleable.Spinner;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::coins.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Spinner_android_entries = global::coins.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Spinner_android_popupBackground = global::coins.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Spinner_android_prompt = global::coins.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Spinner_popupTheme = global::coins.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat = global::coins.Droid.Resource.Styleable.SwitchCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::coins.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::coins.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_android_thumb = global::coins.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_showText = global::coins.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_splitTrack = global::coins.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::coins.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_switchPadding = global::coins.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::coins.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::coins.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.SwitchCompat_track = global::coins.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabItem = global::coins.Droid.Resource.Styleable.TabItem;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabItem_android_icon = global::coins.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabItem_android_layout = global::coins.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabItem_android_text = global::coins.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout = global::coins.Droid.Resource.Styleable.TabLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabBackground = global::coins.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabContentStart = global::coins.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabGravity = global::coins.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::coins.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::coins.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::coins.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabMinWidth = global::coins.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabMode = global::coins.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabPadding = global::coins.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::coins.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::coins.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TabLayout_tabTextColor = global::coins.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance = global::coins.Droid.Resource.Styleable.TextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::coins.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::coins.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::coins.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::coins.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::coins.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout = global::coins.Droid.Resource.Styleable.TextInputLayout;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::coins.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::coins.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::coins.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar = global::coins.Droid.Resource.Styleable.Toolbar;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_android_gravity = global::coins.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_android_minHeight = global::coins.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::coins.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_collapseIcon = global::coins.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_contentInsetRight = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_contentInsetStart = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_logo = global::coins.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::coins.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::coins.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::coins.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::coins.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::coins.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_subtitle = global::coins.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::coins.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::coins.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_title = global::coins.Droid.Resource.Styleable.Toolbar_title;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_titleMarginStart = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_titleMargins = global::coins.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::coins.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::coins.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.View = global::coins.Droid.Resource.Styleable.View;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.View_android_focusable = global::coins.Droid.Resource.Styleable.View_android_focusable;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.View_android_theme = global::coins.Droid.Resource.Styleable.View_android_theme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.View_paddingEnd = global::coins.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.View_paddingStart = global::coins.Droid.Resource.Styleable.View_paddingStart;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.View_theme = global::coins.Droid.Resource.Styleable.View_theme;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewStubCompat = global::coins.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xuni.Forms.ChartCore.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_fade_in = global::coins.Droid.Resource.Animation.abc_fade_in;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_fade_out = global::coins.Droid.Resource.Animation.abc_fade_out;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::coins.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_popup_enter = global::coins.Droid.Resource.Animation.abc_popup_enter;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_popup_exit = global::coins.Droid.Resource.Animation.abc_popup_exit;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::coins.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_slide_in_bottom = global::coins.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_slide_in_top = global::coins.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_slide_out_bottom = global::coins.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.abc_slide_out_top = global::coins.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::coins.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::coins.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.design_fab_in = global::coins.Droid.Resource.Animation.design_fab_in;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.design_fab_out = global::coins.Droid.Resource.Animation.design_fab_out;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.design_snackbar_in = global::coins.Droid.Resource.Animation.design_snackbar_in;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Animation.design_snackbar_out = global::coins.Droid.Resource.Animation.design_snackbar_out;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.MediaRouteControllerWindowBackground = global::coins.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarDivider = global::coins.Droid.Resource.Attribute.actionBarDivider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarItemBackground = global::coins.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarPopupTheme = global::coins.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarSize = global::coins.Droid.Resource.Attribute.actionBarSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarSplitStyle = global::coins.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarStyle = global::coins.Droid.Resource.Attribute.actionBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarTabBarStyle = global::coins.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarTabStyle = global::coins.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarTabTextStyle = global::coins.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarTheme = global::coins.Droid.Resource.Attribute.actionBarTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionBarWidgetTheme = global::coins.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionButtonStyle = global::coins.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionDropDownStyle = global::coins.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionLayout = global::coins.Droid.Resource.Attribute.actionLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionMenuTextAppearance = global::coins.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionMenuTextColor = global::coins.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeBackground = global::coins.Droid.Resource.Attribute.actionModeBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeCloseButtonStyle = global::coins.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeCloseDrawable = global::coins.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeCopyDrawable = global::coins.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeCutDrawable = global::coins.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeFindDrawable = global::coins.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModePasteDrawable = global::coins.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModePopupWindowStyle = global::coins.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeSelectAllDrawable = global::coins.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeShareDrawable = global::coins.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeSplitBackground = global::coins.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeStyle = global::coins.Droid.Resource.Attribute.actionModeStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionModeWebSearchDrawable = global::coins.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::coins.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::coins.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionProviderClass = global::coins.Droid.Resource.Attribute.actionProviderClass;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.actionViewClass = global::coins.Droid.Resource.Attribute.actionViewClass;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::coins.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::coins.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.alertDialogCenterButtons = global::coins.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.alertDialogStyle = global::coins.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.alertDialogTheme = global::coins.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.allowStacking = global::coins.Droid.Resource.Attribute.allowStacking;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.arrowHeadLength = global::coins.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.arrowShaftLength = global::coins.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::coins.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.background = global::coins.Droid.Resource.Attribute.background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.backgroundSplit = global::coins.Droid.Resource.Attribute.backgroundSplit;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.backgroundStacked = global::coins.Droid.Resource.Attribute.backgroundStacked;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.backgroundTint = global::coins.Droid.Resource.Attribute.backgroundTint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.backgroundTintMode = global::coins.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.barLength = global::coins.Droid.Resource.Attribute.barLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.behavior_hideable = global::coins.Droid.Resource.Attribute.behavior_hideable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.behavior_overlapTop = global::coins.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.behavior_peekHeight = global::coins.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.borderWidth = global::coins.Droid.Resource.Attribute.borderWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::coins.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.bottomSheetDialogTheme = global::coins.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.bottomSheetStyle = global::coins.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonBarStyle = global::coins.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::coins.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonStyle = global::coins.Droid.Resource.Attribute.buttonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonStyleSmall = global::coins.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonTint = global::coins.Droid.Resource.Attribute.buttonTint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.buttonTintMode = global::coins.Droid.Resource.Attribute.buttonTintMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.cardBackgroundColor = global::coins.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.cardCornerRadius = global::coins.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.cardElevation = global::coins.Droid.Resource.Attribute.cardElevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.cardMaxElevation = global::coins.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::coins.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::coins.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.checkboxStyle = global::coins.Droid.Resource.Attribute.checkboxStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::coins.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.closeIcon = global::coins.Droid.Resource.Attribute.closeIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.closeItemLayout = global::coins.Droid.Resource.Attribute.closeItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.collapseContentDescription = global::coins.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.collapseIcon = global::coins.Droid.Resource.Attribute.collapseIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::coins.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::coins.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.color = global::coins.Droid.Resource.Attribute.color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorAccent = global::coins.Droid.Resource.Attribute.colorAccent;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorButtonNormal = global::coins.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorControlActivated = global::coins.Droid.Resource.Attribute.colorControlActivated;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorControlHighlight = global::coins.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorControlNormal = global::coins.Droid.Resource.Attribute.colorControlNormal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorPrimary = global::coins.Droid.Resource.Attribute.colorPrimary;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorPrimaryDark = global::coins.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::coins.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.commitIcon = global::coins.Droid.Resource.Attribute.commitIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentInsetEnd = global::coins.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentInsetLeft = global::coins.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentInsetRight = global::coins.Droid.Resource.Attribute.contentInsetRight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentInsetStart = global::coins.Droid.Resource.Attribute.contentInsetStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentPadding = global::coins.Droid.Resource.Attribute.contentPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentPaddingBottom = global::coins.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentPaddingLeft = global::coins.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentPaddingRight = global::coins.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentPaddingTop = global::coins.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.contentScrim = global::coins.Droid.Resource.Attribute.contentScrim;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.controlBackground = global::coins.Droid.Resource.Attribute.controlBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.counterEnabled = global::coins.Droid.Resource.Attribute.counterEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.counterMaxLength = global::coins.Droid.Resource.Attribute.counterMaxLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::coins.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.counterTextAppearance = global::coins.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.customNavigationLayout = global::coins.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.defaultQueryHint = global::coins.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::coins.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.dialogTheme = global::coins.Droid.Resource.Attribute.dialogTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.displayOptions = global::coins.Droid.Resource.Attribute.displayOptions;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.divider = global::coins.Droid.Resource.Attribute.divider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.dividerHorizontal = global::coins.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.dividerPadding = global::coins.Droid.Resource.Attribute.dividerPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.dividerVertical = global::coins.Droid.Resource.Attribute.dividerVertical;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.drawableSize = global::coins.Droid.Resource.Attribute.drawableSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.drawerArrowStyle = global::coins.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::coins.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::coins.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.editTextBackground = global::coins.Droid.Resource.Attribute.editTextBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.editTextColor = global::coins.Droid.Resource.Attribute.editTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.editTextStyle = global::coins.Droid.Resource.Attribute.editTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.elevation = global::coins.Droid.Resource.Attribute.elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.errorEnabled = global::coins.Droid.Resource.Attribute.errorEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.errorTextAppearance = global::coins.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::coins.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expanded = global::coins.Droid.Resource.Attribute.expanded;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandedTitleGravity = global::coins.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandedTitleMargin = global::coins.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandedTitleMarginBottom = global::coins.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandedTitleMarginEnd = global::coins.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::coins.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::coins.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::coins.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.externalRouteEnabledDrawable = global::coins.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.fabSize = global::coins.Droid.Resource.Attribute.fabSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::coins.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.gapBetweenBars = global::coins.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.goIcon = global::coins.Droid.Resource.Attribute.goIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.headerLayout = global::coins.Droid.Resource.Attribute.headerLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.height = global::coins.Droid.Resource.Attribute.height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.hideOnContentScroll = global::coins.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::coins.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.hintEnabled = global::coins.Droid.Resource.Attribute.hintEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.hintTextAppearance = global::coins.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::coins.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.homeLayout = global::coins.Droid.Resource.Attribute.homeLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.icon = global::coins.Droid.Resource.Attribute.icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.iconifiedByDefault = global::coins.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.imageButtonStyle = global::coins.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.indeterminateProgressStyle = global::coins.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.initialActivityCount = global::coins.Droid.Resource.Attribute.initialActivityCount;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.insetForeground = global::coins.Droid.Resource.Attribute.insetForeground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.isLightTheme = global::coins.Droid.Resource.Attribute.isLightTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.itemBackground = global::coins.Droid.Resource.Attribute.itemBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.itemIconTint = global::coins.Droid.Resource.Attribute.itemIconTint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.itemPadding = global::coins.Droid.Resource.Attribute.itemPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.itemTextAppearance = global::coins.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.itemTextColor = global::coins.Droid.Resource.Attribute.itemTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.keylines = global::coins.Droid.Resource.Attribute.keylines;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout = global::coins.Droid.Resource.Attribute.layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layoutManager = global::coins.Droid.Resource.Attribute.layoutManager;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_anchor = global::coins.Droid.Resource.Attribute.layout_anchor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_anchorGravity = global::coins.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_behavior = global::coins.Droid.Resource.Attribute.layout_behavior;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_collapseMode = global::coins.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::coins.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_keyline = global::coins.Droid.Resource.Attribute.layout_keyline;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_scrollFlags = global::coins.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::coins.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::coins.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::coins.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listItemLayout = global::coins.Droid.Resource.Attribute.listItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listLayout = global::coins.Droid.Resource.Attribute.listLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listPopupWindowStyle = global::coins.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::coins.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::coins.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::coins.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::coins.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::coins.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.logo = global::coins.Droid.Resource.Attribute.logo;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.logoDescription = global::coins.Droid.Resource.Attribute.logoDescription;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::coins.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.maxButtonHeight = global::coins.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.measureWithLargestChild = global::coins.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::coins.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteButtonStyle = global::coins.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteCastDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteCloseDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteConnectingDrawable = global::coins.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteExpandGroupDrawable = global::coins.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteOffDrawable = global::coins.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteOnDrawable = global::coins.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRoutePauseDrawable = global::coins.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRoutePlayDrawable = global::coins.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.menu = global::coins.Droid.Resource.Attribute.menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::coins.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.navigationContentDescription = global::coins.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.navigationIcon = global::coins.Droid.Resource.Attribute.navigationIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.navigationMode = global::coins.Droid.Resource.Attribute.navigationMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.overlapAnchor = global::coins.Droid.Resource.Attribute.overlapAnchor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.paddingEnd = global::coins.Droid.Resource.Attribute.paddingEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.paddingStart = global::coins.Droid.Resource.Attribute.paddingStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.panelBackground = global::coins.Droid.Resource.Attribute.panelBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.panelMenuListTheme = global::coins.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.panelMenuListWidth = global::coins.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.popupMenuStyle = global::coins.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.popupTheme = global::coins.Droid.Resource.Attribute.popupTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.popupWindowStyle = global::coins.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.preserveIconSpacing = global::coins.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.pressedTranslationZ = global::coins.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.progressBarPadding = global::coins.Droid.Resource.Attribute.progressBarPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.progressBarStyle = global::coins.Droid.Resource.Attribute.progressBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.queryBackground = global::coins.Droid.Resource.Attribute.queryBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.queryHint = global::coins.Droid.Resource.Attribute.queryHint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.radioButtonStyle = global::coins.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.ratingBarStyle = global::coins.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::coins.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::coins.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.reverseLayout = global::coins.Droid.Resource.Attribute.reverseLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.rippleColor = global::coins.Droid.Resource.Attribute.rippleColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.searchHintIcon = global::coins.Droid.Resource.Attribute.searchHintIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.searchIcon = global::coins.Droid.Resource.Attribute.searchIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.searchViewStyle = global::coins.Droid.Resource.Attribute.searchViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.seekBarStyle = global::coins.Droid.Resource.Attribute.seekBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.selectableItemBackground = global::coins.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::coins.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.showAsAction = global::coins.Droid.Resource.Attribute.showAsAction;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.showDividers = global::coins.Droid.Resource.Attribute.showDividers;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.showText = global::coins.Droid.Resource.Attribute.showText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::coins.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.spanCount = global::coins.Droid.Resource.Attribute.spanCount;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.spinBars = global::coins.Droid.Resource.Attribute.spinBars;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::coins.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.spinnerStyle = global::coins.Droid.Resource.Attribute.spinnerStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.splitTrack = global::coins.Droid.Resource.Attribute.splitTrack;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.srcCompat = global::coins.Droid.Resource.Attribute.srcCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.stackFromEnd = global::coins.Droid.Resource.Attribute.stackFromEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.state_above_anchor = global::coins.Droid.Resource.Attribute.state_above_anchor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.statusBarBackground = global::coins.Droid.Resource.Attribute.statusBarBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.statusBarScrim = global::coins.Droid.Resource.Attribute.statusBarScrim;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.submitBackground = global::coins.Droid.Resource.Attribute.submitBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.subtitle = global::coins.Droid.Resource.Attribute.subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::coins.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.subtitleTextColor = global::coins.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.subtitleTextStyle = global::coins.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.suggestionRowLayout = global::coins.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.switchMinWidth = global::coins.Droid.Resource.Attribute.switchMinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.switchPadding = global::coins.Droid.Resource.Attribute.switchPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.switchStyle = global::coins.Droid.Resource.Attribute.switchStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.switchTextAppearance = global::coins.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabBackground = global::coins.Droid.Resource.Attribute.tabBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabContentStart = global::coins.Droid.Resource.Attribute.tabContentStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabGravity = global::coins.Droid.Resource.Attribute.tabGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabIndicatorColor = global::coins.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabIndicatorHeight = global::coins.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabMaxWidth = global::coins.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabMinWidth = global::coins.Droid.Resource.Attribute.tabMinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabMode = global::coins.Droid.Resource.Attribute.tabMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabPadding = global::coins.Droid.Resource.Attribute.tabPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabPaddingBottom = global::coins.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabPaddingEnd = global::coins.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabPaddingStart = global::coins.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabPaddingTop = global::coins.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabSelectedTextColor = global::coins.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabTextAppearance = global::coins.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.tabTextColor = global::coins.Droid.Resource.Attribute.tabTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textAllCaps = global::coins.Droid.Resource.Attribute.textAllCaps;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::coins.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textAppearanceListItem = global::coins.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::coins.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::coins.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::coins.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::coins.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::coins.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textColorError = global::coins.Droid.Resource.Attribute.textColorError;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.textColorSearchUrl = global::coins.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.theme = global::coins.Droid.Resource.Attribute.theme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.thickness = global::coins.Droid.Resource.Attribute.thickness;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.thumbTextPadding = global::coins.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.title = global::coins.Droid.Resource.Attribute.title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleEnabled = global::coins.Droid.Resource.Attribute.titleEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleMarginBottom = global::coins.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleMarginEnd = global::coins.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleMarginStart = global::coins.Droid.Resource.Attribute.titleMarginStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleMarginTop = global::coins.Droid.Resource.Attribute.titleMarginTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleMargins = global::coins.Droid.Resource.Attribute.titleMargins;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleTextAppearance = global::coins.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleTextColor = global::coins.Droid.Resource.Attribute.titleTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.titleTextStyle = global::coins.Droid.Resource.Attribute.titleTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.toolbarId = global::coins.Droid.Resource.Attribute.toolbarId;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::coins.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.toolbarStyle = global::coins.Droid.Resource.Attribute.toolbarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.track = global::coins.Droid.Resource.Attribute.track;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.useCompatPadding = global::coins.Droid.Resource.Attribute.useCompatPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.voiceIcon = global::coins.Droid.Resource.Attribute.voiceIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowActionBar = global::coins.Droid.Resource.Attribute.windowActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowActionBarOverlay = global::coins.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowActionModeOverlay = global::coins.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowFixedHeightMajor = global::coins.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowFixedHeightMinor = global::coins.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowFixedWidthMajor = global::coins.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowFixedWidthMinor = global::coins.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::coins.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::coins.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Attribute.windowNoTitle = global::coins.Droid.Resource.Attribute.windowNoTitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::coins.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::coins.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::coins.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::coins.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::coins.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::coins.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::coins.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::coins.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::coins.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::coins.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_input_method_navigation_guard = global::coins.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::coins.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::coins.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_primary_text_material_dark = global::coins.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_primary_text_material_light = global::coins.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_search_url_text = global::coins.Droid.Resource.Color.abc_search_url_text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_search_url_text_normal = global::coins.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_search_url_text_pressed = global::coins.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_search_url_text_selected = global::coins.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_secondary_text_material_dark = global::coins.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.abc_secondary_text_material_light = global::coins.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.accent_material_dark = global::coins.Droid.Resource.Color.accent_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.accent_material_light = global::coins.Droid.Resource.Color.accent_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.background_floating_material_dark = global::coins.Droid.Resource.Color.background_floating_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.background_floating_material_light = global::coins.Droid.Resource.Color.background_floating_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.background_material_dark = global::coins.Droid.Resource.Color.background_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.background_material_light = global::coins.Droid.Resource.Color.background_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.bright_foreground_disabled_material_dark = global::coins.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.bright_foreground_disabled_material_light = global::coins.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.bright_foreground_inverse_material_dark = global::coins.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.bright_foreground_inverse_material_light = global::coins.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.bright_foreground_material_dark = global::coins.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.bright_foreground_material_light = global::coins.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.button_material_dark = global::coins.Droid.Resource.Color.button_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.button_material_light = global::coins.Droid.Resource.Color.button_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.cardview_dark_background = global::coins.Droid.Resource.Color.cardview_dark_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.cardview_light_background = global::coins.Droid.Resource.Color.cardview_light_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.cardview_shadow_end_color = global::coins.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.cardview_shadow_start_color = global::coins.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::coins.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::coins.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_fab_shadow_start_color = global::coins.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_fab_stroke_end_inner_color = global::coins.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::coins.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::coins.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::coins.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_snackbar_background_color = global::coins.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_textinput_error_color_dark = global::coins.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.design_textinput_error_color_light = global::coins.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::coins.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::coins.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.dim_foreground_material_dark = global::coins.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.dim_foreground_material_light = global::coins.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.foreground_material_dark = global::coins.Droid.Resource.Color.foreground_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.foreground_material_light = global::coins.Droid.Resource.Color.foreground_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.highlighted_text_material_dark = global::coins.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.highlighted_text_material_light = global::coins.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.hint_foreground_material_dark = global::coins.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.hint_foreground_material_light = global::coins.Droid.Resource.Color.hint_foreground_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_blue_grey_800 = global::coins.Droid.Resource.Color.material_blue_grey_800;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_blue_grey_900 = global::coins.Droid.Resource.Color.material_blue_grey_900;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_blue_grey_950 = global::coins.Droid.Resource.Color.material_blue_grey_950;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_deep_teal_200 = global::coins.Droid.Resource.Color.material_deep_teal_200;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_deep_teal_500 = global::coins.Droid.Resource.Color.material_deep_teal_500;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_grey_100 = global::coins.Droid.Resource.Color.material_grey_100;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_grey_300 = global::coins.Droid.Resource.Color.material_grey_300;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_grey_50 = global::coins.Droid.Resource.Color.material_grey_50;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_grey_600 = global::coins.Droid.Resource.Color.material_grey_600;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_grey_800 = global::coins.Droid.Resource.Color.material_grey_800;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_grey_850 = global::coins.Droid.Resource.Color.material_grey_850;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.material_grey_900 = global::coins.Droid.Resource.Color.material_grey_900;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_dark_material_dark = global::coins.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_dark_material_light = global::coins.Droid.Resource.Color.primary_dark_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_material_dark = global::coins.Droid.Resource.Color.primary_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_material_light = global::coins.Droid.Resource.Color.primary_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_text_default_material_dark = global::coins.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_text_default_material_light = global::coins.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::coins.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::coins.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.ripple_material_dark = global::coins.Droid.Resource.Color.ripple_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.ripple_material_light = global::coins.Droid.Resource.Color.ripple_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::coins.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.secondary_text_default_material_light = global::coins.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.secondary_text_disabled_material_dark = global::coins.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.secondary_text_disabled_material_light = global::coins.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.switch_thumb_disabled_material_dark = global::coins.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.switch_thumb_disabled_material_light = global::coins.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.switch_thumb_material_dark = global::coins.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.switch_thumb_material_light = global::coins.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::coins.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::coins.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::coins.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_default_height_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::coins.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::coins.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::coins.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::coins.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::coins.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::coins.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::coins.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::coins.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_button_min_height_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_button_min_width_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::coins.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::coins.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_button_inset_vertical_material = global::coins.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::coins.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_button_padding_vertical_material = global::coins.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_config_prefDialogWidth = global::coins.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_control_corner_material = global::coins.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_control_inset_material = global::coins.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_control_padding_material = global::coins.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::coins.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_min_width_major = global::coins.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_min_width_minor = global::coins.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_padding_material = global::coins.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dialog_padding_top_material = global::coins.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::coins.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::coins.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::coins.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::coins.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::coins.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_floating_window_z = global::coins.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::coins.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::coins.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_search_view_preferred_width = global::coins.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_search_view_text_min_width = global::coins.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::coins.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::coins.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::coins.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_switch_padding = global::coins.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_body_1_material = global::coins.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_body_2_material = global::coins.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_button_material = global::coins.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_caption_material = global::coins.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_display_1_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_display_2_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_display_3_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_display_4_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_headline_material = global::coins.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_large_material = global::coins.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_medium_material = global::coins.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_menu_material = global::coins.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_small_material = global::coins.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_subhead_material = global::coins.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::coins.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::coins.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::coins.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::coins.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.cardview_default_elevation = global::coins.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.cardview_default_radius = global::coins.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_appbar_elevation = global::coins.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::coins.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::coins.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_fab_border_width = global::coins.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_fab_elevation = global::coins.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_fab_image_size = global::coins.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_fab_size_mini = global::coins.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_fab_size_normal = global::coins.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_fab_translation_z_pressed = global::coins.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_navigation_elevation = global::coins.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_navigation_icon_padding = global::coins.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_navigation_icon_size = global::coins.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_navigation_max_width = global::coins.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::coins.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::coins.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::coins.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::coins.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::coins.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::coins.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_max_width = global::coins.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_min_width = global::coins.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::coins.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical = global::coins.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::coins.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_snackbar_text_size = global::coins.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_tab_max_width = global::coins.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_tab_scrollable_min_width = global::coins.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_tab_text_size = global::coins.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.design_tab_text_size_2line = global::coins.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.disabled_alpha_material_dark = global::coins.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.disabled_alpha_material_light = global::coins.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.highlight_alpha_material_colored = global::coins.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.highlight_alpha_material_dark = global::coins.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.highlight_alpha_material_light = global::coins.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::coins.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::coins.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::coins.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::coins.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::coins.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.notification_large_icon_height = global::coins.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.notification_large_icon_width = global::coins.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Dimension.notification_subtext_size = global::coins.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::coins.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::coins.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_check_material = global::coins.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::coins.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::coins.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::coins.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::coins.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::coins.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::coins.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::coins.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_cab_background_internal_bg = global::coins.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_cab_background_top_material = global::coins.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_dialog_material_background_dark = global::coins.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_dialog_material_background_light = global::coins.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_edit_text_material = global::coins.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_star_black_16dp = global::coins.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_star_black_36dp = global::coins.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::coins.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::coins.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_item_background_holo_dark = global::coins.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_item_background_holo_light = global::coins.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_focused_holo = global::coins.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_longpressed_holo = global::coins.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_pressed_holo_light = global::coins.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_selector_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_list_selector_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::coins.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::coins.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ratingbar_full_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_ratingbar_small_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::coins.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_seekbar_thumb_material = global::coins.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_seekbar_track_material = global::coins.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::coins.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_switch_thumb_material = global::coins.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_tab_indicator_material = global::coins.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_text_cursor_material = global::coins.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.abc_textfield_search_material = global::coins.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.design_fab_background = global::coins.Droid.Resource.Drawable.design_fab_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.design_snackbar_background = global::coins.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_audiotrack = global::coins.Droid.Resource.Drawable.ic_audiotrack;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_audiotrack_light = global::coins.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_bluetooth_grey = global::coins.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_bluetooth_white = global::coins.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_dark = global::coins.Droid.Resource.Drawable.ic_cast_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_disabled_light = global::coins.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_grey = global::coins.Droid.Resource.Drawable.ic_cast_grey;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_light = global::coins.Droid.Resource.Drawable.ic_cast_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_off_light = global::coins.Droid.Resource.Drawable.ic_cast_off_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_on_0_light = global::coins.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_on_1_light = global::coins.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_on_2_light = global::coins.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_on_light = global::coins.Droid.Resource.Drawable.ic_cast_on_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_cast_white = global::coins.Droid.Resource.Drawable.ic_cast_white;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_close_dark = global::coins.Droid.Resource.Drawable.ic_close_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_close_light = global::coins.Droid.Resource.Drawable.ic_close_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse = global::coins.Droid.Resource.Drawable.ic_collapse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00000 = global::coins.Droid.Resource.Drawable.ic_collapse_00000;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00001 = global::coins.Droid.Resource.Drawable.ic_collapse_00001;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00002 = global::coins.Droid.Resource.Drawable.ic_collapse_00002;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00003 = global::coins.Droid.Resource.Drawable.ic_collapse_00003;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00004 = global::coins.Droid.Resource.Drawable.ic_collapse_00004;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00005 = global::coins.Droid.Resource.Drawable.ic_collapse_00005;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00006 = global::coins.Droid.Resource.Drawable.ic_collapse_00006;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00007 = global::coins.Droid.Resource.Drawable.ic_collapse_00007;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00008 = global::coins.Droid.Resource.Drawable.ic_collapse_00008;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00009 = global::coins.Droid.Resource.Drawable.ic_collapse_00009;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00010 = global::coins.Droid.Resource.Drawable.ic_collapse_00010;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00011 = global::coins.Droid.Resource.Drawable.ic_collapse_00011;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00012 = global::coins.Droid.Resource.Drawable.ic_collapse_00012;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00013 = global::coins.Droid.Resource.Drawable.ic_collapse_00013;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00014 = global::coins.Droid.Resource.Drawable.ic_collapse_00014;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_collapse_00015 = global::coins.Droid.Resource.Drawable.ic_collapse_00015;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand = global::coins.Droid.Resource.Drawable.ic_expand;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00000 = global::coins.Droid.Resource.Drawable.ic_expand_00000;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00001 = global::coins.Droid.Resource.Drawable.ic_expand_00001;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00002 = global::coins.Droid.Resource.Drawable.ic_expand_00002;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00003 = global::coins.Droid.Resource.Drawable.ic_expand_00003;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00004 = global::coins.Droid.Resource.Drawable.ic_expand_00004;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00005 = global::coins.Droid.Resource.Drawable.ic_expand_00005;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00006 = global::coins.Droid.Resource.Drawable.ic_expand_00006;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00007 = global::coins.Droid.Resource.Drawable.ic_expand_00007;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00008 = global::coins.Droid.Resource.Drawable.ic_expand_00008;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00009 = global::coins.Droid.Resource.Drawable.ic_expand_00009;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00010 = global::coins.Droid.Resource.Drawable.ic_expand_00010;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00011 = global::coins.Droid.Resource.Drawable.ic_expand_00011;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00012 = global::coins.Droid.Resource.Drawable.ic_expand_00012;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00013 = global::coins.Droid.Resource.Drawable.ic_expand_00013;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00014 = global::coins.Droid.Resource.Drawable.ic_expand_00014;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_expand_00015 = global::coins.Droid.Resource.Drawable.ic_expand_00015;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_pause = global::coins.Droid.Resource.Drawable.ic_media_pause;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_play = global::coins.Droid.Resource.Drawable.ic_media_play;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_route_disabled_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_route_off_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_route_on_0_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_route_on_1_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_route_on_2_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_media_route_on_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_pause_dark = global::coins.Droid.Resource.Drawable.ic_pause_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_pause_light = global::coins.Droid.Resource.Drawable.ic_pause_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_play_dark = global::coins.Droid.Resource.Drawable.ic_play_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_play_light = global::coins.Droid.Resource.Drawable.ic_play_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_speaker_dark = global::coins.Droid.Resource.Drawable.ic_speaker_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_speaker_group_dark = global::coins.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_speaker_group_light = global::coins.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_speaker_light = global::coins.Droid.Resource.Drawable.ic_speaker_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_tv_dark = global::coins.Droid.Resource.Drawable.ic_tv_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.ic_tv_light = global::coins.Droid.Resource.Drawable.ic_tv_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_dialog_material_background_dark = global::coins.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_dialog_material_background_light = global::coins.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_audiotrack_light = global::coins.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_cast_dark = global::coins.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_cast_light = global::coins.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_close_dark = global::coins.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_close_light = global::coins.Droid.Resource.Drawable.mr_ic_close_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::coins.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::coins.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_media_route_mono_dark = global::coins.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_media_route_mono_light = global::coins.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_pause_dark = global::coins.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_pause_light = global::coins.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_play_dark = global::coins.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.mr_ic_play_light = global::coins.Droid.Resource.Drawable.mr_ic_play_light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Drawable.notification_template_icon_bg = global::coins.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action0 = global::coins.Droid.Resource.Id.action0;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_bar = global::coins.Droid.Resource.Id.action_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_bar_activity_content = global::coins.Droid.Resource.Id.action_bar_activity_content;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_bar_container = global::coins.Droid.Resource.Id.action_bar_container;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_bar_root = global::coins.Droid.Resource.Id.action_bar_root;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_bar_spinner = global::coins.Droid.Resource.Id.action_bar_spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_bar_subtitle = global::coins.Droid.Resource.Id.action_bar_subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_bar_title = global::coins.Droid.Resource.Id.action_bar_title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_context_bar = global::coins.Droid.Resource.Id.action_context_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_divider = global::coins.Droid.Resource.Id.action_divider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_menu_divider = global::coins.Droid.Resource.Id.action_menu_divider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_menu_presenter = global::coins.Droid.Resource.Id.action_menu_presenter;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_mode_bar = global::coins.Droid.Resource.Id.action_mode_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_mode_bar_stub = global::coins.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.action_mode_close_button = global::coins.Droid.Resource.Id.action_mode_close_button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.activity_chooser_view_content = global::coins.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.alertTitle = global::coins.Droid.Resource.Id.alertTitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.always = global::coins.Droid.Resource.Id.always;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.beginning = global::coins.Droid.Resource.Id.beginning;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.bottom = global::coins.Droid.Resource.Id.bottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.buttonPanel = global::coins.Droid.Resource.Id.buttonPanel;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.cancel_action = global::coins.Droid.Resource.Id.cancel_action;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.center = global::coins.Droid.Resource.Id.center;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.center_horizontal = global::coins.Droid.Resource.Id.center_horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.center_vertical = global::coins.Droid.Resource.Id.center_vertical;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.checkbox = global::coins.Droid.Resource.Id.checkbox;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.chronometer = global::coins.Droid.Resource.Id.chronometer;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.clip_horizontal = global::coins.Droid.Resource.Id.clip_horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.clip_vertical = global::coins.Droid.Resource.Id.clip_vertical;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.collapseActionView = global::coins.Droid.Resource.Id.collapseActionView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.contentPanel = global::coins.Droid.Resource.Id.contentPanel;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.custom = global::coins.Droid.Resource.Id.custom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.customPanel = global::coins.Droid.Resource.Id.customPanel;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.decor_content_parent = global::coins.Droid.Resource.Id.decor_content_parent;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.default_activity_button = global::coins.Droid.Resource.Id.default_activity_button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.design_bottom_sheet = global::coins.Droid.Resource.Id.design_bottom_sheet;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.design_menu_item_action_area = global::coins.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::coins.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.design_menu_item_text = global::coins.Droid.Resource.Id.design_menu_item_text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.design_navigation_view = global::coins.Droid.Resource.Id.design_navigation_view;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.disableHome = global::coins.Droid.Resource.Id.disableHome;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.edit_query = global::coins.Droid.Resource.Id.edit_query;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.end = global::coins.Droid.Resource.Id.end;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.end_padder = global::coins.Droid.Resource.Id.end_padder;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.enterAlways = global::coins.Droid.Resource.Id.enterAlways;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.enterAlwaysCollapsed = global::coins.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.exitUntilCollapsed = global::coins.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.expand_activities_button = global::coins.Droid.Resource.Id.expand_activities_button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.expanded_menu = global::coins.Droid.Resource.Id.expanded_menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.fill = global::coins.Droid.Resource.Id.fill;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.fill_horizontal = global::coins.Droid.Resource.Id.fill_horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.fill_vertical = global::coins.Droid.Resource.Id.fill_vertical;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.@fixed = global::coins.Droid.Resource.Id.@fixed;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.home = global::coins.Droid.Resource.Id.home;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.homeAsUp = global::coins.Droid.Resource.Id.homeAsUp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.icon = global::coins.Droid.Resource.Id.icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.ifRoom = global::coins.Droid.Resource.Id.ifRoom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.image = global::coins.Droid.Resource.Id.image;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.info = global::coins.Droid.Resource.Id.info;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.item_touch_helper_previous_elevation = global::coins.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.left = global::coins.Droid.Resource.Id.left;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.line1 = global::coins.Droid.Resource.Id.line1;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.line3 = global::coins.Droid.Resource.Id.line3;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.listMode = global::coins.Droid.Resource.Id.listMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.list_item = global::coins.Droid.Resource.Id.list_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.media_actions = global::coins.Droid.Resource.Id.media_actions;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.middle = global::coins.Droid.Resource.Id.middle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mini = global::coins.Droid.Resource.Id.mini;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_art = global::coins.Droid.Resource.Id.mr_art;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_chooser_list = global::coins.Droid.Resource.Id.mr_chooser_list;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_chooser_route_desc = global::coins.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_chooser_route_icon = global::coins.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_chooser_route_name = global::coins.Droid.Resource.Id.mr_chooser_route_name;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_close = global::coins.Droid.Resource.Id.mr_close;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_control_divider = global::coins.Droid.Resource.Id.mr_control_divider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_control_play_pause = global::coins.Droid.Resource.Id.mr_control_play_pause;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_control_subtitle = global::coins.Droid.Resource.Id.mr_control_subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_control_title = global::coins.Droid.Resource.Id.mr_control_title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_control_title_container = global::coins.Droid.Resource.Id.mr_control_title_container;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_custom_control = global::coins.Droid.Resource.Id.mr_custom_control;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_default_control = global::coins.Droid.Resource.Id.mr_default_control;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_dialog_area = global::coins.Droid.Resource.Id.mr_dialog_area;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_expandable_area = global::coins.Droid.Resource.Id.mr_expandable_area;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_group_expand_collapse = global::coins.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_media_main_control = global::coins.Droid.Resource.Id.mr_media_main_control;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_name = global::coins.Droid.Resource.Id.mr_name;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_playback_control = global::coins.Droid.Resource.Id.mr_playback_control;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_title_bar = global::coins.Droid.Resource.Id.mr_title_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_volume_control = global::coins.Droid.Resource.Id.mr_volume_control;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_volume_group_list = global::coins.Droid.Resource.Id.mr_volume_group_list;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_volume_item_icon = global::coins.Droid.Resource.Id.mr_volume_item_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.mr_volume_slider = global::coins.Droid.Resource.Id.mr_volume_slider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.multiply = global::coins.Droid.Resource.Id.multiply;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.navigation_header_container = global::coins.Droid.Resource.Id.navigation_header_container;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.never = global::coins.Droid.Resource.Id.never;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.none = global::coins.Droid.Resource.Id.none;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.normal = global::coins.Droid.Resource.Id.normal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.parallax = global::coins.Droid.Resource.Id.parallax;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.parentPanel = global::coins.Droid.Resource.Id.parentPanel;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.pin = global::coins.Droid.Resource.Id.pin;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.progress_circular = global::coins.Droid.Resource.Id.progress_circular;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.progress_horizontal = global::coins.Droid.Resource.Id.progress_horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.radio = global::coins.Droid.Resource.Id.radio;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.right = global::coins.Droid.Resource.Id.right;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.screen = global::coins.Droid.Resource.Id.screen;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.scroll = global::coins.Droid.Resource.Id.scroll;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.scrollIndicatorDown = global::coins.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.scrollIndicatorUp = global::coins.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.scrollView = global::coins.Droid.Resource.Id.scrollView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.scrollable = global::coins.Droid.Resource.Id.scrollable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_badge = global::coins.Droid.Resource.Id.search_badge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_bar = global::coins.Droid.Resource.Id.search_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_button = global::coins.Droid.Resource.Id.search_button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_close_btn = global::coins.Droid.Resource.Id.search_close_btn;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_edit_frame = global::coins.Droid.Resource.Id.search_edit_frame;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_go_btn = global::coins.Droid.Resource.Id.search_go_btn;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_mag_icon = global::coins.Droid.Resource.Id.search_mag_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_plate = global::coins.Droid.Resource.Id.search_plate;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_src_text = global::coins.Droid.Resource.Id.search_src_text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.search_voice_btn = global::coins.Droid.Resource.Id.search_voice_btn;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.select_dialog_listview = global::coins.Droid.Resource.Id.select_dialog_listview;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.shortcut = global::coins.Droid.Resource.Id.shortcut;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.showCustom = global::coins.Droid.Resource.Id.showCustom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.showHome = global::coins.Droid.Resource.Id.showHome;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.showTitle = global::coins.Droid.Resource.Id.showTitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.snackbar_action = global::coins.Droid.Resource.Id.snackbar_action;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.snackbar_text = global::coins.Droid.Resource.Id.snackbar_text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.snap = global::coins.Droid.Resource.Id.snap;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.spacer = global::coins.Droid.Resource.Id.spacer;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.split_action_bar = global::coins.Droid.Resource.Id.split_action_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.src_atop = global::coins.Droid.Resource.Id.src_atop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.src_in = global::coins.Droid.Resource.Id.src_in;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.src_over = global::coins.Droid.Resource.Id.src_over;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.start = global::coins.Droid.Resource.Id.start;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.status_bar_latest_event_content = global::coins.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.submit_area = global::coins.Droid.Resource.Id.submit_area;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.tabMode = global::coins.Droid.Resource.Id.tabMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.text = global::coins.Droid.Resource.Id.text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.text2 = global::coins.Droid.Resource.Id.text2;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.textSpacerNoButtons = global::coins.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.time = global::coins.Droid.Resource.Id.time;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.title = global::coins.Droid.Resource.Id.title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.title_template = global::coins.Droid.Resource.Id.title_template;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.top = global::coins.Droid.Resource.Id.top;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.topPanel = global::coins.Droid.Resource.Id.topPanel;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.touch_outside = global::coins.Droid.Resource.Id.touch_outside;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.up = global::coins.Droid.Resource.Id.up;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.useLogo = global::coins.Droid.Resource.Id.useLogo;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.view_offset_helper = global::coins.Droid.Resource.Id.view_offset_helper;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.volume_item_container = global::coins.Droid.Resource.Id.volume_item_container;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.withText = global::coins.Droid.Resource.Id.withText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Id.wrap_content = global::coins.Droid.Resource.Id.wrap_content;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::coins.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::coins.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.abc_max_action_buttons = global::coins.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::coins.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.cancel_button_image_alpha = global::coins.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::coins.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::coins.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Interpolator.mr_fast_out_slow_in = global::coins.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Interpolator.mr_linear_out_slow_in = global::coins.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_action_bar_title_item = global::coins.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_action_bar_up_container = global::coins.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::coins.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_action_menu_item_layout = global::coins.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_action_menu_layout = global::coins.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_action_mode_bar = global::coins.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_action_mode_close_item_material = global::coins.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_activity_chooser_view = global::coins.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::coins.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::coins.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_alert_dialog_material = global::coins.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_dialog_title_material = global::coins.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_expanded_menu_layout = global::coins.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_list_menu_item_checkbox = global::coins.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_list_menu_item_icon = global::coins.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_list_menu_item_layout = global::coins.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_list_menu_item_radio = global::coins.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_popup_menu_item_layout = global::coins.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_screen_content_include = global::coins.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_screen_simple = global::coins.Droid.Resource.Layout.abc_screen_simple;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::coins.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_screen_toolbar = global::coins.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::coins.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_search_view = global::coins.Droid.Resource.Layout.abc_search_view;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.abc_select_dialog_material = global::coins.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::coins.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_layout_snackbar = global::coins.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_layout_snackbar_include = global::coins.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_layout_tab_icon = global::coins.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_layout_tab_text = global::coins.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_menu_item_action_area = global::coins.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_navigation_item = global::coins.Droid.Resource.Layout.design_navigation_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_navigation_item_header = global::coins.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_navigation_item_separator = global::coins.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::coins.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_navigation_menu = global::coins.Droid.Resource.Layout.design_navigation_menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.design_navigation_menu_item = global::coins.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.mr_chooser_dialog = global::coins.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.mr_chooser_list_item = global::coins.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.mr_controller_material_dialog_b = global::coins.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.mr_controller_volume_item = global::coins.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.mr_playback_control = global::coins.Droid.Resource.Layout.mr_playback_control;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.mr_volume_control = global::coins.Droid.Resource.Layout.mr_volume_control;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_media_action = global::coins.Droid.Resource.Layout.notification_media_action;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_media_cancel_action = global::coins.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_template_big_media = global::coins.Droid.Resource.Layout.notification_template_big_media;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_template_big_media_narrow = global::coins.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_template_lines = global::coins.Droid.Resource.Layout.notification_template_lines;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_template_media = global::coins.Droid.Resource.Layout.notification_template_media;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::coins.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.notification_template_part_time = global::coins.Droid.Resource.Layout.notification_template_part_time;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.select_dialog_item_material = global::coins.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::coins.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::coins.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::coins.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.ApplicationName = global::coins.Droid.Resource.String.ApplicationName;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.Hello = global::coins.Droid.Resource.String.Hello;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_action_bar_home_description = global::coins.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_action_bar_home_description_format = global::coins.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::coins.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_action_bar_up_description = global::coins.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::coins.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_action_mode_done = global::coins.Droid.Resource.String.abc_action_mode_done;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_activity_chooser_view_see_all = global::coins.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_activitychooserview_choose_application = global::coins.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_capital_off = global::coins.Droid.Resource.String.abc_capital_off;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_capital_on = global::coins.Droid.Resource.String.abc_capital_on;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_search_hint = global::coins.Droid.Resource.String.abc_search_hint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_searchview_description_clear = global::coins.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_searchview_description_query = global::coins.Droid.Resource.String.abc_searchview_description_query;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_searchview_description_search = global::coins.Droid.Resource.String.abc_searchview_description_search;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_searchview_description_submit = global::coins.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_searchview_description_voice = global::coins.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::coins.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::coins.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::coins.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::coins.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.bottom_sheet_behavior = global::coins.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.character_counter_pattern = global::coins.Droid.Resource.String.character_counter_pattern;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_button_content_description = global::coins.Droid.Resource.String.mr_button_content_description;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_chooser_searching = global::coins.Droid.Resource.String.mr_chooser_searching;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_chooser_title = global::coins.Droid.Resource.String.mr_chooser_title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_casting_screen = global::coins.Droid.Resource.String.mr_controller_casting_screen;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_close_description = global::coins.Droid.Resource.String.mr_controller_close_description;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_collapse_group = global::coins.Droid.Resource.String.mr_controller_collapse_group;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_disconnect = global::coins.Droid.Resource.String.mr_controller_disconnect;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_expand_group = global::coins.Droid.Resource.String.mr_controller_expand_group;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_no_info_available = global::coins.Droid.Resource.String.mr_controller_no_info_available;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_no_media_selected = global::coins.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_pause = global::coins.Droid.Resource.String.mr_controller_pause;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_play = global::coins.Droid.Resource.String.mr_controller_play;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_controller_stop = global::coins.Droid.Resource.String.mr_controller_stop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_system_route_name = global::coins.Droid.Resource.String.mr_system_route_name;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.mr_user_route_category_name = global::coins.Droid.Resource.String.mr_user_route_category_name;
+			global::Xuni.Forms.Core.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::coins.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::coins.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::coins.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::coins.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::coins.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::coins.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::coins.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::coins.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::coins.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_CardView = global::coins.Droid.Resource.Style.Base_CardView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::coins.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::coins.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::coins.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.CardView = global::coins.Droid.Resource.Style.CardView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.CardView_Dark = global::coins.Droid.Resource.Style.CardView_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.CardView_Light = global::coins.Droid.Resource.Style.CardView_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_AppCompat = global::coins.Droid.Resource.Style.Platform_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_V11_AppCompat = global::coins.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_V11_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_V14_AppCompat = global::coins.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_V14_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::coins.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::coins.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Button = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::coins.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Design_Counter = global::coins.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::coins.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::coins.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::coins.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::coins.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::coins.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat = global::coins.Droid.Resource.Style.Theme_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::coins.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_Design = global::coins.Droid.Resource.Style.Theme_Design;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::coins.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_Design_Light = global::coins.Droid.Resource.Style.Theme_Design_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::coins.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::coins.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_Design_NoActionBar = global::coins.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_MediaRouter = global::coins.Droid.Resource.Style.Theme_MediaRouter;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_MediaRouter_Light = global::coins.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::coins.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::coins.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActionMode = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::coins.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Button = global::coins.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Button_Small = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::coins.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ImageButton = global::coins.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ListView = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::coins.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_SearchView = global::coins.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar = global::coins.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::coins.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::coins.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_AppBarLayout = global::coins.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::coins.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::coins.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::coins.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_FloatingActionButton = global::coins.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_NavigationView = global::coins.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::coins.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::coins.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::coins.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::coins.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::coins.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::coins.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar = global::coins.Droid.Resource.Styleable.ActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_background = global::coins.Droid.Resource.Styleable.ActionBar_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::coins.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_backgroundStacked = global::coins.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_contentInsetRight = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_contentInsetStart = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::coins.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_displayOptions = global::coins.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_divider = global::coins.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_elevation = global::coins.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_height = global::coins.Droid.Resource.Styleable.ActionBar_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::coins.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::coins.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_homeLayout = global::coins.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_icon = global::coins.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::coins.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_itemPadding = global::coins.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_logo = global::coins.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_navigationMode = global::coins.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_popupTheme = global::coins.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_progressBarPadding = global::coins.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_progressBarStyle = global::coins.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_subtitle = global::coins.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::coins.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_title = global::coins.Droid.Resource.Styleable.ActionBar_title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBar_titleTextStyle = global::coins.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBarLayout = global::coins.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::coins.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMenuItemView = global::coins.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::coins.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMenuView = global::coins.Droid.Resource.Styleable.ActionMenuView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMode = global::coins.Droid.Resource.Styleable.ActionMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMode_background = global::coins.Droid.Resource.Styleable.ActionMode_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMode_backgroundSplit = global::coins.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMode_closeItemLayout = global::coins.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMode_height = global::coins.Droid.Resource.Styleable.ActionMode_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::coins.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActionMode_titleTextStyle = global::coins.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActivityChooserView = global::coins.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::coins.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::coins.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AlertDialog = global::coins.Droid.Resource.Styleable.AlertDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AlertDialog_android_layout = global::coins.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::coins.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AlertDialog_listItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AlertDialog_listLayout = global::coins.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppBarLayout = global::coins.Droid.Resource.Styleable.AppBarLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppBarLayout_android_background = global::coins.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppBarLayout_elevation = global::coins.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppBarLayout_expanded = global::coins.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatImageView = global::coins.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::coins.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::coins.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTextView = global::coins.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::coins.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::coins.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::coins.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::coins.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::coins.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::coins.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::coins.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::coins.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::coins.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::coins.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::coins.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ButtonBarLayout = global::coins.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::coins.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView = global::coins.Droid.Resource.Styleable.CardView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_android_minHeight = global::coins.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_android_minWidth = global::coins.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_cardBackgroundColor = global::coins.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_cardCornerRadius = global::coins.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_cardElevation = global::coins.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_cardMaxElevation = global::coins.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::coins.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::coins.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_contentPadding = global::coins.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_contentPaddingBottom = global::coins.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_contentPaddingLeft = global::coins.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_contentPaddingRight = global::coins.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CardView_contentPaddingTop = global::coins.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CompoundButton = global::coins.Droid.Resource.Styleable.CompoundButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::coins.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::coins.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::coins.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout = global::coins.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_keylines = global::coins.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::coins.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DesignTheme = global::coins.Droid.Resource.Styleable.DesignTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::coins.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::coins.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DesignTheme_textColorError = global::coins.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle = global::coins.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_color = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton = global::coins.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::coins.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::coins.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::coins.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::coins.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::coins.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::coins.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::coins.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::coins.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ForegroundLinearLayout = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::coins.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_divider = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ListPopupWindow = global::coins.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::coins.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::coins.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MediaRouteButton = global::coins.Droid.Resource.Styleable.MediaRouteButton;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::coins.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::coins.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::coins.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuGroup = global::coins.Droid.Resource.Styleable.MenuGroup;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::coins.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::coins.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuGroup_android_id = global::coins.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::coins.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::coins.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuGroup_android_visible = global::coins.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem = global::coins.Droid.Resource.Styleable.MenuItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_actionLayout = global::coins.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_actionProviderClass = global::coins.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_actionViewClass = global::coins.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::coins.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_checkable = global::coins.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_checked = global::coins.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_enabled = global::coins.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_icon = global::coins.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_id = global::coins.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_menuCategory = global::coins.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::coins.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_onClick = global::coins.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::coins.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_title = global::coins.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::coins.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_android_visible = global::coins.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuItem_showAsAction = global::coins.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView = global::coins.Droid.Resource.Styleable.MenuView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_android_headerBackground = global::coins.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::coins.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_android_itemBackground = global::coins.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::coins.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::coins.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_android_verticalDivider = global::coins.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::coins.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::coins.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView = global::coins.Droid.Resource.Styleable.NavigationView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_android_background = global::coins.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::coins.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_android_maxWidth = global::coins.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_elevation = global::coins.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_headerLayout = global::coins.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::coins.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::coins.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::coins.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::coins.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.NavigationView_menu = global::coins.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.PopupWindow = global::coins.Droid.Resource.Styleable.PopupWindow;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::coins.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::coins.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.PopupWindowBackgroundState = global::coins.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::coins.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.RecyclerView = global::coins.Droid.Resource.Styleable.RecyclerView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::coins.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.RecyclerView_layoutManager = global::coins.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.RecyclerView_reverseLayout = global::coins.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.RecyclerView_spanCount = global::coins.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::coins.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::coins.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::coins.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Params = global::coins.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::coins.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView = global::coins.Droid.Resource.Styleable.SearchView;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::coins.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::coins.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_android_inputType = global::coins.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_android_maxWidth = global::coins.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_closeIcon = global::coins.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_commitIcon = global::coins.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_defaultQueryHint = global::coins.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_goIcon = global::coins.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::coins.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_layout = global::coins.Droid.Resource.Styleable.SearchView_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_queryBackground = global::coins.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_queryHint = global::coins.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_searchHintIcon = global::coins.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_searchIcon = global::coins.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::coins.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::coins.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::coins.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SnackbarLayout = global::coins.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::coins.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::coins.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::coins.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Spinner = global::coins.Droid.Resource.Styleable.Spinner;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::coins.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Spinner_android_entries = global::coins.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Spinner_android_popupBackground = global::coins.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Spinner_android_prompt = global::coins.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Spinner_popupTheme = global::coins.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat = global::coins.Droid.Resource.Styleable.SwitchCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::coins.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::coins.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_android_thumb = global::coins.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_showText = global::coins.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_splitTrack = global::coins.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::coins.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_switchPadding = global::coins.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::coins.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::coins.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.SwitchCompat_track = global::coins.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabItem = global::coins.Droid.Resource.Styleable.TabItem;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabItem_android_icon = global::coins.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabItem_android_layout = global::coins.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabItem_android_text = global::coins.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout = global::coins.Droid.Resource.Styleable.TabLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabBackground = global::coins.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabContentStart = global::coins.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabGravity = global::coins.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::coins.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::coins.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::coins.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabMinWidth = global::coins.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabMode = global::coins.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabPadding = global::coins.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::coins.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::coins.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TabLayout_tabTextColor = global::coins.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance = global::coins.Droid.Resource.Styleable.TextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::coins.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::coins.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::coins.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::coins.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::coins.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout = global::coins.Droid.Resource.Styleable.TextInputLayout;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::coins.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::coins.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::coins.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar = global::coins.Droid.Resource.Styleable.Toolbar;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_android_gravity = global::coins.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_android_minHeight = global::coins.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::coins.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_collapseIcon = global::coins.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_contentInsetRight = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_contentInsetStart = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_logo = global::coins.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::coins.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::coins.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::coins.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::coins.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::coins.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_subtitle = global::coins.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::coins.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::coins.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_title = global::coins.Droid.Resource.Styleable.Toolbar_title;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_titleMarginStart = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_titleMargins = global::coins.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::coins.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::coins.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.View = global::coins.Droid.Resource.Styleable.View;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.View_android_focusable = global::coins.Droid.Resource.Styleable.View_android_focusable;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.View_android_theme = global::coins.Droid.Resource.Styleable.View_android_theme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.View_paddingEnd = global::coins.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.View_paddingStart = global::coins.Droid.Resource.Styleable.View_paddingStart;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.View_theme = global::coins.Droid.Resource.Styleable.View_theme;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewStubCompat = global::coins.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xuni.Forms.Core.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_fade_in = global::coins.Droid.Resource.Animation.abc_fade_in;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_fade_out = global::coins.Droid.Resource.Animation.abc_fade_out;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::coins.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_popup_enter = global::coins.Droid.Resource.Animation.abc_popup_enter;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_popup_exit = global::coins.Droid.Resource.Animation.abc_popup_exit;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::coins.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_slide_in_bottom = global::coins.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_slide_in_top = global::coins.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_slide_out_bottom = global::coins.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.abc_slide_out_top = global::coins.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::coins.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::coins.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.design_fab_in = global::coins.Droid.Resource.Animation.design_fab_in;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.design_fab_out = global::coins.Droid.Resource.Animation.design_fab_out;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.design_snackbar_in = global::coins.Droid.Resource.Animation.design_snackbar_in;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Animation.design_snackbar_out = global::coins.Droid.Resource.Animation.design_snackbar_out;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieCerulanPalette = global::coins.Droid.Resource.Array.flexPieCerulanPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieCocoaPalette = global::coins.Droid.Resource.Array.flexPieCocoaPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieCoralPalette = global::coins.Droid.Resource.Array.flexPieCoralPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieCyborgPalette = global::coins.Droid.Resource.Array.flexPieCyborgPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieDarkPalette = global::coins.Droid.Resource.Array.flexPieDarkPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieDarklyPalette = global::coins.Droid.Resource.Array.flexPieDarklyPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieDefaultflexPiePalette = global::coins.Droid.Resource.Array.flexPieDefaultflexPiePalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieFlatlyPalette = global::coins.Droid.Resource.Array.flexPieFlatlyPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieHighConstrastPalette = global::coins.Droid.Resource.Array.flexPieHighConstrastPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieLightPalette = global::coins.Droid.Resource.Array.flexPieLightPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieMaterialPalette = global::coins.Droid.Resource.Array.flexPieMaterialPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieMidnightPalette = global::coins.Droid.Resource.Array.flexPieMidnightPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieMinimalPalette = global::coins.Droid.Resource.Array.flexPieMinimalPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieModernPalette = global::coins.Droid.Resource.Array.flexPieModernPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieOrganicPalette = global::coins.Droid.Resource.Array.flexPieOrganicPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieSlatePalette = global::coins.Droid.Resource.Array.flexPieSlatePalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Array.flexPieSuperheroPalette = global::coins.Droid.Resource.Array.flexPieSuperheroPalette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.MediaRouteControllerWindowBackground = global::coins.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarDivider = global::coins.Droid.Resource.Attribute.actionBarDivider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarItemBackground = global::coins.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarPopupTheme = global::coins.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarSize = global::coins.Droid.Resource.Attribute.actionBarSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarSplitStyle = global::coins.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarStyle = global::coins.Droid.Resource.Attribute.actionBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarTabBarStyle = global::coins.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarTabStyle = global::coins.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarTabTextStyle = global::coins.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarTheme = global::coins.Droid.Resource.Attribute.actionBarTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionBarWidgetTheme = global::coins.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionButtonStyle = global::coins.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionDropDownStyle = global::coins.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionLayout = global::coins.Droid.Resource.Attribute.actionLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionMenuTextAppearance = global::coins.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionMenuTextColor = global::coins.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeBackground = global::coins.Droid.Resource.Attribute.actionModeBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeCloseButtonStyle = global::coins.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeCloseDrawable = global::coins.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeCopyDrawable = global::coins.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeCutDrawable = global::coins.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeFindDrawable = global::coins.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModePasteDrawable = global::coins.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModePopupWindowStyle = global::coins.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeSelectAllDrawable = global::coins.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeShareDrawable = global::coins.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeSplitBackground = global::coins.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeStyle = global::coins.Droid.Resource.Attribute.actionModeStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionModeWebSearchDrawable = global::coins.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::coins.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::coins.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionProviderClass = global::coins.Droid.Resource.Attribute.actionProviderClass;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.actionViewClass = global::coins.Droid.Resource.Attribute.actionViewClass;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::coins.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::coins.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.alertDialogCenterButtons = global::coins.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.alertDialogStyle = global::coins.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.alertDialogTheme = global::coins.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.allowStacking = global::coins.Droid.Resource.Attribute.allowStacking;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.arrowHeadLength = global::coins.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.arrowShaftLength = global::coins.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::coins.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.background = global::coins.Droid.Resource.Attribute.background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.backgroundSplit = global::coins.Droid.Resource.Attribute.backgroundSplit;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.backgroundStacked = global::coins.Droid.Resource.Attribute.backgroundStacked;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.backgroundTint = global::coins.Droid.Resource.Attribute.backgroundTint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.backgroundTintMode = global::coins.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.barLength = global::coins.Droid.Resource.Attribute.barLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.behavior_hideable = global::coins.Droid.Resource.Attribute.behavior_hideable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.behavior_overlapTop = global::coins.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.behavior_peekHeight = global::coins.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.borderWidth = global::coins.Droid.Resource.Attribute.borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::coins.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.bottomSheetDialogTheme = global::coins.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.bottomSheetStyle = global::coins.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::coins.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonBarStyle = global::coins.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::coins.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonStyle = global::coins.Droid.Resource.Attribute.buttonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonStyleSmall = global::coins.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonTint = global::coins.Droid.Resource.Attribute.buttonTint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.buttonTintMode = global::coins.Droid.Resource.Attribute.buttonTintMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.cardBackgroundColor = global::coins.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.cardCornerRadius = global::coins.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.cardElevation = global::coins.Droid.Resource.Attribute.cardElevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.cardMaxElevation = global::coins.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::coins.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::coins.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.checkboxStyle = global::coins.Droid.Resource.Attribute.checkboxStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::coins.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.closeIcon = global::coins.Droid.Resource.Attribute.closeIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.closeItemLayout = global::coins.Droid.Resource.Attribute.closeItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.collapseContentDescription = global::coins.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.collapseIcon = global::coins.Droid.Resource.Attribute.collapseIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::coins.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::coins.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.color = global::coins.Droid.Resource.Attribute.color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorAccent = global::coins.Droid.Resource.Attribute.colorAccent;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorButtonNormal = global::coins.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorControlActivated = global::coins.Droid.Resource.Attribute.colorControlActivated;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorControlHighlight = global::coins.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorControlNormal = global::coins.Droid.Resource.Attribute.colorControlNormal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorPrimary = global::coins.Droid.Resource.Attribute.colorPrimary;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorPrimaryDark = global::coins.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::coins.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.commitIcon = global::coins.Droid.Resource.Attribute.commitIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentInsetEnd = global::coins.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentInsetLeft = global::coins.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentInsetRight = global::coins.Droid.Resource.Attribute.contentInsetRight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentInsetStart = global::coins.Droid.Resource.Attribute.contentInsetStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentPadding = global::coins.Droid.Resource.Attribute.contentPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentPaddingBottom = global::coins.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentPaddingLeft = global::coins.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentPaddingRight = global::coins.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentPaddingTop = global::coins.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.contentScrim = global::coins.Droid.Resource.Attribute.contentScrim;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.controlBackground = global::coins.Droid.Resource.Attribute.controlBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.counterEnabled = global::coins.Droid.Resource.Attribute.counterEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.counterMaxLength = global::coins.Droid.Resource.Attribute.counterMaxLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::coins.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.counterTextAppearance = global::coins.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.customNavigationLayout = global::coins.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.defaultQueryHint = global::coins.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::coins.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.dialogTheme = global::coins.Droid.Resource.Attribute.dialogTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.displayOptions = global::coins.Droid.Resource.Attribute.displayOptions;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.divider = global::coins.Droid.Resource.Attribute.divider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.dividerHorizontal = global::coins.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.dividerPadding = global::coins.Droid.Resource.Attribute.dividerPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.dividerVertical = global::coins.Droid.Resource.Attribute.dividerVertical;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.drawableSize = global::coins.Droid.Resource.Attribute.drawableSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.drawerArrowStyle = global::coins.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::coins.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::coins.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.editTextBackground = global::coins.Droid.Resource.Attribute.editTextBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.editTextColor = global::coins.Droid.Resource.Attribute.editTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.editTextStyle = global::coins.Droid.Resource.Attribute.editTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.elevation = global::coins.Droid.Resource.Attribute.elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.errorEnabled = global::coins.Droid.Resource.Attribute.errorEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.errorTextAppearance = global::coins.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::coins.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expanded = global::coins.Droid.Resource.Attribute.expanded;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandedTitleGravity = global::coins.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandedTitleMargin = global::coins.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandedTitleMarginBottom = global::coins.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandedTitleMarginEnd = global::coins.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::coins.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::coins.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::coins.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.externalRouteEnabledDrawable = global::coins.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.fabSize = global::coins.Droid.Resource.Attribute.fabSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_animated = global::coins.Droid.Resource.Attribute.flexPie_animated;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_backgroundColor = global::coins.Droid.Resource.Attribute.flexPie_backgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_binding = global::coins.Droid.Resource.Attribute.flexPie_binding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_bindingName = global::coins.Droid.Resource.Attribute.flexPie_bindingName;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_borderColor = global::coins.Droid.Resource.Attribute.flexPie_borderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_borderWidth = global::coins.Droid.Resource.Attribute.flexPie_borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_FontColor = global::coins.Droid.Resource.Attribute.flexPie_datalabel_FontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_FontSize = global::coins.Droid.Resource.Attribute.flexPie_datalabel_FontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_FontTypeface = global::coins.Droid.Resource.Attribute.flexPie_datalabel_FontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_FontWeight = global::coins.Droid.Resource.Attribute.flexPie_datalabel_FontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_backgroundColor = global::coins.Droid.Resource.Attribute.flexPie_datalabel_backgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_borderColor = global::coins.Droid.Resource.Attribute.flexPie_datalabel_borderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_borderWidth = global::coins.Droid.Resource.Attribute.flexPie_datalabel_borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_datalabel_position = global::coins.Droid.Resource.Attribute.flexPie_datalabel_position;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_footer = global::coins.Droid.Resource.Attribute.flexPie_footer;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_footerFontColor = global::coins.Droid.Resource.Attribute.flexPie_footerFontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_footerFontGravity = global::coins.Droid.Resource.Attribute.flexPie_footerFontGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_footerFontSize = global::coins.Droid.Resource.Attribute.flexPie_footerFontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_footerFontTypeface = global::coins.Droid.Resource.Attribute.flexPie_footerFontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_footerFontWeight = global::coins.Droid.Resource.Attribute.flexPie_footerFontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_header = global::coins.Droid.Resource.Attribute.flexPie_header;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_headerFontColor = global::coins.Droid.Resource.Attribute.flexPie_headerFontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_headerFontGravity = global::coins.Droid.Resource.Attribute.flexPie_headerFontGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_headerFontSize = global::coins.Droid.Resource.Attribute.flexPie_headerFontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_headerFontTypeface = global::coins.Droid.Resource.Attribute.flexPie_headerFontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_headerFontWeight = global::coins.Droid.Resource.Attribute.flexPie_headerFontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_innerRadius = global::coins.Droid.Resource.Attribute.flexPie_innerRadius;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_FontColor = global::coins.Droid.Resource.Attribute.flexPie_legend_FontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_FontSize = global::coins.Droid.Resource.Attribute.flexPie_legend_FontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_FontTypeface = global::coins.Droid.Resource.Attribute.flexPie_legend_FontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_FontWeight = global::coins.Droid.Resource.Attribute.flexPie_legend_FontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_backgroundColor = global::coins.Droid.Resource.Attribute.flexPie_legend_backgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_borderColor = global::coins.Droid.Resource.Attribute.flexPie_legend_borderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_borderWidth = global::coins.Droid.Resource.Attribute.flexPie_legend_borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_orientation = global::coins.Droid.Resource.Attribute.flexPie_legend_orientation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_legend_position = global::coins.Droid.Resource.Attribute.flexPie_legend_position;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_loadAnimation_duration = global::coins.Droid.Resource.Attribute.flexPie_loadAnimation_duration;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_loadAnimation_loadAnimationMode = global::coins.Droid.Resource.Attribute.flexPie_loadAnimation_loadAnimationMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_loadAnimation_startDelay = global::coins.Droid.Resource.Attribute.flexPie_loadAnimation_startDelay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_offset = global::coins.Droid.Resource.Attribute.flexPie_offset;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_palette = global::coins.Droid.Resource.Attribute.flexPie_palette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_plotAreabackgroundColor = global::coins.Droid.Resource.Attribute.flexPie_plotAreabackgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_reversed = global::coins.Droid.Resource.Attribute.flexPie_reversed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_selectAnimation_duration = global::coins.Droid.Resource.Attribute.flexPie_selectAnimation_duration;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_selectAnimation_startDelay = global::coins.Droid.Resource.Attribute.flexPie_selectAnimation_startDelay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_selectedBorderColor = global::coins.Droid.Resource.Attribute.flexPie_selectedBorderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_selectedBorderWidth = global::coins.Droid.Resource.Attribute.flexPie_selectedBorderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_selectedItemOffset = global::coins.Droid.Resource.Attribute.flexPie_selectedItemOffset;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_selectedItemPosition = global::coins.Droid.Resource.Attribute.flexPie_selectedItemPosition;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_selectionMode = global::coins.Droid.Resource.Attribute.flexPie_selectionMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_sliceBorderWidth = global::coins.Droid.Resource.Attribute.flexPie_sliceBorderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_startAngle = global::coins.Droid.Resource.Attribute.flexPie_startAngle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_updateAnimation_duration = global::coins.Droid.Resource.Attribute.flexPie_updateAnimation_duration;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.flexPie_updateAnimation_startDelay = global::coins.Droid.Resource.Attribute.flexPie_updateAnimation_startDelay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::coins.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.gapBetweenBars = global::coins.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.goIcon = global::coins.Droid.Resource.Attribute.goIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.headerLayout = global::coins.Droid.Resource.Attribute.headerLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.height = global::coins.Droid.Resource.Attribute.height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.hideOnContentScroll = global::coins.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::coins.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.hintEnabled = global::coins.Droid.Resource.Attribute.hintEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.hintTextAppearance = global::coins.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::coins.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.homeLayout = global::coins.Droid.Resource.Attribute.homeLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.icon = global::coins.Droid.Resource.Attribute.icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.iconifiedByDefault = global::coins.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.imageButtonStyle = global::coins.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.indeterminateProgressStyle = global::coins.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.initialActivityCount = global::coins.Droid.Resource.Attribute.initialActivityCount;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.insetForeground = global::coins.Droid.Resource.Attribute.insetForeground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.isLightTheme = global::coins.Droid.Resource.Attribute.isLightTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.itemBackground = global::coins.Droid.Resource.Attribute.itemBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.itemIconTint = global::coins.Droid.Resource.Attribute.itemIconTint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.itemPadding = global::coins.Droid.Resource.Attribute.itemPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.itemTextAppearance = global::coins.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.itemTextColor = global::coins.Droid.Resource.Attribute.itemTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.keylines = global::coins.Droid.Resource.Attribute.keylines;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout = global::coins.Droid.Resource.Attribute.layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layoutManager = global::coins.Droid.Resource.Attribute.layoutManager;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_anchor = global::coins.Droid.Resource.Attribute.layout_anchor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_anchorGravity = global::coins.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_behavior = global::coins.Droid.Resource.Attribute.layout_behavior;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_collapseMode = global::coins.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::coins.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_keyline = global::coins.Droid.Resource.Attribute.layout_keyline;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_scrollFlags = global::coins.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::coins.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::coins.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::coins.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listItemLayout = global::coins.Droid.Resource.Attribute.listItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listLayout = global::coins.Droid.Resource.Attribute.listLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listPopupWindowStyle = global::coins.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::coins.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::coins.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::coins.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::coins.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::coins.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.logo = global::coins.Droid.Resource.Attribute.logo;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.logoDescription = global::coins.Droid.Resource.Attribute.logoDescription;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::coins.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.maxButtonHeight = global::coins.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.measureWithLargestChild = global::coins.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::coins.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteButtonStyle = global::coins.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteCastDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteCloseDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::coins.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteConnectingDrawable = global::coins.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::coins.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteExpandGroupDrawable = global::coins.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteOffDrawable = global::coins.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteOnDrawable = global::coins.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRoutePauseDrawable = global::coins.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRoutePlayDrawable = global::coins.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::coins.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.menu = global::coins.Droid.Resource.Attribute.menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::coins.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.navigationContentDescription = global::coins.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.navigationIcon = global::coins.Droid.Resource.Attribute.navigationIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.navigationMode = global::coins.Droid.Resource.Attribute.navigationMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.overlapAnchor = global::coins.Droid.Resource.Attribute.overlapAnchor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.paddingEnd = global::coins.Droid.Resource.Attribute.paddingEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.paddingStart = global::coins.Droid.Resource.Attribute.paddingStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.panelBackground = global::coins.Droid.Resource.Attribute.panelBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.panelMenuListTheme = global::coins.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.panelMenuListWidth = global::coins.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.popupMenuStyle = global::coins.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.popupTheme = global::coins.Droid.Resource.Attribute.popupTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.popupWindowStyle = global::coins.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.preserveIconSpacing = global::coins.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.pressedTranslationZ = global::coins.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.progressBarPadding = global::coins.Droid.Resource.Attribute.progressBarPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.progressBarStyle = global::coins.Droid.Resource.Attribute.progressBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.queryBackground = global::coins.Droid.Resource.Attribute.queryBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.queryHint = global::coins.Droid.Resource.Attribute.queryHint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.radioButtonStyle = global::coins.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.ratingBarStyle = global::coins.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::coins.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::coins.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.reverseLayout = global::coins.Droid.Resource.Attribute.reverseLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.rippleColor = global::coins.Droid.Resource.Attribute.rippleColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.searchHintIcon = global::coins.Droid.Resource.Attribute.searchHintIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.searchIcon = global::coins.Droid.Resource.Attribute.searchIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.searchViewStyle = global::coins.Droid.Resource.Attribute.searchViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.seekBarStyle = global::coins.Droid.Resource.Attribute.seekBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.selectableItemBackground = global::coins.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::coins.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.showAsAction = global::coins.Droid.Resource.Attribute.showAsAction;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.showDividers = global::coins.Droid.Resource.Attribute.showDividers;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.showText = global::coins.Droid.Resource.Attribute.showText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::coins.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.spanCount = global::coins.Droid.Resource.Attribute.spanCount;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.spinBars = global::coins.Droid.Resource.Attribute.spinBars;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::coins.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.spinnerStyle = global::coins.Droid.Resource.Attribute.spinnerStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.splitTrack = global::coins.Droid.Resource.Attribute.splitTrack;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.srcCompat = global::coins.Droid.Resource.Attribute.srcCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.stackFromEnd = global::coins.Droid.Resource.Attribute.stackFromEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.state_above_anchor = global::coins.Droid.Resource.Attribute.state_above_anchor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.statusBarBackground = global::coins.Droid.Resource.Attribute.statusBarBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.statusBarScrim = global::coins.Droid.Resource.Attribute.statusBarScrim;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.submitBackground = global::coins.Droid.Resource.Attribute.submitBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.subtitle = global::coins.Droid.Resource.Attribute.subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::coins.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.subtitleTextColor = global::coins.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.subtitleTextStyle = global::coins.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.suggestionRowLayout = global::coins.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.switchMinWidth = global::coins.Droid.Resource.Attribute.switchMinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.switchPadding = global::coins.Droid.Resource.Attribute.switchPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.switchStyle = global::coins.Droid.Resource.Attribute.switchStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.switchTextAppearance = global::coins.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabBackground = global::coins.Droid.Resource.Attribute.tabBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabContentStart = global::coins.Droid.Resource.Attribute.tabContentStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabGravity = global::coins.Droid.Resource.Attribute.tabGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabIndicatorColor = global::coins.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabIndicatorHeight = global::coins.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabMaxWidth = global::coins.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabMinWidth = global::coins.Droid.Resource.Attribute.tabMinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabMode = global::coins.Droid.Resource.Attribute.tabMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabPadding = global::coins.Droid.Resource.Attribute.tabPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabPaddingBottom = global::coins.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabPaddingEnd = global::coins.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabPaddingStart = global::coins.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabPaddingTop = global::coins.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabSelectedTextColor = global::coins.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabTextAppearance = global::coins.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.tabTextColor = global::coins.Droid.Resource.Attribute.tabTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textAllCaps = global::coins.Droid.Resource.Attribute.textAllCaps;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::coins.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textAppearanceListItem = global::coins.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::coins.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::coins.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::coins.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::coins.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::coins.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textColorError = global::coins.Droid.Resource.Attribute.textColorError;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.textColorSearchUrl = global::coins.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.theme = global::coins.Droid.Resource.Attribute.theme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.thickness = global::coins.Droid.Resource.Attribute.thickness;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.thumbTextPadding = global::coins.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.title = global::coins.Droid.Resource.Attribute.title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleEnabled = global::coins.Droid.Resource.Attribute.titleEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleMarginBottom = global::coins.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleMarginEnd = global::coins.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleMarginStart = global::coins.Droid.Resource.Attribute.titleMarginStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleMarginTop = global::coins.Droid.Resource.Attribute.titleMarginTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleMargins = global::coins.Droid.Resource.Attribute.titleMargins;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleTextAppearance = global::coins.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleTextColor = global::coins.Droid.Resource.Attribute.titleTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.titleTextStyle = global::coins.Droid.Resource.Attribute.titleTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.toolbarId = global::coins.Droid.Resource.Attribute.toolbarId;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::coins.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.toolbarStyle = global::coins.Droid.Resource.Attribute.toolbarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.track = global::coins.Droid.Resource.Attribute.track;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.useCompatPadding = global::coins.Droid.Resource.Attribute.useCompatPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.voiceIcon = global::coins.Droid.Resource.Attribute.voiceIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowActionBar = global::coins.Droid.Resource.Attribute.windowActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowActionBarOverlay = global::coins.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowActionModeOverlay = global::coins.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowFixedHeightMajor = global::coins.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowFixedHeightMinor = global::coins.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowFixedWidthMajor = global::coins.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowFixedWidthMinor = global::coins.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::coins.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::coins.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Attribute.windowNoTitle = global::coins.Droid.Resource.Attribute.windowNoTitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::coins.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::coins.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::coins.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::coins.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::coins.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::coins.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::coins.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::coins.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::coins.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::coins.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_input_method_navigation_guard = global::coins.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::coins.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::coins.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_primary_text_material_dark = global::coins.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_primary_text_material_light = global::coins.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_search_url_text = global::coins.Droid.Resource.Color.abc_search_url_text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_search_url_text_normal = global::coins.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_search_url_text_pressed = global::coins.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_search_url_text_selected = global::coins.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_secondary_text_material_dark = global::coins.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.abc_secondary_text_material_light = global::coins.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.accent_material_dark = global::coins.Droid.Resource.Color.accent_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.accent_material_light = global::coins.Droid.Resource.Color.accent_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.background_floating_material_dark = global::coins.Droid.Resource.Color.background_floating_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.background_floating_material_light = global::coins.Droid.Resource.Color.background_floating_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.background_material_dark = global::coins.Droid.Resource.Color.background_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.background_material_light = global::coins.Droid.Resource.Color.background_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.bright_foreground_disabled_material_dark = global::coins.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.bright_foreground_disabled_material_light = global::coins.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.bright_foreground_inverse_material_dark = global::coins.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.bright_foreground_inverse_material_light = global::coins.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.bright_foreground_material_dark = global::coins.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.bright_foreground_material_light = global::coins.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.button_material_dark = global::coins.Droid.Resource.Color.button_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.button_material_light = global::coins.Droid.Resource.Color.button_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.cardview_dark_background = global::coins.Droid.Resource.Color.cardview_dark_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.cardview_light_background = global::coins.Droid.Resource.Color.cardview_light_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.cardview_shadow_end_color = global::coins.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.cardview_shadow_start_color = global::coins.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::coins.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::coins.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_fab_shadow_start_color = global::coins.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_fab_stroke_end_inner_color = global::coins.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::coins.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::coins.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::coins.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_snackbar_background_color = global::coins.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_textinput_error_color_dark = global::coins.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.design_textinput_error_color_light = global::coins.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::coins.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::coins.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.dim_foreground_material_dark = global::coins.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.dim_foreground_material_light = global::coins.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.foreground_material_dark = global::coins.Droid.Resource.Color.foreground_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.foreground_material_light = global::coins.Droid.Resource.Color.foreground_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.highlighted_text_material_dark = global::coins.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.highlighted_text_material_light = global::coins.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.hint_foreground_material_dark = global::coins.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.hint_foreground_material_light = global::coins.Droid.Resource.Color.hint_foreground_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_blue_grey_800 = global::coins.Droid.Resource.Color.material_blue_grey_800;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_blue_grey_900 = global::coins.Droid.Resource.Color.material_blue_grey_900;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_blue_grey_950 = global::coins.Droid.Resource.Color.material_blue_grey_950;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_deep_teal_200 = global::coins.Droid.Resource.Color.material_deep_teal_200;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_deep_teal_500 = global::coins.Droid.Resource.Color.material_deep_teal_500;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_grey_100 = global::coins.Droid.Resource.Color.material_grey_100;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_grey_300 = global::coins.Droid.Resource.Color.material_grey_300;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_grey_50 = global::coins.Droid.Resource.Color.material_grey_50;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_grey_600 = global::coins.Droid.Resource.Color.material_grey_600;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_grey_800 = global::coins.Droid.Resource.Color.material_grey_800;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_grey_850 = global::coins.Droid.Resource.Color.material_grey_850;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.material_grey_900 = global::coins.Droid.Resource.Color.material_grey_900;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_dark_material_dark = global::coins.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_dark_material_light = global::coins.Droid.Resource.Color.primary_dark_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_material_dark = global::coins.Droid.Resource.Color.primary_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_material_light = global::coins.Droid.Resource.Color.primary_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_text_default_material_dark = global::coins.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_text_default_material_light = global::coins.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::coins.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::coins.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.ripple_material_dark = global::coins.Droid.Resource.Color.ripple_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.ripple_material_light = global::coins.Droid.Resource.Color.ripple_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::coins.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.secondary_text_default_material_light = global::coins.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.secondary_text_disabled_material_dark = global::coins.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.secondary_text_disabled_material_light = global::coins.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.switch_thumb_disabled_material_dark = global::coins.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.switch_thumb_disabled_material_light = global::coins.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.switch_thumb_material_dark = global::coins.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.switch_thumb_material_light = global::coins.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::coins.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::coins.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::coins.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_default_height_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::coins.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::coins.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::coins.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::coins.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::coins.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::coins.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::coins.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::coins.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::coins.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_button_min_height_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_button_min_width_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::coins.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::coins.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::coins.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_button_inset_vertical_material = global::coins.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::coins.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_button_padding_vertical_material = global::coins.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_config_prefDialogWidth = global::coins.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_control_corner_material = global::coins.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_control_inset_material = global::coins.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_control_padding_material = global::coins.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::coins.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::coins.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_min_width_major = global::coins.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_min_width_minor = global::coins.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_padding_material = global::coins.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dialog_padding_top_material = global::coins.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::coins.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::coins.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::coins.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::coins.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::coins.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::coins.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_floating_window_z = global::coins.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::coins.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::coins.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_search_view_preferred_width = global::coins.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_search_view_text_min_width = global::coins.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::coins.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::coins.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::coins.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_switch_padding = global::coins.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_body_1_material = global::coins.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_body_2_material = global::coins.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_button_material = global::coins.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_caption_material = global::coins.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_display_1_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_display_2_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_display_3_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_display_4_material = global::coins.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_headline_material = global::coins.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_large_material = global::coins.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_medium_material = global::coins.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_menu_material = global::coins.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_small_material = global::coins.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_subhead_material = global::coins.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::coins.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::coins.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::coins.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::coins.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.cardview_default_elevation = global::coins.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.cardview_default_radius = global::coins.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_appbar_elevation = global::coins.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::coins.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::coins.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_fab_border_width = global::coins.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_fab_elevation = global::coins.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_fab_image_size = global::coins.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_fab_size_mini = global::coins.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_fab_size_normal = global::coins.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_fab_translation_z_pressed = global::coins.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_navigation_elevation = global::coins.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_navigation_icon_padding = global::coins.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_navigation_icon_size = global::coins.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_navigation_max_width = global::coins.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::coins.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::coins.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::coins.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::coins.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::coins.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::coins.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_max_width = global::coins.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_min_width = global::coins.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::coins.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical = global::coins.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::coins.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_snackbar_text_size = global::coins.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_tab_max_width = global::coins.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_tab_scrollable_min_width = global::coins.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_tab_text_size = global::coins.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.design_tab_text_size_2line = global::coins.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.disabled_alpha_material_dark = global::coins.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.disabled_alpha_material_light = global::coins.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.highlight_alpha_material_colored = global::coins.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.highlight_alpha_material_dark = global::coins.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.highlight_alpha_material_light = global::coins.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::coins.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::coins.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::coins.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::coins.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::coins.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::coins.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.notification_large_icon_height = global::coins.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.notification_large_icon_width = global::coins.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Dimension.notification_subtext_size = global::coins.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::coins.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::coins.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_check_material = global::coins.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::coins.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::coins.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::coins.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::coins.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::coins.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::coins.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::coins.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_cab_background_internal_bg = global::coins.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_cab_background_top_material = global::coins.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_dialog_material_background_dark = global::coins.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_dialog_material_background_light = global::coins.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_edit_text_material = global::coins.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_star_black_16dp = global::coins.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_star_black_36dp = global::coins.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::coins.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::coins.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_item_background_holo_dark = global::coins.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_item_background_holo_light = global::coins.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_focused_holo = global::coins.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_longpressed_holo = global::coins.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_pressed_holo_light = global::coins.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_selector_holo_dark = global::coins.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_list_selector_holo_light = global::coins.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::coins.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::coins.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ratingbar_full_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_ratingbar_small_material = global::coins.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::coins.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::coins.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_seekbar_thumb_material = global::coins.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_seekbar_track_material = global::coins.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::coins.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::coins.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_switch_thumb_material = global::coins.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_tab_indicator_material = global::coins.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_text_cursor_material = global::coins.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::coins.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.abc_textfield_search_material = global::coins.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.dct = global::coins.Droid.Resource.Drawable.dct;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.design_fab_background = global::coins.Droid.Resource.Drawable.design_fab_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.design_snackbar_background = global::coins.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_audiotrack = global::coins.Droid.Resource.Drawable.ic_audiotrack;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_audiotrack_light = global::coins.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_bluetooth_grey = global::coins.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_bluetooth_white = global::coins.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_dark = global::coins.Droid.Resource.Drawable.ic_cast_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_disabled_light = global::coins.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_grey = global::coins.Droid.Resource.Drawable.ic_cast_grey;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_light = global::coins.Droid.Resource.Drawable.ic_cast_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_off_light = global::coins.Droid.Resource.Drawable.ic_cast_off_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_on_0_light = global::coins.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_on_1_light = global::coins.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_on_2_light = global::coins.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_on_light = global::coins.Droid.Resource.Drawable.ic_cast_on_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_cast_white = global::coins.Droid.Resource.Drawable.ic_cast_white;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_close_dark = global::coins.Droid.Resource.Drawable.ic_close_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_close_light = global::coins.Droid.Resource.Drawable.ic_close_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse = global::coins.Droid.Resource.Drawable.ic_collapse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00000 = global::coins.Droid.Resource.Drawable.ic_collapse_00000;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00001 = global::coins.Droid.Resource.Drawable.ic_collapse_00001;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00002 = global::coins.Droid.Resource.Drawable.ic_collapse_00002;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00003 = global::coins.Droid.Resource.Drawable.ic_collapse_00003;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00004 = global::coins.Droid.Resource.Drawable.ic_collapse_00004;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00005 = global::coins.Droid.Resource.Drawable.ic_collapse_00005;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00006 = global::coins.Droid.Resource.Drawable.ic_collapse_00006;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00007 = global::coins.Droid.Resource.Drawable.ic_collapse_00007;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00008 = global::coins.Droid.Resource.Drawable.ic_collapse_00008;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00009 = global::coins.Droid.Resource.Drawable.ic_collapse_00009;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00010 = global::coins.Droid.Resource.Drawable.ic_collapse_00010;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00011 = global::coins.Droid.Resource.Drawable.ic_collapse_00011;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00012 = global::coins.Droid.Resource.Drawable.ic_collapse_00012;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00013 = global::coins.Droid.Resource.Drawable.ic_collapse_00013;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00014 = global::coins.Droid.Resource.Drawable.ic_collapse_00014;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_collapse_00015 = global::coins.Droid.Resource.Drawable.ic_collapse_00015;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand = global::coins.Droid.Resource.Drawable.ic_expand;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00000 = global::coins.Droid.Resource.Drawable.ic_expand_00000;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00001 = global::coins.Droid.Resource.Drawable.ic_expand_00001;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00002 = global::coins.Droid.Resource.Drawable.ic_expand_00002;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00003 = global::coins.Droid.Resource.Drawable.ic_expand_00003;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00004 = global::coins.Droid.Resource.Drawable.ic_expand_00004;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00005 = global::coins.Droid.Resource.Drawable.ic_expand_00005;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00006 = global::coins.Droid.Resource.Drawable.ic_expand_00006;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00007 = global::coins.Droid.Resource.Drawable.ic_expand_00007;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00008 = global::coins.Droid.Resource.Drawable.ic_expand_00008;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00009 = global::coins.Droid.Resource.Drawable.ic_expand_00009;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00010 = global::coins.Droid.Resource.Drawable.ic_expand_00010;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00011 = global::coins.Droid.Resource.Drawable.ic_expand_00011;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00012 = global::coins.Droid.Resource.Drawable.ic_expand_00012;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00013 = global::coins.Droid.Resource.Drawable.ic_expand_00013;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00014 = global::coins.Droid.Resource.Drawable.ic_expand_00014;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_expand_00015 = global::coins.Droid.Resource.Drawable.ic_expand_00015;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_pause = global::coins.Droid.Resource.Drawable.ic_media_pause;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_play = global::coins.Droid.Resource.Drawable.ic_media_play;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_route_disabled_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_route_off_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_route_on_0_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_route_on_1_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_route_on_2_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_media_route_on_mono_dark = global::coins.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_pause_dark = global::coins.Droid.Resource.Drawable.ic_pause_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_pause_light = global::coins.Droid.Resource.Drawable.ic_pause_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_play_dark = global::coins.Droid.Resource.Drawable.ic_play_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_play_light = global::coins.Droid.Resource.Drawable.ic_play_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_speaker_dark = global::coins.Droid.Resource.Drawable.ic_speaker_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_speaker_group_dark = global::coins.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_speaker_group_light = global::coins.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_speaker_light = global::coins.Droid.Resource.Drawable.ic_speaker_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_tv_dark = global::coins.Droid.Resource.Drawable.ic_tv_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.ic_tv_light = global::coins.Droid.Resource.Drawable.ic_tv_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_dialog_material_background_dark = global::coins.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_dialog_material_background_light = global::coins.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_audiotrack_light = global::coins.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_cast_dark = global::coins.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_cast_light = global::coins.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_close_dark = global::coins.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_close_light = global::coins.Droid.Resource.Drawable.mr_ic_close_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::coins.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::coins.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_media_route_mono_dark = global::coins.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_media_route_mono_light = global::coins.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_pause_dark = global::coins.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_pause_light = global::coins.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_play_dark = global::coins.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.mr_ic_play_light = global::coins.Droid.Resource.Drawable.mr_ic_play_light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Drawable.notification_template_icon_bg = global::coins.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.ALL = global::coins.Droid.Resource.Id.ALL;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.AUTO = global::coins.Droid.Resource.Id.AUTO;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.BOLD = global::coins.Droid.Resource.Id.BOLD;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.BOLD_ITALIC = global::coins.Droid.Resource.Id.BOLD_ITALIC;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.BOTTOM = global::coins.Droid.Resource.Id.BOTTOM;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.CENTER = global::coins.Droid.Resource.Id.CENTER;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.CENTER_HORIZONTAL = global::coins.Droid.Resource.Id.CENTER_HORIZONTAL;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.HORIZONTAL = global::coins.Droid.Resource.Id.HORIZONTAL;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.INSIDE = global::coins.Droid.Resource.Id.INSIDE;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.ITALIC = global::coins.Droid.Resource.Id.ITALIC;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.LEFT = global::coins.Droid.Resource.Id.LEFT;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.NONE = global::coins.Droid.Resource.Id.NONE;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.NORMAL = global::coins.Droid.Resource.Id.NORMAL;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.OUTSIDE = global::coins.Droid.Resource.Id.OUTSIDE;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.POINT = global::coins.Droid.Resource.Id.POINT;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.RIGHT = global::coins.Droid.Resource.Id.RIGHT;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.SERIES = global::coins.Droid.Resource.Id.SERIES;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.TOP = global::coins.Droid.Resource.Id.TOP;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.VERTICAL = global::coins.Droid.Resource.Id.VERTICAL;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action0 = global::coins.Droid.Resource.Id.action0;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_bar = global::coins.Droid.Resource.Id.action_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_bar_activity_content = global::coins.Droid.Resource.Id.action_bar_activity_content;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_bar_container = global::coins.Droid.Resource.Id.action_bar_container;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_bar_root = global::coins.Droid.Resource.Id.action_bar_root;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_bar_spinner = global::coins.Droid.Resource.Id.action_bar_spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_bar_subtitle = global::coins.Droid.Resource.Id.action_bar_subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_bar_title = global::coins.Droid.Resource.Id.action_bar_title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_context_bar = global::coins.Droid.Resource.Id.action_context_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_divider = global::coins.Droid.Resource.Id.action_divider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_menu_divider = global::coins.Droid.Resource.Id.action_menu_divider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_menu_presenter = global::coins.Droid.Resource.Id.action_menu_presenter;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_mode_bar = global::coins.Droid.Resource.Id.action_mode_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_mode_bar_stub = global::coins.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.action_mode_close_button = global::coins.Droid.Resource.Id.action_mode_close_button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.activity_chooser_view_content = global::coins.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.alertTitle = global::coins.Droid.Resource.Id.alertTitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.always = global::coins.Droid.Resource.Id.always;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.beginning = global::coins.Droid.Resource.Id.beginning;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.bottom = global::coins.Droid.Resource.Id.bottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.buttonPanel = global::coins.Droid.Resource.Id.buttonPanel;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.cancel_action = global::coins.Droid.Resource.Id.cancel_action;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.center = global::coins.Droid.Resource.Id.center;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.center_horizontal = global::coins.Droid.Resource.Id.center_horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.center_vertical = global::coins.Droid.Resource.Id.center_vertical;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.checkbox = global::coins.Droid.Resource.Id.checkbox;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.chronometer = global::coins.Droid.Resource.Id.chronometer;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.clip_horizontal = global::coins.Droid.Resource.Id.clip_horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.clip_vertical = global::coins.Droid.Resource.Id.clip_vertical;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.collapseActionView = global::coins.Droid.Resource.Id.collapseActionView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.contentPanel = global::coins.Droid.Resource.Id.contentPanel;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.custom = global::coins.Droid.Resource.Id.custom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.customPanel = global::coins.Droid.Resource.Id.customPanel;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.decor_content_parent = global::coins.Droid.Resource.Id.decor_content_parent;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.default_activity_button = global::coins.Droid.Resource.Id.default_activity_button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.design_bottom_sheet = global::coins.Droid.Resource.Id.design_bottom_sheet;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.design_menu_item_action_area = global::coins.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::coins.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.design_menu_item_text = global::coins.Droid.Resource.Id.design_menu_item_text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.design_navigation_view = global::coins.Droid.Resource.Id.design_navigation_view;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.disableHome = global::coins.Droid.Resource.Id.disableHome;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.edit_query = global::coins.Droid.Resource.Id.edit_query;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.end = global::coins.Droid.Resource.Id.end;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.end_padder = global::coins.Droid.Resource.Id.end_padder;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.enterAlways = global::coins.Droid.Resource.Id.enterAlways;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.enterAlwaysCollapsed = global::coins.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.exitUntilCollapsed = global::coins.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.expand_activities_button = global::coins.Droid.Resource.Id.expand_activities_button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.expanded_menu = global::coins.Droid.Resource.Id.expanded_menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.fill = global::coins.Droid.Resource.Id.fill;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.fill_horizontal = global::coins.Droid.Resource.Id.fill_horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.fill_vertical = global::coins.Droid.Resource.Id.fill_vertical;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.@fixed = global::coins.Droid.Resource.Id.@fixed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.home = global::coins.Droid.Resource.Id.home;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.homeAsUp = global::coins.Droid.Resource.Id.homeAsUp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.icon = global::coins.Droid.Resource.Id.icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.ifRoom = global::coins.Droid.Resource.Id.ifRoom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.image = global::coins.Droid.Resource.Id.image;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.info = global::coins.Droid.Resource.Id.info;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.item_touch_helper_previous_elevation = global::coins.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.left = global::coins.Droid.Resource.Id.left;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.line1 = global::coins.Droid.Resource.Id.line1;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.line3 = global::coins.Droid.Resource.Id.line3;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.listMode = global::coins.Droid.Resource.Id.listMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.list_item = global::coins.Droid.Resource.Id.list_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.media_actions = global::coins.Droid.Resource.Id.media_actions;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.middle = global::coins.Droid.Resource.Id.middle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mini = global::coins.Droid.Resource.Id.mini;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_art = global::coins.Droid.Resource.Id.mr_art;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_chooser_list = global::coins.Droid.Resource.Id.mr_chooser_list;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_chooser_route_desc = global::coins.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_chooser_route_icon = global::coins.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_chooser_route_name = global::coins.Droid.Resource.Id.mr_chooser_route_name;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_close = global::coins.Droid.Resource.Id.mr_close;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_control_divider = global::coins.Droid.Resource.Id.mr_control_divider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_control_play_pause = global::coins.Droid.Resource.Id.mr_control_play_pause;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_control_subtitle = global::coins.Droid.Resource.Id.mr_control_subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_control_title = global::coins.Droid.Resource.Id.mr_control_title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_control_title_container = global::coins.Droid.Resource.Id.mr_control_title_container;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_custom_control = global::coins.Droid.Resource.Id.mr_custom_control;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_default_control = global::coins.Droid.Resource.Id.mr_default_control;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_dialog_area = global::coins.Droid.Resource.Id.mr_dialog_area;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_expandable_area = global::coins.Droid.Resource.Id.mr_expandable_area;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_group_expand_collapse = global::coins.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_media_main_control = global::coins.Droid.Resource.Id.mr_media_main_control;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_name = global::coins.Droid.Resource.Id.mr_name;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_playback_control = global::coins.Droid.Resource.Id.mr_playback_control;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_title_bar = global::coins.Droid.Resource.Id.mr_title_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_volume_control = global::coins.Droid.Resource.Id.mr_volume_control;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_volume_group_list = global::coins.Droid.Resource.Id.mr_volume_group_list;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_volume_item_icon = global::coins.Droid.Resource.Id.mr_volume_item_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.mr_volume_slider = global::coins.Droid.Resource.Id.mr_volume_slider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.multiply = global::coins.Droid.Resource.Id.multiply;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.navigation_header_container = global::coins.Droid.Resource.Id.navigation_header_container;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.never = global::coins.Droid.Resource.Id.never;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.none = global::coins.Droid.Resource.Id.none;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.normal = global::coins.Droid.Resource.Id.normal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.parallax = global::coins.Droid.Resource.Id.parallax;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.parentPanel = global::coins.Droid.Resource.Id.parentPanel;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.pin = global::coins.Droid.Resource.Id.pin;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.progress_circular = global::coins.Droid.Resource.Id.progress_circular;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.progress_horizontal = global::coins.Droid.Resource.Id.progress_horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.radio = global::coins.Droid.Resource.Id.radio;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.right = global::coins.Droid.Resource.Id.right;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.screen = global::coins.Droid.Resource.Id.screen;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.scroll = global::coins.Droid.Resource.Id.scroll;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.scrollIndicatorDown = global::coins.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.scrollIndicatorUp = global::coins.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.scrollView = global::coins.Droid.Resource.Id.scrollView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.scrollable = global::coins.Droid.Resource.Id.scrollable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_badge = global::coins.Droid.Resource.Id.search_badge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_bar = global::coins.Droid.Resource.Id.search_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_button = global::coins.Droid.Resource.Id.search_button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_close_btn = global::coins.Droid.Resource.Id.search_close_btn;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_edit_frame = global::coins.Droid.Resource.Id.search_edit_frame;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_go_btn = global::coins.Droid.Resource.Id.search_go_btn;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_mag_icon = global::coins.Droid.Resource.Id.search_mag_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_plate = global::coins.Droid.Resource.Id.search_plate;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_src_text = global::coins.Droid.Resource.Id.search_src_text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.search_voice_btn = global::coins.Droid.Resource.Id.search_voice_btn;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.select_dialog_listview = global::coins.Droid.Resource.Id.select_dialog_listview;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.shortcut = global::coins.Droid.Resource.Id.shortcut;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.showCustom = global::coins.Droid.Resource.Id.showCustom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.showHome = global::coins.Droid.Resource.Id.showHome;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.showTitle = global::coins.Droid.Resource.Id.showTitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.snackbar_action = global::coins.Droid.Resource.Id.snackbar_action;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.snackbar_text = global::coins.Droid.Resource.Id.snackbar_text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.snap = global::coins.Droid.Resource.Id.snap;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.spacer = global::coins.Droid.Resource.Id.spacer;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.split_action_bar = global::coins.Droid.Resource.Id.split_action_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.src_atop = global::coins.Droid.Resource.Id.src_atop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.src_in = global::coins.Droid.Resource.Id.src_in;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.src_over = global::coins.Droid.Resource.Id.src_over;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.start = global::coins.Droid.Resource.Id.start;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.status_bar_latest_event_content = global::coins.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.submit_area = global::coins.Droid.Resource.Id.submit_area;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.tabMode = global::coins.Droid.Resource.Id.tabMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.text = global::coins.Droid.Resource.Id.text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.text2 = global::coins.Droid.Resource.Id.text2;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.textSpacerNoButtons = global::coins.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.time = global::coins.Droid.Resource.Id.time;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.title = global::coins.Droid.Resource.Id.title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.title_template = global::coins.Droid.Resource.Id.title_template;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.tooltipContent = global::coins.Droid.Resource.Id.tooltipContent;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.tooltipTitle = global::coins.Droid.Resource.Id.tooltipTitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.top = global::coins.Droid.Resource.Id.top;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.topPanel = global::coins.Droid.Resource.Id.topPanel;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.touch_outside = global::coins.Droid.Resource.Id.touch_outside;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.up = global::coins.Droid.Resource.Id.up;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.useLogo = global::coins.Droid.Resource.Id.useLogo;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.view_offset_helper = global::coins.Droid.Resource.Id.view_offset_helper;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.volume_item_container = global::coins.Droid.Resource.Id.volume_item_container;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.withText = global::coins.Droid.Resource.Id.withText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Id.wrap_content = global::coins.Droid.Resource.Id.wrap_content;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::coins.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::coins.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.abc_max_action_buttons = global::coins.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::coins.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.cancel_button_image_alpha = global::coins.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::coins.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::coins.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::coins.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Interpolator.mr_fast_out_slow_in = global::coins.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Interpolator.mr_linear_out_slow_in = global::coins.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_action_bar_title_item = global::coins.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_action_bar_up_container = global::coins.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::coins.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_action_menu_item_layout = global::coins.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_action_menu_layout = global::coins.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_action_mode_bar = global::coins.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_action_mode_close_item_material = global::coins.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_activity_chooser_view = global::coins.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::coins.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::coins.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_alert_dialog_material = global::coins.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_dialog_title_material = global::coins.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_expanded_menu_layout = global::coins.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_list_menu_item_checkbox = global::coins.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_list_menu_item_icon = global::coins.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_list_menu_item_layout = global::coins.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_list_menu_item_radio = global::coins.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_popup_menu_item_layout = global::coins.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_screen_content_include = global::coins.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_screen_simple = global::coins.Droid.Resource.Layout.abc_screen_simple;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::coins.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_screen_toolbar = global::coins.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::coins.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_search_view = global::coins.Droid.Resource.Layout.abc_search_view;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.abc_select_dialog_material = global::coins.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::coins.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_layout_snackbar = global::coins.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_layout_snackbar_include = global::coins.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_layout_tab_icon = global::coins.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_layout_tab_text = global::coins.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_menu_item_action_area = global::coins.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_navigation_item = global::coins.Droid.Resource.Layout.design_navigation_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_navigation_item_header = global::coins.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_navigation_item_separator = global::coins.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::coins.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_navigation_menu = global::coins.Droid.Resource.Layout.design_navigation_menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.design_navigation_menu_item = global::coins.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.mr_chooser_dialog = global::coins.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.mr_chooser_list_item = global::coins.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.mr_controller_material_dialog_b = global::coins.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.mr_controller_volume_item = global::coins.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.mr_playback_control = global::coins.Droid.Resource.Layout.mr_playback_control;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.mr_volume_control = global::coins.Droid.Resource.Layout.mr_volume_control;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_media_action = global::coins.Droid.Resource.Layout.notification_media_action;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_media_cancel_action = global::coins.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_template_big_media = global::coins.Droid.Resource.Layout.notification_template_big_media;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_template_big_media_narrow = global::coins.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_template_lines = global::coins.Droid.Resource.Layout.notification_template_lines;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_template_media = global::coins.Droid.Resource.Layout.notification_template_media;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::coins.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.notification_template_part_time = global::coins.Droid.Resource.Layout.notification_template_part_time;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.select_dialog_item_material = global::coins.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::coins.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::coins.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::coins.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Layout.tooltip = global::coins.Droid.Resource.Layout.tooltip;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.ApplicationName = global::coins.Droid.Resource.String.ApplicationName;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.Hello = global::coins.Droid.Resource.String.Hello;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_action_bar_home_description = global::coins.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_action_bar_home_description_format = global::coins.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::coins.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_action_bar_up_description = global::coins.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::coins.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_action_mode_done = global::coins.Droid.Resource.String.abc_action_mode_done;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_activity_chooser_view_see_all = global::coins.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_activitychooserview_choose_application = global::coins.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_capital_off = global::coins.Droid.Resource.String.abc_capital_off;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_capital_on = global::coins.Droid.Resource.String.abc_capital_on;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_search_hint = global::coins.Droid.Resource.String.abc_search_hint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_searchview_description_clear = global::coins.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_searchview_description_query = global::coins.Droid.Resource.String.abc_searchview_description_query;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_searchview_description_search = global::coins.Droid.Resource.String.abc_searchview_description_search;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_searchview_description_submit = global::coins.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_searchview_description_voice = global::coins.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::coins.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::coins.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::coins.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::coins.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.bottom_sheet_behavior = global::coins.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.character_counter_pattern = global::coins.Droid.Resource.String.character_counter_pattern;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_button_content_description = global::coins.Droid.Resource.String.mr_button_content_description;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_chooser_searching = global::coins.Droid.Resource.String.mr_chooser_searching;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_chooser_title = global::coins.Droid.Resource.String.mr_chooser_title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_casting_screen = global::coins.Droid.Resource.String.mr_controller_casting_screen;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_close_description = global::coins.Droid.Resource.String.mr_controller_close_description;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_collapse_group = global::coins.Droid.Resource.String.mr_controller_collapse_group;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_disconnect = global::coins.Droid.Resource.String.mr_controller_disconnect;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_expand_group = global::coins.Droid.Resource.String.mr_controller_expand_group;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_no_info_available = global::coins.Droid.Resource.String.mr_controller_no_info_available;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_no_media_selected = global::coins.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_pause = global::coins.Droid.Resource.String.mr_controller_pause;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_play = global::coins.Droid.Resource.String.mr_controller_play;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_controller_stop = global::coins.Droid.Resource.String.mr_controller_stop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_system_route_name = global::coins.Droid.Resource.String.mr_system_route_name;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.mr_user_route_category_name = global::coins.Droid.Resource.String.mr_user_route_category_name;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::coins.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::coins.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::coins.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::coins.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::coins.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::coins.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.AppBaseTheme = global::coins.Droid.Resource.Style.AppBaseTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.AppTheme = global::coins.Droid.Resource.Style.AppTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::coins.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::coins.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::coins.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_CardView = global::coins.Droid.Resource.Style.Base_CardView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::coins.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::coins.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::coins.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::coins.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::coins.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::coins.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.CardView = global::coins.Droid.Resource.Style.CardView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.CardView_Dark = global::coins.Droid.Resource.Style.CardView_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.CardView_Light = global::coins.Droid.Resource.Style.CardView_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_AppCompat = global::coins.Droid.Resource.Style.Platform_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_V11_AppCompat = global::coins.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_V11_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_V14_AppCompat = global::coins.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_V14_AppCompat_Light = global::coins.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::coins.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::coins.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::coins.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Button = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::coins.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::coins.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Design_Counter = global::coins.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::coins.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::coins.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::coins.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::coins.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::coins.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::coins.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::coins.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat = global::coins.Droid.Resource.Style.Theme_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::coins.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::coins.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::coins.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_Design = global::coins.Droid.Resource.Style.Theme_Design;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::coins.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_Design_Light = global::coins.Droid.Resource.Style.Theme_Design_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::coins.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::coins.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_Design_NoActionBar = global::coins.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_MediaRouter = global::coins.Droid.Resource.Style.Theme_MediaRouter;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_MediaRouter_Light = global::coins.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::coins.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::coins.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::coins.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActionMode = global::coins.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::coins.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::coins.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Button = global::coins.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Button_Small = global::coins.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::coins.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::coins.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::coins.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_EditText = global::coins.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ImageButton = global::coins.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ListView = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::coins.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::coins.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::coins.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::coins.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::coins.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_SearchView = global::coins.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar = global::coins.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Spinner = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::coins.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::coins.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::coins.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::coins.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_AppBarLayout = global::coins.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::coins.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::coins.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::coins.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_FloatingActionButton = global::coins.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_NavigationView = global::coins.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::coins.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::coins.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::coins.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::coins.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::coins.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::coins.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::coins.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar = global::coins.Droid.Resource.Styleable.ActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_background = global::coins.Droid.Resource.Styleable.ActionBar_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::coins.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_backgroundStacked = global::coins.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_contentInsetRight = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_contentInsetStart = global::coins.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::coins.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_displayOptions = global::coins.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_divider = global::coins.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_elevation = global::coins.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_height = global::coins.Droid.Resource.Styleable.ActionBar_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::coins.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::coins.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_homeLayout = global::coins.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_icon = global::coins.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::coins.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_itemPadding = global::coins.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_logo = global::coins.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_navigationMode = global::coins.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_popupTheme = global::coins.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_progressBarPadding = global::coins.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_progressBarStyle = global::coins.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_subtitle = global::coins.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::coins.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_title = global::coins.Droid.Resource.Styleable.ActionBar_title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBar_titleTextStyle = global::coins.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBarLayout = global::coins.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::coins.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMenuItemView = global::coins.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::coins.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMenuView = global::coins.Droid.Resource.Styleable.ActionMenuView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMode = global::coins.Droid.Resource.Styleable.ActionMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMode_background = global::coins.Droid.Resource.Styleable.ActionMode_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMode_backgroundSplit = global::coins.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMode_closeItemLayout = global::coins.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMode_height = global::coins.Droid.Resource.Styleable.ActionMode_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::coins.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActionMode_titleTextStyle = global::coins.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActivityChooserView = global::coins.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::coins.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::coins.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AlertDialog = global::coins.Droid.Resource.Styleable.AlertDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AlertDialog_android_layout = global::coins.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::coins.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AlertDialog_listItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AlertDialog_listLayout = global::coins.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::coins.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppBarLayout = global::coins.Droid.Resource.Styleable.AppBarLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppBarLayout_android_background = global::coins.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppBarLayout_elevation = global::coins.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppBarLayout_expanded = global::coins.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::coins.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatImageView = global::coins.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::coins.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::coins.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTextView = global::coins.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::coins.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::coins.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::coins.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::coins.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::coins.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::coins.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::coins.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::coins.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::coins.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::coins.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::coins.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::coins.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::coins.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::coins.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::coins.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::coins.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::coins.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::coins.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::coins.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ButtonBarLayout = global::coins.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::coins.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView = global::coins.Droid.Resource.Styleable.CardView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_android_minHeight = global::coins.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_android_minWidth = global::coins.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_cardBackgroundColor = global::coins.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_cardCornerRadius = global::coins.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_cardElevation = global::coins.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_cardMaxElevation = global::coins.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::coins.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::coins.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_contentPadding = global::coins.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_contentPaddingBottom = global::coins.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_contentPaddingLeft = global::coins.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_contentPaddingRight = global::coins.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CardView_contentPaddingTop = global::coins.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::coins.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::coins.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CompoundButton = global::coins.Droid.Resource.Styleable.CompoundButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::coins.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::coins.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::coins.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout = global::coins.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_keylines = global::coins.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::coins.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::coins.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DesignTheme = global::coins.Droid.Resource.Styleable.DesignTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::coins.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::coins.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DesignTheme_textColorError = global::coins.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle = global::coins.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_color = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::coins.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie = global::coins.Droid.Resource.Styleable.FlexPie;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_animated = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_animated;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_backgroundColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_backgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_binding = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_binding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_bindingName = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_bindingName;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_borderColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_borderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_borderWidth = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_FontColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_FontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_FontSize = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_FontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_FontTypeface = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_FontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_FontWeight = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_FontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_backgroundColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_backgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_borderColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_borderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_borderWidth = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_datalabel_position = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_datalabel_position;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_footer = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_footer;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_footerFontColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_footerFontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_footerFontGravity = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_footerFontGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_footerFontSize = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_footerFontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_footerFontTypeface = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_footerFontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_footerFontWeight = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_footerFontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_header = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_header;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_headerFontColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_headerFontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_headerFontGravity = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_headerFontGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_headerFontSize = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_headerFontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_headerFontTypeface = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_headerFontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_headerFontWeight = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_headerFontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_innerRadius = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_innerRadius;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_FontColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_FontSize = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_FontTypeface = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontTypeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_FontWeight = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_FontWeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_backgroundColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_backgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_borderColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_borderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_borderWidth = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_orientation = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_orientation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_legend_position = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_legend_position;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_loadAnimation_duration = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_loadAnimation_duration;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_loadAnimation_loadAnimationMode = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_loadAnimation_loadAnimationMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_loadAnimation_startDelay = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_loadAnimation_startDelay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_offset = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_offset;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_palette = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_palette;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_plotAreabackgroundColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_plotAreabackgroundColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_reversed = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_reversed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_selectAnimation_duration = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_selectAnimation_duration;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_selectAnimation_startDelay = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_selectAnimation_startDelay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_selectedBorderColor = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_selectedBorderColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_selectedBorderWidth = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_selectedBorderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_selectedItemOffset = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_selectedItemOffset;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_selectedItemPosition = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_selectedItemPosition;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_selectionMode = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_selectionMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_sliceBorderWidth = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_sliceBorderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_startAngle = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_startAngle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_updateAnimation_duration = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_updateAnimation_duration;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FlexPie_flexPie_updateAnimation_startDelay = global::coins.Droid.Resource.Styleable.FlexPie_flexPie_updateAnimation_startDelay;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton = global::coins.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::coins.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::coins.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::coins.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::coins.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::coins.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::coins.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::coins.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::coins.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ForegroundLinearLayout = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::coins.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::coins.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_divider = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::coins.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ListPopupWindow = global::coins.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::coins.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::coins.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MediaRouteButton = global::coins.Droid.Resource.Styleable.MediaRouteButton;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::coins.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::coins.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::coins.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuGroup = global::coins.Droid.Resource.Styleable.MenuGroup;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::coins.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::coins.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuGroup_android_id = global::coins.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::coins.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::coins.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuGroup_android_visible = global::coins.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem = global::coins.Droid.Resource.Styleable.MenuItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_actionLayout = global::coins.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_actionProviderClass = global::coins.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_actionViewClass = global::coins.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::coins.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_checkable = global::coins.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_checked = global::coins.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_enabled = global::coins.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_icon = global::coins.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_id = global::coins.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_menuCategory = global::coins.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::coins.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_onClick = global::coins.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::coins.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_title = global::coins.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::coins.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_android_visible = global::coins.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuItem_showAsAction = global::coins.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView = global::coins.Droid.Resource.Styleable.MenuView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_android_headerBackground = global::coins.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::coins.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_android_itemBackground = global::coins.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::coins.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::coins.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_android_verticalDivider = global::coins.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::coins.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::coins.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView = global::coins.Droid.Resource.Styleable.NavigationView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_android_background = global::coins.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::coins.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_android_maxWidth = global::coins.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_elevation = global::coins.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_headerLayout = global::coins.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::coins.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::coins.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::coins.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::coins.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.NavigationView_menu = global::coins.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.PopupWindow = global::coins.Droid.Resource.Styleable.PopupWindow;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::coins.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::coins.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.PopupWindowBackgroundState = global::coins.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::coins.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.RecyclerView = global::coins.Droid.Resource.Styleable.RecyclerView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::coins.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.RecyclerView_layoutManager = global::coins.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.RecyclerView_reverseLayout = global::coins.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.RecyclerView_spanCount = global::coins.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::coins.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::coins.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::coins.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Params = global::coins.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::coins.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView = global::coins.Droid.Resource.Styleable.SearchView;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::coins.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::coins.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_android_inputType = global::coins.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_android_maxWidth = global::coins.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_closeIcon = global::coins.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_commitIcon = global::coins.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_defaultQueryHint = global::coins.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_goIcon = global::coins.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::coins.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_layout = global::coins.Droid.Resource.Styleable.SearchView_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_queryBackground = global::coins.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_queryHint = global::coins.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_searchHintIcon = global::coins.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_searchIcon = global::coins.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::coins.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::coins.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::coins.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SnackbarLayout = global::coins.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::coins.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::coins.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::coins.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Spinner = global::coins.Droid.Resource.Styleable.Spinner;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::coins.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Spinner_android_entries = global::coins.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Spinner_android_popupBackground = global::coins.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Spinner_android_prompt = global::coins.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Spinner_popupTheme = global::coins.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat = global::coins.Droid.Resource.Styleable.SwitchCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::coins.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::coins.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_android_thumb = global::coins.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_showText = global::coins.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_splitTrack = global::coins.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::coins.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_switchPadding = global::coins.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::coins.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::coins.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.SwitchCompat_track = global::coins.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabItem = global::coins.Droid.Resource.Styleable.TabItem;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabItem_android_icon = global::coins.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabItem_android_layout = global::coins.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabItem_android_text = global::coins.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout = global::coins.Droid.Resource.Styleable.TabLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabBackground = global::coins.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabContentStart = global::coins.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabGravity = global::coins.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::coins.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::coins.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::coins.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabMinWidth = global::coins.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabMode = global::coins.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabPadding = global::coins.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::coins.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::coins.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::coins.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TabLayout_tabTextColor = global::coins.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance = global::coins.Droid.Resource.Styleable.TextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::coins.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::coins.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::coins.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::coins.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::coins.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::coins.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout = global::coins.Droid.Resource.Styleable.TextInputLayout;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::coins.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::coins.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::coins.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::coins.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::coins.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar = global::coins.Droid.Resource.Styleable.Toolbar;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_android_gravity = global::coins.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_android_minHeight = global::coins.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::coins.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_collapseIcon = global::coins.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_contentInsetRight = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_contentInsetStart = global::coins.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_logo = global::coins.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::coins.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::coins.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::coins.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::coins.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::coins.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_subtitle = global::coins.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::coins.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::coins.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_title = global::coins.Droid.Resource.Styleable.Toolbar_title;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_titleMarginStart = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::coins.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_titleMargins = global::coins.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::coins.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::coins.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.View = global::coins.Droid.Resource.Styleable.View;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.View_android_focusable = global::coins.Droid.Resource.Styleable.View_android_focusable;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.View_android_theme = global::coins.Droid.Resource.Styleable.View_android_theme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.View_paddingEnd = global::coins.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.View_paddingStart = global::coins.Droid.Resource.Styleable.View_paddingStart;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.View_theme = global::coins.Droid.Resource.Styleable.View_theme;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::coins.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewStubCompat = global::coins.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xuni.Forms.FlexPie.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::coins.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -86,6 +5581,70 @@ namespace coins.Droid
 			}
 			
 			private Animation()
+			{
+			}
+		}
+		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0d000f
+			public const int flexPieCerulanPalette = 2131558415;
+			
+			// aapt resource value: 0x7f0d0001
+			public const int flexPieCocoaPalette = 2131558401;
+			
+			// aapt resource value: 0x7f0d0002
+			public const int flexPieCoralPalette = 2131558402;
+			
+			// aapt resource value: 0x7f0d000b
+			public const int flexPieCyborgPalette = 2131558411;
+			
+			// aapt resource value: 0x7f0d0003
+			public const int flexPieDarkPalette = 2131558403;
+			
+			// aapt resource value: 0x7f0d000e
+			public const int flexPieDarklyPalette = 2131558414;
+			
+			// aapt resource value: 0x7f0d0000
+			public const int flexPieDefaultflexPiePalette = 2131558400;
+			
+			// aapt resource value: 0x7f0d000d
+			public const int flexPieFlatlyPalette = 2131558413;
+			
+			// aapt resource value: 0x7f0d0004
+			public const int flexPieHighConstrastPalette = 2131558404;
+			
+			// aapt resource value: 0x7f0d0005
+			public const int flexPieLightPalette = 2131558405;
+			
+			// aapt resource value: 0x7f0d0010
+			public const int flexPieMaterialPalette = 2131558416;
+			
+			// aapt resource value: 0x7f0d0006
+			public const int flexPieMidnightPalette = 2131558406;
+			
+			// aapt resource value: 0x7f0d0007
+			public const int flexPieMinimalPalette = 2131558407;
+			
+			// aapt resource value: 0x7f0d0008
+			public const int flexPieModernPalette = 2131558408;
+			
+			// aapt resource value: 0x7f0d0009
+			public const int flexPieOrganicPalette = 2131558409;
+			
+			// aapt resource value: 0x7f0d000a
+			public const int flexPieSlatePalette = 2131558410;
+			
+			// aapt resource value: 0x7f0d000c
+			public const int flexPieSuperheroPalette = 2131558412;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
 			{
 			}
 		}
@@ -497,6 +6056,168 @@ namespace coins.Droid
 			
 			// aapt resource value: 0x7f010115
 			public const int fabSize = 2130772245;
+			
+			// aapt resource value: 0x7f010160
+			public const int flexPie_animated = 2130772320;
+			
+			// aapt resource value: 0x7f01014a
+			public const int flexPie_backgroundColor = 2130772298;
+			
+			// aapt resource value: 0x7f01015e
+			public const int flexPie_binding = 2130772318;
+			
+			// aapt resource value: 0x7f01015d
+			public const int flexPie_bindingName = 2130772317;
+			
+			// aapt resource value: 0x7f01014b
+			public const int flexPie_borderColor = 2130772299;
+			
+			// aapt resource value: 0x7f01014c
+			public const int flexPie_borderWidth = 2130772300;
+			
+			// aapt resource value: 0x7f010159
+			public const int flexPie_datalabel_FontColor = 2130772313;
+			
+			// aapt resource value: 0x7f01015a
+			public const int flexPie_datalabel_FontSize = 2130772314;
+			
+			// aapt resource value: 0x7f01015b
+			public const int flexPie_datalabel_FontTypeface = 2130772315;
+			
+			// aapt resource value: 0x7f01015c
+			public const int flexPie_datalabel_FontWeight = 2130772316;
+			
+			// aapt resource value: 0x7f010156
+			public const int flexPie_datalabel_backgroundColor = 2130772310;
+			
+			// aapt resource value: 0x7f010157
+			public const int flexPie_datalabel_borderColor = 2130772311;
+			
+			// aapt resource value: 0x7f010158
+			public const int flexPie_datalabel_borderWidth = 2130772312;
+			
+			// aapt resource value: 0x7f010171
+			public const int flexPie_datalabel_position = 2130772337;
+			
+			// aapt resource value: 0x7f010146
+			public const int flexPie_footer = 2130772294;
+			
+			// aapt resource value: 0x7f010149
+			public const int flexPie_footerFontColor = 2130772297;
+			
+			// aapt resource value: 0x7f01013f
+			public const int flexPie_footerFontGravity = 2130772287;
+			
+			// aapt resource value: 0x7f010147
+			public const int flexPie_footerFontSize = 2130772295;
+			
+			// aapt resource value: 0x7f010148
+			public const int flexPie_footerFontTypeface = 2130772296;
+			
+			// aapt resource value: 0x7f01013e
+			public const int flexPie_footerFontWeight = 2130772286;
+			
+			// aapt resource value: 0x7f010142
+			public const int flexPie_header = 2130772290;
+			
+			// aapt resource value: 0x7f010145
+			public const int flexPie_headerFontColor = 2130772293;
+			
+			// aapt resource value: 0x7f01013d
+			public const int flexPie_headerFontGravity = 2130772285;
+			
+			// aapt resource value: 0x7f010143
+			public const int flexPie_headerFontSize = 2130772291;
+			
+			// aapt resource value: 0x7f010144
+			public const int flexPie_headerFontTypeface = 2130772292;
+			
+			// aapt resource value: 0x7f01013c
+			public const int flexPie_headerFontWeight = 2130772284;
+			
+			// aapt resource value: 0x7f01015f
+			public const int flexPie_innerRadius = 2130772319;
+			
+			// aapt resource value: 0x7f010153
+			public const int flexPie_legend_FontColor = 2130772307;
+			
+			// aapt resource value: 0x7f010154
+			public const int flexPie_legend_FontSize = 2130772308;
+			
+			// aapt resource value: 0x7f010155
+			public const int flexPie_legend_FontTypeface = 2130772309;
+			
+			// aapt resource value: 0x7f010140
+			public const int flexPie_legend_FontWeight = 2130772288;
+			
+			// aapt resource value: 0x7f010150
+			public const int flexPie_legend_backgroundColor = 2130772304;
+			
+			// aapt resource value: 0x7f010151
+			public const int flexPie_legend_borderColor = 2130772305;
+			
+			// aapt resource value: 0x7f010152
+			public const int flexPie_legend_borderWidth = 2130772306;
+			
+			// aapt resource value: 0x7f010168
+			public const int flexPie_legend_orientation = 2130772328;
+			
+			// aapt resource value: 0x7f010169
+			public const int flexPie_legend_position = 2130772329;
+			
+			// aapt resource value: 0x7f01016b
+			public const int flexPie_loadAnimation_duration = 2130772331;
+			
+			// aapt resource value: 0x7f01016a
+			public const int flexPie_loadAnimation_loadAnimationMode = 2130772330;
+			
+			// aapt resource value: 0x7f01016c
+			public const int flexPie_loadAnimation_startDelay = 2130772332;
+			
+			// aapt resource value: 0x7f010163
+			public const int flexPie_offset = 2130772323;
+			
+			// aapt resource value: 0x7f010141
+			public const int flexPie_palette = 2130772289;
+			
+			// aapt resource value: 0x7f01014d
+			public const int flexPie_plotAreabackgroundColor = 2130772301;
+			
+			// aapt resource value: 0x7f010164
+			public const int flexPie_reversed = 2130772324;
+			
+			// aapt resource value: 0x7f01016f
+			public const int flexPie_selectAnimation_duration = 2130772335;
+			
+			// aapt resource value: 0x7f010170
+			public const int flexPie_selectAnimation_startDelay = 2130772336;
+			
+			// aapt resource value: 0x7f01014e
+			public const int flexPie_selectedBorderColor = 2130772302;
+			
+			// aapt resource value: 0x7f01014f
+			public const int flexPie_selectedBorderWidth = 2130772303;
+			
+			// aapt resource value: 0x7f010165
+			public const int flexPie_selectedItemOffset = 2130772325;
+			
+			// aapt resource value: 0x7f010166
+			public const int flexPie_selectedItemPosition = 2130772326;
+			
+			// aapt resource value: 0x7f010167
+			public const int flexPie_selectionMode = 2130772327;
+			
+			// aapt resource value: 0x7f010161
+			public const int flexPie_sliceBorderWidth = 2130772321;
+			
+			// aapt resource value: 0x7f010162
+			public const int flexPie_startAngle = 2130772322;
+			
+			// aapt resource value: 0x7f01016d
+			public const int flexPie_updateAnimation_duration = 2130772333;
+			
+			// aapt resource value: 0x7f01016e
+			public const int flexPie_updateAnimation_startDelay = 2130772334;
 			
 			// aapt resource value: 0x7f010119
 			public const int foregroundInsidePadding = 2130772249;
@@ -2033,553 +7754,556 @@ namespace coins.Droid
 			public const int czech_republic = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int democratic_republic_of_congo = 2130837609;
+			public const int dct = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int denmark = 2130837610;
+			public const int democratic_republic_of_congo = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int design_fab_background = 2130837611;
+			public const int denmark = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int design_snackbar_background = 2130837612;
+			public const int design_fab_background = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int djibouti = 2130837613;
+			public const int design_snackbar_background = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int dominican_republic = 2130837614;
+			public const int djibouti = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int egypt = 2130837615;
+			public const int dominican_republic = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int eritrea = 2130837616;
+			public const int egypt = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int estonia = 2130837617;
+			public const int eritrea = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ethiopia = 2130837618;
+			public const int estonia = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int european_union = 2130837619;
+			public const int ethiopia = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int georgia = 2130837620;
+			public const int european_union = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ghana = 2130837621;
+			public const int georgia = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int guatemala = 2130837622;
+			public const int ghana = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int guinea = 2130837623;
+			public const int guatemala = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int honduras = 2130837624;
+			public const int guinea = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int hong_kong = 2130837625;
+			public const int honduras = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int hungary = 2130837626;
+			public const int hong_kong = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_account_balance_wallet = 2130837627;
+			public const int hungary = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_audiotrack = 2130837628;
+			public const int ic_account_balance_wallet = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_audiotrack_light = 2130837629;
+			public const int ic_audiotrack = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_bluetooth_grey = 2130837630;
+			public const int ic_audiotrack_light = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_bluetooth_white = 2130837631;
+			public const int ic_bluetooth_grey = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_cast_dark = 2130837632;
+			public const int ic_bluetooth_white = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_cast_disabled_light = 2130837633;
+			public const int ic_cast_dark = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_cast_grey = 2130837634;
+			public const int ic_cast_disabled_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_cast_light = 2130837635;
+			public const int ic_cast_grey = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_cast_off_light = 2130837636;
+			public const int ic_cast_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_cast_on_0_light = 2130837637;
+			public const int ic_cast_off_light = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_cast_on_1_light = 2130837638;
+			public const int ic_cast_on_0_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_cast_on_2_light = 2130837639;
+			public const int ic_cast_on_1_light = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_cast_on_light = 2130837640;
+			public const int ic_cast_on_2_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_cast_white = 2130837641;
+			public const int ic_cast_on_light = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_close_dark = 2130837642;
+			public const int ic_cast_white = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_close_light = 2130837643;
+			public const int ic_close_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_collapse = 2130837644;
+			public const int ic_close_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_collapse_00000 = 2130837645;
+			public const int ic_collapse = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_collapse_00001 = 2130837646;
+			public const int ic_collapse_00000 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_collapse_00002 = 2130837647;
+			public const int ic_collapse_00001 = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_collapse_00003 = 2130837648;
+			public const int ic_collapse_00002 = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_collapse_00004 = 2130837649;
+			public const int ic_collapse_00003 = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_collapse_00005 = 2130837650;
+			public const int ic_collapse_00004 = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_collapse_00006 = 2130837651;
+			public const int ic_collapse_00005 = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_collapse_00007 = 2130837652;
+			public const int ic_collapse_00006 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_collapse_00008 = 2130837653;
+			public const int ic_collapse_00007 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_collapse_00009 = 2130837654;
+			public const int ic_collapse_00008 = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_collapse_00010 = 2130837655;
+			public const int ic_collapse_00009 = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_collapse_00011 = 2130837656;
+			public const int ic_collapse_00010 = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_collapse_00012 = 2130837657;
+			public const int ic_collapse_00011 = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_collapse_00013 = 2130837658;
+			public const int ic_collapse_00012 = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_collapse_00014 = 2130837659;
+			public const int ic_collapse_00013 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_collapse_00015 = 2130837660;
+			public const int ic_collapse_00014 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_expand = 2130837661;
+			public const int ic_collapse_00015 = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_expand_00000 = 2130837662;
+			public const int ic_expand = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_expand_00001 = 2130837663;
+			public const int ic_expand_00000 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_expand_00002 = 2130837664;
+			public const int ic_expand_00001 = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_expand_00003 = 2130837665;
+			public const int ic_expand_00002 = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_expand_00004 = 2130837666;
+			public const int ic_expand_00003 = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_expand_00005 = 2130837667;
+			public const int ic_expand_00004 = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_expand_00006 = 2130837668;
+			public const int ic_expand_00005 = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_expand_00007 = 2130837669;
+			public const int ic_expand_00006 = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_expand_00008 = 2130837670;
+			public const int ic_expand_00007 = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_expand_00009 = 2130837671;
+			public const int ic_expand_00008 = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_expand_00010 = 2130837672;
+			public const int ic_expand_00009 = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_expand_00011 = 2130837673;
+			public const int ic_expand_00010 = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_expand_00012 = 2130837674;
+			public const int ic_expand_00011 = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_expand_00013 = 2130837675;
+			public const int ic_expand_00012 = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_expand_00014 = 2130837676;
+			public const int ic_expand_00013 = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_expand_00015 = 2130837677;
+			public const int ic_expand_00014 = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_format_list_bulleted = 2130837678;
+			public const int ic_expand_00015 = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_keyboard_arrow_right = 2130837679;
+			public const int ic_format_list_bulleted = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_media_pause = 2130837680;
+			public const int ic_keyboard_arrow_right = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_media_play = 2130837681;
+			public const int ic_media_pause = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_media_route_disabled_mono_dark = 2130837682;
+			public const int ic_media_play = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_media_route_off_mono_dark = 2130837683;
+			public const int ic_media_route_disabled_mono_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_media_route_on_0_mono_dark = 2130837684;
+			public const int ic_media_route_off_mono_dark = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_media_route_on_1_mono_dark = 2130837685;
+			public const int ic_media_route_on_0_mono_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_media_route_on_2_mono_dark = 2130837686;
+			public const int ic_media_route_on_1_mono_dark = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_media_route_on_mono_dark = 2130837687;
+			public const int ic_media_route_on_2_mono_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_monetization_on = 2130837688;
+			public const int ic_media_route_on_mono_dark = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_pause_dark = 2130837689;
+			public const int ic_monetization_on = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_pause_light = 2130837690;
+			public const int ic_pause_dark = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_play_dark = 2130837691;
+			public const int ic_pause_light = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_play_light = 2130837692;
+			public const int ic_play_dark = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_settings = 2130837693;
+			public const int ic_play_light = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_speaker_dark = 2130837694;
+			public const int ic_settings = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_speaker_group_dark = 2130837695;
+			public const int ic_speaker_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_speaker_group_light = 2130837696;
+			public const int ic_speaker_group_dark = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_speaker_light = 2130837697;
+			public const int ic_speaker_group_light = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_tv_dark = 2130837698;
+			public const int ic_speaker_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_tv_light = 2130837699;
+			public const int ic_tv_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int iceland = 2130837700;
+			public const int ic_tv_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int icon = 2130837701;
+			public const int iceland = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int india = 2130837702;
+			public const int icon = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int indonesia = 2130837703;
+			public const int india = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int iran = 2130837704;
+			public const int indonesia = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int iraq = 2130837705;
+			public const int iran = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int israel = 2130837706;
+			public const int iraq = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int jamaica = 2130837707;
+			public const int israel = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int japan = 2130837708;
+			public const int jamaica = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int jordan = 2130837709;
+			public const int japan = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int kazakhstan = 2130837710;
+			public const int jordan = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int kenya = 2130837711;
+			public const int kazakhstan = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int kuwait = 2130837712;
+			public const int kenya = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int latvia = 2130837713;
+			public const int kuwait = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int lebanon = 2130837714;
+			public const int latvia = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int libya = 2130837715;
+			public const int lebanon = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int lithuania = 2130837716;
+			public const int libya = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int macao = 2130837717;
+			public const int lithuania = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int madagascar = 2130837718;
+			public const int macao = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int malaysia = 2130837719;
+			public const int madagascar = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int mauritius = 2130837720;
+			public const int malaysia = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int mexico = 2130837721;
+			public const int mauritius = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int moldova = 2130837722;
+			public const int mexico = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int morocco = 2130837723;
+			public const int moldova = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int mozambique = 2130837724;
+			public const int morocco = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int mr_dialog_material_background_dark = 2130837725;
+			public const int mozambique = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int mr_dialog_material_background_light = 2130837726;
+			public const int mr_dialog_material_background_dark = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int mr_ic_audiotrack_light = 2130837727;
+			public const int mr_dialog_material_background_light = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int mr_ic_cast_dark = 2130837728;
+			public const int mr_ic_audiotrack_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int mr_ic_cast_light = 2130837729;
+			public const int mr_ic_cast_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int mr_ic_close_dark = 2130837730;
+			public const int mr_ic_cast_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int mr_ic_close_light = 2130837731;
+			public const int mr_ic_close_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837732;
+			public const int mr_ic_close_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int mr_ic_media_route_connecting_mono_light = 2130837733;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int mr_ic_media_route_mono_dark = 2130837734;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int mr_ic_media_route_mono_light = 2130837735;
+			public const int mr_ic_media_route_mono_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int mr_ic_pause_dark = 2130837736;
+			public const int mr_ic_media_route_mono_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int mr_ic_pause_light = 2130837737;
+			public const int mr_ic_pause_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int mr_ic_play_dark = 2130837738;
+			public const int mr_ic_pause_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int mr_ic_play_light = 2130837739;
+			public const int mr_ic_play_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int myanmar = 2130837740;
+			public const int mr_ic_play_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int namibia = 2130837741;
+			public const int myanmar = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int nepal = 2130837742;
+			public const int namibia = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int new_zealand = 2130837743;
+			public const int nepal = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int nicaragua = 2130837744;
+			public const int new_zealand = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int nigeria = 2130837745;
+			public const int nicaragua = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int norway = 2130837746;
-			
-			// aapt resource value: 0x7f02011f
-			public const int notification_template_icon_bg = 2130837791;
+			public const int nigeria = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int oman = 2130837747;
+			public const int norway = 2130837747;
+			
+			// aapt resource value: 0x7f020120
+			public const int notification_template_icon_bg = 2130837792;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int pakistan = 2130837748;
+			public const int oman = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int panama = 2130837749;
+			public const int pakistan = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int paraguay = 2130837750;
+			public const int panama = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int peru = 2130837751;
+			public const int paraguay = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int philippines = 2130837752;
+			public const int peru = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int poland = 2130837753;
+			public const int philippines = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int qatar = 2130837754;
+			public const int poland = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int republic_of_macedonia = 2130837755;
+			public const int qatar = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int romania = 2130837756;
+			public const int republic_of_macedonia = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int russia = 2130837757;
+			public const int romania = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int rwanda = 2130837758;
+			public const int russia = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int saudi_arabia = 2130837759;
+			public const int rwanda = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int senegal = 2130837760;
+			public const int saudi_arabia = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int serbia = 2130837761;
+			public const int senegal = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int singapore = 2130837762;
+			public const int serbia = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int somalia = 2130837763;
+			public const int singapore = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int south_africa = 2130837764;
+			public const int somalia = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int south_korea = 2130837765;
+			public const int south_africa = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int splash = 2130837766;
+			public const int south_korea = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int sri_lanka = 2130837767;
+			public const int splash = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int sudan = 2130837768;
+			public const int sri_lanka = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int sweden = 2130837769;
+			public const int sudan = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int switzerland = 2130837770;
+			public const int sweden = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int syria = 2130837771;
+			public const int switzerland = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int taiwan = 2130837772;
+			public const int syria = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int tanzania = 2130837773;
+			public const int taiwan = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int thailand = 2130837774;
+			public const int tanzania = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int tonga = 2130837775;
+			public const int thailand = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int trinidad_and_tobago = 2130837776;
+			public const int tonga = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int tunisia = 2130837777;
+			public const int trinidad_and_tobago = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int turkey = 2130837778;
+			public const int tunisia = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int uganda = 2130837779;
+			public const int turkey = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int ukraine = 2130837780;
+			public const int uganda = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int united_arab_emirates = 2130837781;
+			public const int ukraine = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int united_kingdom = 2130837782;
+			public const int united_arab_emirates = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int united_states_of_america = 2130837783;
+			public const int united_kingdom = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int uruguay = 2130837784;
+			public const int united_states_of_america = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int uzbekistn = 2130837785;
+			public const int uruguay = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int venezuela = 2130837786;
+			public const int uzbekistn = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int vietnam = 2130837787;
+			public const int venezuela = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int xamagon = 2130837788;
+			public const int vietnam = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int yemen = 2130837789;
+			public const int xamagon = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int zambia = 2130837790;
+			public const int yemen = 2130837790;
+			
+			// aapt resource value: 0x7f02011f
+			public const int zambia = 2130837791;
 			
 			static Drawable()
 			{
@@ -2594,35 +8318,92 @@ namespace coins.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07008b
-			public const int action0 = 2131165323;
+			// aapt resource value: 0x7f070049
+			public const int ALL = 2131165257;
 			
-			// aapt resource value: 0x7f07005a
-			public const int action_bar = 2131165274;
+			// aapt resource value: 0x7f070041
+			public const int AUTO = 2131165249;
+			
+			// aapt resource value: 0x7f07003a
+			public const int BOLD = 2131165242;
+			
+			// aapt resource value: 0x7f07003b
+			public const int BOLD_ITALIC = 2131165243;
+			
+			// aapt resource value: 0x7f070042
+			public const int BOTTOM = 2131165250;
+			
+			// aapt resource value: 0x7f07004a
+			public const int CENTER = 2131165258;
+			
+			// aapt resource value: 0x7f07003e
+			public const int CENTER_HORIZONTAL = 2131165246;
+			
+			// aapt resource value: 0x7f070047
+			public const int HORIZONTAL = 2131165255;
+			
+			// aapt resource value: 0x7f07004b
+			public const int INSIDE = 2131165259;
+			
+			// aapt resource value: 0x7f07003c
+			public const int ITALIC = 2131165244;
+			
+			// aapt resource value: 0x7f07003f
+			public const int LEFT = 2131165247;
+			
+			// aapt resource value: 0x7f070043
+			public const int NONE = 2131165251;
+			
+			// aapt resource value: 0x7f07003d
+			public const int NORMAL = 2131165245;
+			
+			// aapt resource value: 0x7f07004c
+			public const int OUTSIDE = 2131165260;
+			
+			// aapt resource value: 0x7f070045
+			public const int POINT = 2131165253;
+			
+			// aapt resource value: 0x7f070040
+			public const int RIGHT = 2131165248;
+			
+			// aapt resource value: 0x7f070046
+			public const int SERIES = 2131165254;
+			
+			// aapt resource value: 0x7f070044
+			public const int TOP = 2131165252;
+			
+			// aapt resource value: 0x7f070048
+			public const int VERTICAL = 2131165256;
+			
+			// aapt resource value: 0x7f07009e
+			public const int action0 = 2131165342;
+			
+			// aapt resource value: 0x7f07006d
+			public const int action_bar = 2131165293;
 			
 			// aapt resource value: 0x7f070001
 			public const int action_bar_activity_content = 2131165185;
 			
-			// aapt resource value: 0x7f070059
-			public const int action_bar_container = 2131165273;
+			// aapt resource value: 0x7f07006c
+			public const int action_bar_container = 2131165292;
 			
-			// aapt resource value: 0x7f070055
-			public const int action_bar_root = 2131165269;
+			// aapt resource value: 0x7f070068
+			public const int action_bar_root = 2131165288;
 			
 			// aapt resource value: 0x7f070002
 			public const int action_bar_spinner = 2131165186;
 			
-			// aapt resource value: 0x7f07003b
-			public const int action_bar_subtitle = 2131165243;
+			// aapt resource value: 0x7f07004e
+			public const int action_bar_subtitle = 2131165262;
 			
-			// aapt resource value: 0x7f07003a
-			public const int action_bar_title = 2131165242;
+			// aapt resource value: 0x7f07004d
+			public const int action_bar_title = 2131165261;
 			
-			// aapt resource value: 0x7f07005b
-			public const int action_context_bar = 2131165275;
+			// aapt resource value: 0x7f07006e
+			public const int action_context_bar = 2131165294;
 			
-			// aapt resource value: 0x7f07008f
-			public const int action_divider = 2131165327;
+			// aapt resource value: 0x7f0700a2
+			public const int action_divider = 2131165346;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -2630,20 +8411,20 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070004
 			public const int action_menu_presenter = 2131165188;
 			
-			// aapt resource value: 0x7f070057
-			public const int action_mode_bar = 2131165271;
+			// aapt resource value: 0x7f07006a
+			public const int action_mode_bar = 2131165290;
 			
-			// aapt resource value: 0x7f070056
-			public const int action_mode_bar_stub = 2131165270;
+			// aapt resource value: 0x7f070069
+			public const int action_mode_bar_stub = 2131165289;
 			
-			// aapt resource value: 0x7f07003c
-			public const int action_mode_close_button = 2131165244;
+			// aapt resource value: 0x7f07004f
+			public const int action_mode_close_button = 2131165263;
 			
-			// aapt resource value: 0x7f07003d
-			public const int activity_chooser_view_content = 2131165245;
+			// aapt resource value: 0x7f070050
+			public const int activity_chooser_view_content = 2131165264;
 			
-			// aapt resource value: 0x7f070049
-			public const int alertTitle = 2131165257;
+			// aapt resource value: 0x7f07005c
+			public const int alertTitle = 2131165276;
 			
 			// aapt resource value: 0x7f07001e
 			public const int always = 2131165214;
@@ -2654,11 +8435,11 @@ namespace coins.Droid
 			// aapt resource value: 0x7f07002a
 			public const int bottom = 2131165226;
 			
-			// aapt resource value: 0x7f070044
-			public const int buttonPanel = 2131165252;
+			// aapt resource value: 0x7f070057
+			public const int buttonPanel = 2131165271;
 			
-			// aapt resource value: 0x7f07008c
-			public const int cancel_action = 2131165324;
+			// aapt resource value: 0x7f07009f
+			public const int cancel_action = 2131165343;
 			
 			// aapt resource value: 0x7f07002b
 			public const int center = 2131165227;
@@ -2669,11 +8450,11 @@ namespace coins.Droid
 			// aapt resource value: 0x7f07002d
 			public const int center_vertical = 2131165229;
 			
-			// aapt resource value: 0x7f070052
-			public const int checkbox = 2131165266;
+			// aapt resource value: 0x7f070065
+			public const int checkbox = 2131165285;
 			
-			// aapt resource value: 0x7f070092
-			public const int chronometer = 2131165330;
+			// aapt resource value: 0x7f0700a5
+			public const int chronometer = 2131165349;
 			
 			// aapt resource value: 0x7f070033
 			public const int clip_horizontal = 2131165235;
@@ -2684,47 +8465,47 @@ namespace coins.Droid
 			// aapt resource value: 0x7f07001f
 			public const int collapseActionView = 2131165215;
 			
-			// aapt resource value: 0x7f07004a
-			public const int contentPanel = 2131165258;
+			// aapt resource value: 0x7f07005d
+			public const int contentPanel = 2131165277;
 			
-			// aapt resource value: 0x7f070050
-			public const int custom = 2131165264;
+			// aapt resource value: 0x7f070063
+			public const int custom = 2131165283;
 			
-			// aapt resource value: 0x7f07004f
-			public const int customPanel = 2131165263;
+			// aapt resource value: 0x7f070062
+			public const int customPanel = 2131165282;
 			
-			// aapt resource value: 0x7f070058
-			public const int decor_content_parent = 2131165272;
+			// aapt resource value: 0x7f07006b
+			public const int decor_content_parent = 2131165291;
 			
-			// aapt resource value: 0x7f070040
-			public const int default_activity_button = 2131165248;
+			// aapt resource value: 0x7f070053
+			public const int default_activity_button = 2131165267;
 			
-			// aapt resource value: 0x7f07006a
-			public const int design_bottom_sheet = 2131165290;
+			// aapt resource value: 0x7f07007d
+			public const int design_bottom_sheet = 2131165309;
 			
-			// aapt resource value: 0x7f070071
-			public const int design_menu_item_action_area = 2131165297;
+			// aapt resource value: 0x7f070084
+			public const int design_menu_item_action_area = 2131165316;
 			
-			// aapt resource value: 0x7f070070
-			public const int design_menu_item_action_area_stub = 2131165296;
+			// aapt resource value: 0x7f070083
+			public const int design_menu_item_action_area_stub = 2131165315;
 			
-			// aapt resource value: 0x7f07006f
-			public const int design_menu_item_text = 2131165295;
+			// aapt resource value: 0x7f070082
+			public const int design_menu_item_text = 2131165314;
 			
-			// aapt resource value: 0x7f07006e
-			public const int design_navigation_view = 2131165294;
+			// aapt resource value: 0x7f070081
+			public const int design_navigation_view = 2131165313;
 			
 			// aapt resource value: 0x7f07000e
 			public const int disableHome = 2131165198;
 			
-			// aapt resource value: 0x7f07005c
-			public const int edit_query = 2131165276;
+			// aapt resource value: 0x7f07006f
+			public const int edit_query = 2131165295;
 			
 			// aapt resource value: 0x7f07001c
 			public const int end = 2131165212;
 			
-			// aapt resource value: 0x7f070097
-			public const int end_padder = 2131165335;
+			// aapt resource value: 0x7f0700aa
+			public const int end_padder = 2131165354;
 			
 			// aapt resource value: 0x7f070023
 			public const int enterAlways = 2131165219;
@@ -2735,11 +8516,11 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070025
 			public const int exitUntilCollapsed = 2131165221;
 			
-			// aapt resource value: 0x7f07003e
-			public const int expand_activities_button = 2131165246;
-			
 			// aapt resource value: 0x7f070051
-			public const int expanded_menu = 2131165265;
+			public const int expand_activities_button = 2131165265;
+			
+			// aapt resource value: 0x7f070064
+			public const int expanded_menu = 2131165284;
 			
 			// aapt resource value: 0x7f070035
 			public const int fill = 2131165237;
@@ -2759,17 +8540,17 @@ namespace coins.Droid
 			// aapt resource value: 0x7f07000f
 			public const int homeAsUp = 2131165199;
 			
-			// aapt resource value: 0x7f070042
-			public const int icon = 2131165250;
+			// aapt resource value: 0x7f070055
+			public const int icon = 2131165269;
 			
 			// aapt resource value: 0x7f070020
 			public const int ifRoom = 2131165216;
 			
-			// aapt resource value: 0x7f07003f
-			public const int image = 2131165247;
+			// aapt resource value: 0x7f070052
+			public const int image = 2131165266;
 			
-			// aapt resource value: 0x7f070096
-			public const int info = 2131165334;
+			// aapt resource value: 0x7f0700a9
+			public const int info = 2131165353;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
@@ -2777,20 +8558,20 @@ namespace coins.Droid
 			// aapt resource value: 0x7f07002f
 			public const int left = 2131165231;
 			
-			// aapt resource value: 0x7f070090
-			public const int line1 = 2131165328;
+			// aapt resource value: 0x7f0700a3
+			public const int line1 = 2131165347;
 			
-			// aapt resource value: 0x7f070094
-			public const int line3 = 2131165332;
+			// aapt resource value: 0x7f0700a7
+			public const int line3 = 2131165351;
 			
 			// aapt resource value: 0x7f07000b
 			public const int listMode = 2131165195;
 			
-			// aapt resource value: 0x7f070041
-			public const int list_item = 2131165249;
+			// aapt resource value: 0x7f070054
+			public const int list_item = 2131165268;
 			
-			// aapt resource value: 0x7f07008e
-			public const int media_actions = 2131165326;
+			// aapt resource value: 0x7f0700a1
+			public const int media_actions = 2131165345;
 			
 			// aapt resource value: 0x7f07001d
 			public const int middle = 2131165213;
@@ -2798,83 +8579,83 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070037
 			public const int mini = 2131165239;
 			
-			// aapt resource value: 0x7f07007d
-			public const int mr_art = 2131165309;
-			
-			// aapt resource value: 0x7f070072
-			public const int mr_chooser_list = 2131165298;
-			
-			// aapt resource value: 0x7f070075
-			public const int mr_chooser_route_desc = 2131165301;
-			
-			// aapt resource value: 0x7f070073
-			public const int mr_chooser_route_icon = 2131165299;
-			
-			// aapt resource value: 0x7f070074
-			public const int mr_chooser_route_name = 2131165300;
-			
-			// aapt resource value: 0x7f07007a
-			public const int mr_close = 2131165306;
-			
-			// aapt resource value: 0x7f070080
-			public const int mr_control_divider = 2131165312;
-			
-			// aapt resource value: 0x7f070086
-			public const int mr_control_play_pause = 2131165318;
-			
-			// aapt resource value: 0x7f070089
-			public const int mr_control_subtitle = 2131165321;
-			
-			// aapt resource value: 0x7f070088
-			public const int mr_control_title = 2131165320;
-			
-			// aapt resource value: 0x7f070087
-			public const int mr_control_title_container = 2131165319;
-			
-			// aapt resource value: 0x7f07007b
-			public const int mr_custom_control = 2131165307;
-			
-			// aapt resource value: 0x7f07007c
-			public const int mr_default_control = 2131165308;
-			
-			// aapt resource value: 0x7f070077
-			public const int mr_dialog_area = 2131165303;
-			
-			// aapt resource value: 0x7f070076
-			public const int mr_expandable_area = 2131165302;
-			
-			// aapt resource value: 0x7f07008a
-			public const int mr_group_expand_collapse = 2131165322;
-			
-			// aapt resource value: 0x7f07007e
-			public const int mr_media_main_control = 2131165310;
-			
-			// aapt resource value: 0x7f070079
-			public const int mr_name = 2131165305;
-			
-			// aapt resource value: 0x7f07007f
-			public const int mr_playback_control = 2131165311;
-			
-			// aapt resource value: 0x7f070078
-			public const int mr_title_bar = 2131165304;
-			
-			// aapt resource value: 0x7f070081
-			public const int mr_volume_control = 2131165313;
-			
-			// aapt resource value: 0x7f070082
-			public const int mr_volume_group_list = 2131165314;
-			
-			// aapt resource value: 0x7f070084
-			public const int mr_volume_item_icon = 2131165316;
+			// aapt resource value: 0x7f070090
+			public const int mr_art = 2131165328;
 			
 			// aapt resource value: 0x7f070085
-			public const int mr_volume_slider = 2131165317;
+			public const int mr_chooser_list = 2131165317;
+			
+			// aapt resource value: 0x7f070088
+			public const int mr_chooser_route_desc = 2131165320;
+			
+			// aapt resource value: 0x7f070086
+			public const int mr_chooser_route_icon = 2131165318;
+			
+			// aapt resource value: 0x7f070087
+			public const int mr_chooser_route_name = 2131165319;
+			
+			// aapt resource value: 0x7f07008d
+			public const int mr_close = 2131165325;
+			
+			// aapt resource value: 0x7f070093
+			public const int mr_control_divider = 2131165331;
+			
+			// aapt resource value: 0x7f070099
+			public const int mr_control_play_pause = 2131165337;
+			
+			// aapt resource value: 0x7f07009c
+			public const int mr_control_subtitle = 2131165340;
+			
+			// aapt resource value: 0x7f07009b
+			public const int mr_control_title = 2131165339;
+			
+			// aapt resource value: 0x7f07009a
+			public const int mr_control_title_container = 2131165338;
+			
+			// aapt resource value: 0x7f07008e
+			public const int mr_custom_control = 2131165326;
+			
+			// aapt resource value: 0x7f07008f
+			public const int mr_default_control = 2131165327;
+			
+			// aapt resource value: 0x7f07008a
+			public const int mr_dialog_area = 2131165322;
+			
+			// aapt resource value: 0x7f070089
+			public const int mr_expandable_area = 2131165321;
+			
+			// aapt resource value: 0x7f07009d
+			public const int mr_group_expand_collapse = 2131165341;
+			
+			// aapt resource value: 0x7f070091
+			public const int mr_media_main_control = 2131165329;
+			
+			// aapt resource value: 0x7f07008c
+			public const int mr_name = 2131165324;
+			
+			// aapt resource value: 0x7f070092
+			public const int mr_playback_control = 2131165330;
+			
+			// aapt resource value: 0x7f07008b
+			public const int mr_title_bar = 2131165323;
+			
+			// aapt resource value: 0x7f070094
+			public const int mr_volume_control = 2131165332;
+			
+			// aapt resource value: 0x7f070095
+			public const int mr_volume_group_list = 2131165333;
+			
+			// aapt resource value: 0x7f070097
+			public const int mr_volume_item_icon = 2131165335;
+			
+			// aapt resource value: 0x7f070098
+			public const int mr_volume_slider = 2131165336;
 			
 			// aapt resource value: 0x7f070016
 			public const int multiply = 2131165206;
 			
-			// aapt resource value: 0x7f07006d
-			public const int navigation_header_container = 2131165293;
+			// aapt resource value: 0x7f070080
+			public const int navigation_header_container = 2131165312;
 			
 			// aapt resource value: 0x7f070021
 			public const int never = 2131165217;
@@ -2888,8 +8669,8 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070028
 			public const int parallax = 2131165224;
 			
-			// aapt resource value: 0x7f070046
-			public const int parentPanel = 2131165254;
+			// aapt resource value: 0x7f070059
+			public const int parentPanel = 2131165273;
 			
 			// aapt resource value: 0x7f070029
 			public const int pin = 2131165225;
@@ -2900,8 +8681,8 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070007
 			public const int progress_horizontal = 2131165191;
 			
-			// aapt resource value: 0x7f070054
-			public const int radio = 2131165268;
+			// aapt resource value: 0x7f070067
+			public const int radio = 2131165287;
 			
 			// aapt resource value: 0x7f070030
 			public const int right = 2131165232;
@@ -2912,53 +8693,53 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070026
 			public const int scroll = 2131165222;
 			
-			// aapt resource value: 0x7f07004e
-			public const int scrollIndicatorDown = 2131165262;
+			// aapt resource value: 0x7f070061
+			public const int scrollIndicatorDown = 2131165281;
 			
-			// aapt resource value: 0x7f07004b
-			public const int scrollIndicatorUp = 2131165259;
+			// aapt resource value: 0x7f07005e
+			public const int scrollIndicatorUp = 2131165278;
 			
-			// aapt resource value: 0x7f07004c
-			public const int scrollView = 2131165260;
+			// aapt resource value: 0x7f07005f
+			public const int scrollView = 2131165279;
 			
 			// aapt resource value: 0x7f070039
 			public const int scrollable = 2131165241;
 			
-			// aapt resource value: 0x7f07005e
-			public const int search_badge = 2131165278;
+			// aapt resource value: 0x7f070071
+			public const int search_badge = 2131165297;
 			
-			// aapt resource value: 0x7f07005d
-			public const int search_bar = 2131165277;
+			// aapt resource value: 0x7f070070
+			public const int search_bar = 2131165296;
 			
-			// aapt resource value: 0x7f07005f
-			public const int search_button = 2131165279;
+			// aapt resource value: 0x7f070072
+			public const int search_button = 2131165298;
 			
-			// aapt resource value: 0x7f070064
-			public const int search_close_btn = 2131165284;
+			// aapt resource value: 0x7f070077
+			public const int search_close_btn = 2131165303;
 			
-			// aapt resource value: 0x7f070060
-			public const int search_edit_frame = 2131165280;
+			// aapt resource value: 0x7f070073
+			public const int search_edit_frame = 2131165299;
+			
+			// aapt resource value: 0x7f070079
+			public const int search_go_btn = 2131165305;
+			
+			// aapt resource value: 0x7f070074
+			public const int search_mag_icon = 2131165300;
+			
+			// aapt resource value: 0x7f070075
+			public const int search_plate = 2131165301;
+			
+			// aapt resource value: 0x7f070076
+			public const int search_src_text = 2131165302;
+			
+			// aapt resource value: 0x7f07007a
+			public const int search_voice_btn = 2131165306;
+			
+			// aapt resource value: 0x7f07007b
+			public const int select_dialog_listview = 2131165307;
 			
 			// aapt resource value: 0x7f070066
-			public const int search_go_btn = 2131165286;
-			
-			// aapt resource value: 0x7f070061
-			public const int search_mag_icon = 2131165281;
-			
-			// aapt resource value: 0x7f070062
-			public const int search_plate = 2131165282;
-			
-			// aapt resource value: 0x7f070063
-			public const int search_src_text = 2131165283;
-			
-			// aapt resource value: 0x7f070067
-			public const int search_voice_btn = 2131165287;
-			
-			// aapt resource value: 0x7f070068
-			public const int select_dialog_listview = 2131165288;
-			
-			// aapt resource value: 0x7f070053
-			public const int shortcut = 2131165267;
+			public const int shortcut = 2131165286;
 			
 			// aapt resource value: 0x7f070011
 			public const int showCustom = 2131165201;
@@ -2969,20 +8750,20 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070013
 			public const int showTitle = 2131165203;
 			
-			// aapt resource value: 0x7f070098
-			public const int sliding_tabs = 2131165336;
+			// aapt resource value: 0x7f0700ab
+			public const int sliding_tabs = 2131165355;
 			
-			// aapt resource value: 0x7f07006c
-			public const int snackbar_action = 2131165292;
+			// aapt resource value: 0x7f07007f
+			public const int snackbar_action = 2131165311;
 			
-			// aapt resource value: 0x7f07006b
-			public const int snackbar_text = 2131165291;
+			// aapt resource value: 0x7f07007e
+			public const int snackbar_text = 2131165310;
 			
 			// aapt resource value: 0x7f070027
 			public const int snap = 2131165223;
 			
-			// aapt resource value: 0x7f070045
-			public const int spacer = 2131165253;
+			// aapt resource value: 0x7f070058
+			public const int spacer = 2131165272;
 			
 			// aapt resource value: 0x7f070008
 			public const int split_action_bar = 2131165192;
@@ -2999,44 +8780,50 @@ namespace coins.Droid
 			// aapt resource value: 0x7f070031
 			public const int start = 2131165233;
 			
-			// aapt resource value: 0x7f07008d
-			public const int status_bar_latest_event_content = 2131165325;
+			// aapt resource value: 0x7f0700a0
+			public const int status_bar_latest_event_content = 2131165344;
 			
-			// aapt resource value: 0x7f070065
-			public const int submit_area = 2131165285;
+			// aapt resource value: 0x7f070078
+			public const int submit_area = 2131165304;
 			
 			// aapt resource value: 0x7f07000d
 			public const int tabMode = 2131165197;
 			
-			// aapt resource value: 0x7f070095
-			public const int text = 2131165333;
+			// aapt resource value: 0x7f0700a8
+			public const int text = 2131165352;
 			
-			// aapt resource value: 0x7f070093
-			public const int text2 = 2131165331;
+			// aapt resource value: 0x7f0700a6
+			public const int text2 = 2131165350;
 			
-			// aapt resource value: 0x7f07004d
-			public const int textSpacerNoButtons = 2131165261;
+			// aapt resource value: 0x7f070060
+			public const int textSpacerNoButtons = 2131165280;
 			
-			// aapt resource value: 0x7f070091
-			public const int time = 2131165329;
+			// aapt resource value: 0x7f0700a4
+			public const int time = 2131165348;
 			
-			// aapt resource value: 0x7f070043
-			public const int title = 2131165251;
+			// aapt resource value: 0x7f070056
+			public const int title = 2131165270;
 			
-			// aapt resource value: 0x7f070048
-			public const int title_template = 2131165256;
+			// aapt resource value: 0x7f07005b
+			public const int title_template = 2131165275;
 			
-			// aapt resource value: 0x7f070099
-			public const int toolbar = 2131165337;
+			// aapt resource value: 0x7f0700ac
+			public const int toolbar = 2131165356;
+			
+			// aapt resource value: 0x7f0700ae
+			public const int tooltipContent = 2131165358;
+			
+			// aapt resource value: 0x7f0700ad
+			public const int tooltipTitle = 2131165357;
 			
 			// aapt resource value: 0x7f070032
 			public const int top = 2131165234;
 			
-			// aapt resource value: 0x7f070047
-			public const int topPanel = 2131165255;
+			// aapt resource value: 0x7f07005a
+			public const int topPanel = 2131165274;
 			
-			// aapt resource value: 0x7f070069
-			public const int touch_outside = 2131165289;
+			// aapt resource value: 0x7f07007c
+			public const int touch_outside = 2131165308;
 			
 			// aapt resource value: 0x7f070009
 			public const int up = 2131165193;
@@ -3047,8 +8834,8 @@ namespace coins.Droid
 			// aapt resource value: 0x7f07000a
 			public const int view_offset_helper = 2131165194;
 			
-			// aapt resource value: 0x7f070083
-			public const int volume_item_container = 2131165315;
+			// aapt resource value: 0x7f070096
+			public const int volume_item_container = 2131165334;
 			
 			// aapt resource value: 0x7f070022
 			public const int withText = 2131165218;
@@ -3302,6 +9089,9 @@ namespace coins.Droid
 			// aapt resource value: 0x7f030038
 			public const int Toolbar = 2130903096;
 			
+			// aapt resource value: 0x7f030039
+			public const int tooltip = 2130903097;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -3314,6 +9104,12 @@ namespace coins.Droid
 		
 		public partial class String
 		{
+			
+			// aapt resource value: 0x7f080027
+			public const int ApplicationName = 2131230759;
+			
+			// aapt resource value: 0x7f080026
+			public const int Hello = 2131230758;
 			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;
@@ -3457,8 +9253,14 @@ namespace coins.Droid
 			// aapt resource value: 0x7f0a015a
 			public const int Animation_Design_BottomSheetDialog = 2131362138;
 			
-			// aapt resource value: 0x7f0a0174
-			public const int AppCompatDialogStyle = 2131362164;
+			// aapt resource value: 0x7f0a0172
+			public const int AppBaseTheme = 2131362162;
+			
+			// aapt resource value: 0x7f0a0176
+			public const int AppCompatDialogStyle = 2131362166;
+			
+			// aapt resource value: 0x7f0a0173
+			public const int AppTheme = 2131362163;
 			
 			// aapt resource value: 0x7f0a00a5
 			public const int Base_AlertDialog_AppCompat = 2131361957;
@@ -3901,11 +9703,11 @@ namespace coins.Droid
 			// aapt resource value: 0x7f0a001a
 			public const int CardView_Light = 2131361818;
 			
-			// aapt resource value: 0x7f0a0172
-			public const int MyTheme = 2131362162;
+			// aapt resource value: 0x7f0a0174
+			public const int MyTheme = 2131362164;
 			
-			// aapt resource value: 0x7f0a0173
-			public const int MyTheme_Base = 2131362163;
+			// aapt resource value: 0x7f0a0175
+			public const int MyTheme_Base = 2131362165;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int Platform_AppCompat = 2131361842;
@@ -4249,8 +10051,8 @@ namespace coins.Droid
 			// aapt resource value: 0x7f0a0003
 			public const int Theme_MediaRouter_LightControlPanel = 2131361795;
 			
-			// aapt resource value: 0x7f0a0175
-			public const int Theme_Splash = 2131362165;
+			// aapt resource value: 0x7f0a0177
+			public const int Theme_Splash = 2131362167;
 			
 			// aapt resource value: 0x7f0a010e
 			public const int ThemeOverlay_AppCompat = 2131362062;
@@ -5488,6 +11290,224 @@ namespace coins.Droid
 			
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
+			
+			public static int[] FlexPie = new int[] {
+					2130772284,
+					2130772285,
+					2130772286,
+					2130772287,
+					2130772288,
+					2130772289,
+					2130772290,
+					2130772291,
+					2130772292,
+					2130772293,
+					2130772294,
+					2130772295,
+					2130772296,
+					2130772297,
+					2130772298,
+					2130772299,
+					2130772300,
+					2130772301,
+					2130772302,
+					2130772303,
+					2130772304,
+					2130772305,
+					2130772306,
+					2130772307,
+					2130772308,
+					2130772309,
+					2130772310,
+					2130772311,
+					2130772312,
+					2130772313,
+					2130772314,
+					2130772315,
+					2130772316,
+					2130772317,
+					2130772318,
+					2130772319,
+					2130772320,
+					2130772321,
+					2130772322,
+					2130772323,
+					2130772324,
+					2130772325,
+					2130772326,
+					2130772327,
+					2130772328,
+					2130772329,
+					2130772330,
+					2130772331,
+					2130772332,
+					2130772333,
+					2130772334,
+					2130772335,
+					2130772336,
+					2130772337};
+			
+			// aapt resource value: 36
+			public const int FlexPie_flexPie_animated = 36;
+			
+			// aapt resource value: 14
+			public const int FlexPie_flexPie_backgroundColor = 14;
+			
+			// aapt resource value: 34
+			public const int FlexPie_flexPie_binding = 34;
+			
+			// aapt resource value: 33
+			public const int FlexPie_flexPie_bindingName = 33;
+			
+			// aapt resource value: 15
+			public const int FlexPie_flexPie_borderColor = 15;
+			
+			// aapt resource value: 16
+			public const int FlexPie_flexPie_borderWidth = 16;
+			
+			// aapt resource value: 29
+			public const int FlexPie_flexPie_datalabel_FontColor = 29;
+			
+			// aapt resource value: 30
+			public const int FlexPie_flexPie_datalabel_FontSize = 30;
+			
+			// aapt resource value: 31
+			public const int FlexPie_flexPie_datalabel_FontTypeface = 31;
+			
+			// aapt resource value: 32
+			public const int FlexPie_flexPie_datalabel_FontWeight = 32;
+			
+			// aapt resource value: 26
+			public const int FlexPie_flexPie_datalabel_backgroundColor = 26;
+			
+			// aapt resource value: 27
+			public const int FlexPie_flexPie_datalabel_borderColor = 27;
+			
+			// aapt resource value: 28
+			public const int FlexPie_flexPie_datalabel_borderWidth = 28;
+			
+			// aapt resource value: 53
+			public const int FlexPie_flexPie_datalabel_position = 53;
+			
+			// aapt resource value: 10
+			public const int FlexPie_flexPie_footer = 10;
+			
+			// aapt resource value: 13
+			public const int FlexPie_flexPie_footerFontColor = 13;
+			
+			// aapt resource value: 3
+			public const int FlexPie_flexPie_footerFontGravity = 3;
+			
+			// aapt resource value: 11
+			public const int FlexPie_flexPie_footerFontSize = 11;
+			
+			// aapt resource value: 12
+			public const int FlexPie_flexPie_footerFontTypeface = 12;
+			
+			// aapt resource value: 2
+			public const int FlexPie_flexPie_footerFontWeight = 2;
+			
+			// aapt resource value: 6
+			public const int FlexPie_flexPie_header = 6;
+			
+			// aapt resource value: 9
+			public const int FlexPie_flexPie_headerFontColor = 9;
+			
+			// aapt resource value: 1
+			public const int FlexPie_flexPie_headerFontGravity = 1;
+			
+			// aapt resource value: 7
+			public const int FlexPie_flexPie_headerFontSize = 7;
+			
+			// aapt resource value: 8
+			public const int FlexPie_flexPie_headerFontTypeface = 8;
+			
+			// aapt resource value: 0
+			public const int FlexPie_flexPie_headerFontWeight = 0;
+			
+			// aapt resource value: 35
+			public const int FlexPie_flexPie_innerRadius = 35;
+			
+			// aapt resource value: 23
+			public const int FlexPie_flexPie_legend_FontColor = 23;
+			
+			// aapt resource value: 24
+			public const int FlexPie_flexPie_legend_FontSize = 24;
+			
+			// aapt resource value: 25
+			public const int FlexPie_flexPie_legend_FontTypeface = 25;
+			
+			// aapt resource value: 4
+			public const int FlexPie_flexPie_legend_FontWeight = 4;
+			
+			// aapt resource value: 20
+			public const int FlexPie_flexPie_legend_backgroundColor = 20;
+			
+			// aapt resource value: 21
+			public const int FlexPie_flexPie_legend_borderColor = 21;
+			
+			// aapt resource value: 22
+			public const int FlexPie_flexPie_legend_borderWidth = 22;
+			
+			// aapt resource value: 44
+			public const int FlexPie_flexPie_legend_orientation = 44;
+			
+			// aapt resource value: 45
+			public const int FlexPie_flexPie_legend_position = 45;
+			
+			// aapt resource value: 47
+			public const int FlexPie_flexPie_loadAnimation_duration = 47;
+			
+			// aapt resource value: 46
+			public const int FlexPie_flexPie_loadAnimation_loadAnimationMode = 46;
+			
+			// aapt resource value: 48
+			public const int FlexPie_flexPie_loadAnimation_startDelay = 48;
+			
+			// aapt resource value: 39
+			public const int FlexPie_flexPie_offset = 39;
+			
+			// aapt resource value: 5
+			public const int FlexPie_flexPie_palette = 5;
+			
+			// aapt resource value: 17
+			public const int FlexPie_flexPie_plotAreabackgroundColor = 17;
+			
+			// aapt resource value: 40
+			public const int FlexPie_flexPie_reversed = 40;
+			
+			// aapt resource value: 51
+			public const int FlexPie_flexPie_selectAnimation_duration = 51;
+			
+			// aapt resource value: 52
+			public const int FlexPie_flexPie_selectAnimation_startDelay = 52;
+			
+			// aapt resource value: 18
+			public const int FlexPie_flexPie_selectedBorderColor = 18;
+			
+			// aapt resource value: 19
+			public const int FlexPie_flexPie_selectedBorderWidth = 19;
+			
+			// aapt resource value: 41
+			public const int FlexPie_flexPie_selectedItemOffset = 41;
+			
+			// aapt resource value: 42
+			public const int FlexPie_flexPie_selectedItemPosition = 42;
+			
+			// aapt resource value: 43
+			public const int FlexPie_flexPie_selectionMode = 43;
+			
+			// aapt resource value: 37
+			public const int FlexPie_flexPie_sliceBorderWidth = 37;
+			
+			// aapt resource value: 38
+			public const int FlexPie_flexPie_startAngle = 38;
+			
+			// aapt resource value: 49
+			public const int FlexPie_flexPie_updateAnimation_duration = 49;
+			
+			// aapt resource value: 50
+			public const int FlexPie_flexPie_updateAnimation_startDelay = 50;
 			
 			public static int[] FloatingActionButton = new int[] {
 					2130772032,

@@ -9,7 +9,7 @@ namespace coins
 		public App()
 		{
             InitializeComponent();
-			if (Helpers.Settings.GeneralSettings.Length == 0) Helpers.Settings.GeneralSettings = "EUR";
+			if (Helpers.Settings.GeneralSettings == null || Helpers.Settings.GeneralSettings.Length == 0) Helpers.Settings.GeneralSettings = "EUR";
 			GoToMainPage();
 
 		}
